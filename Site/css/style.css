@@ -55,8 +55,7 @@
 
 .btn-secondary,
 .btn-outline-secondary:hover {
-    color: #fff;
-    text-transform: uppercase;
+    color: var(--dark);
 }
 
 .btn-square {
@@ -94,7 +93,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: #000;
+    color: var(--dark);
     font-size: 18px;
     font-weight: 500;
     outline: none;
@@ -102,7 +101,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #008352;
+    color: var(--primary);
 }
 
 .navbar .dropdown-toggle::after {
@@ -203,7 +202,6 @@
 
 /*** Section Title ***/
 .section-title {
-    color: #008352;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
