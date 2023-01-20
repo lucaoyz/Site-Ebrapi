@@ -48,16 +48,6 @@
     font-weight: 500;
 }
 
-.btn-primary,
-.btn-outline-primary:hover {
-    color: var(--light);
-}
-
-.btn-secondary,
-.btn-outline-secondary:hover {
-    color: var(--dark);
-}
-
 .btn-square {
     width: 38px;
     height: 38px;
