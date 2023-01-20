@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #5B8C51;
+    --primary: #008352;
     --secondary: #EDDD5E;
     --light: #F7F7F7;
     --dark: #404A3D;
@@ -83,7 +83,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--dark);
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     outline: none;
@@ -142,7 +142,7 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .2);
     z-index: 1;
 }
 
