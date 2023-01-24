@@ -16,17 +16,18 @@
       </div>
       <hr class="horizontal dark my-1">
       <div class="card-body pt-sm-3 pt-0">
-        <a class="btn btn-outline-dark w-100" href="/documentation/getting-started/overview.html" target="_blank">View documentation</a>
+        <a class="btn btn-outline-dark w-100" href="/documentation/getting-started/overview.html" target="_blank">Entrar em contato com o suporte</a>
         <div class="w-100 text-center">
-          <a class="github-button" href="https://github.com/creativetimofficial/soft-ui-dashboard-laravel" target="_blank" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub">Star</a>
-          <h6 class="mt-3">Thank you for sharing!</h6>
-          <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20Laravel%20made%20by%20%40CreativeTim%20and%20%40UPDIVISION%20%23webdesign%20%23dashboard%20%23laravel%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard-pro-laravel" class="btn btn-dark mb-0 me-2" target="_blank">
-            <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
-          </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard-pro-laravel" class="btn btn-dark mb-0 me-2" target="_blank">
-            <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
-          </a>
-        </div>
+            <a class="github-button" href="https://github.com/lucaoyz/Site-Ebrapi" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
+            <br><h6 class="mt-3">Obrigado por usar nosso painel administrativo!</h6>
+
+            <a href="https://github.com/lucaoyz" class="btn btn-dark mb-0 me-2" target="_blank">
+              <i class="fab fa-github me-1" aria-hidden="true"></i> GitHub
+            </a>
+            <a href="https://instagram.com/ahtaeazy" class="btn btn-dark mb-0 me-2" target="_blank">
+              <i class="fab fa-instagram me-1" aria-hidden="true"></i> Instagram
+            </a>
+          </div>
       </div>
     </div>
   </div>
