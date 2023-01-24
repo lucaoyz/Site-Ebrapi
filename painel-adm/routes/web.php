@@ -32,17 +32,13 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('user-management');
 	})->name('user-management');
 
-	Route::get('tables', function () {
+    Route::get('user-profile', function () {
+		return view('user-profile');
+	})->name('user-profile');
+
+	Route::get('contato', function () {
 		return view('tables');
-	})->name('tables');
-
-    Route::get('static-sign-in', function () {
-		return view('static-sign-in');
-	})->name('sign-in');
-
-    Route::get('static-sign-up', function () {
-		return view('static-sign-up');
-	})->name('sign-up');
+	})->name('contato');
 
 });
 
