@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-6">
               <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
-                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image: linear-gradient(310deg,#B1C900,#008352);"></div>
+                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image: url({{asset('assets/img/degrade3.png')}}); background-size: 105%;"></div>
               </div>
             </div>
           </div>
