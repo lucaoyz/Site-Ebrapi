@@ -32,9 +32,9 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('user-management');
 	})->name('user-management');
 
-    Route::get('user-profile', function () {
-		return view('user-profile');
-	})->name('user-profile');
+    Route::get('perfil', function () {
+		return view('perfil');
+	})->name('perfil');
 
 	Route::get('contato', function () {
 		return view('tables');
