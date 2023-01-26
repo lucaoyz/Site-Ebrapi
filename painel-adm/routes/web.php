@@ -17,27 +17,19 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'auth'], function () {
 
 	Route::get('dashboard', function () {
-		return view('dashboard');
+		return view('painel-adm.dashboard');
 	})->name('dashboard');
 
-	Route::get('billing', function () {
-		return view('billing');
-	})->name('billing');
-
-	Route::get('profile', function () {
-		return view('profile');
-	})->name('profile');
-
 	Route::get('user-management', function () {
-		return view('user-management');
+		return view('painel-adm.user-management');
 	})->name('user-management');
 
     Route::get('perfil', function () {
-		return view('perfil');
+		return view('painel-adm.perfil.perfil');
 	})->name('perfil');
 
 	Route::get('contato', function () {
-		return view('tables');
+		return view('painel-adm.tables');
 	})->name('contato');
 
 });
