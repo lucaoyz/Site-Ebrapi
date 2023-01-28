@@ -20,13 +20,20 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('painel-adm.dashboard');
 	})->name('dashboard');
 
+    /* Perfil */
+    route::prefix('perfil')->group(function(){
+
+        Route::get('/', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
+        Route::put('/{user}', [App\Http\Controllers\PerfilController::class, 'atualizarPerfil'])->name('perfil.atualizarPerfil');
+        Route::post('/change-password', [App\Http\Controllers\PerfilController::class, 'changePassword'])->name('perfil.changePassword');
+
+    });
+
 	Route::get('user-management', function () {
 		return view('painel-adm.user-management');
 	})->name('user-management');
 
-    Route::get('perfil', function () {
-		return view('painel-adm.perfil.perfil');
-	})->name('perfil');
+
 
 	Route::get('contato', function () {
 		return view('painel-adm.tables');

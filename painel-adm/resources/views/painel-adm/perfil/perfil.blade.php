@@ -43,9 +43,9 @@
                 <h6 class="mb-0">{{ __('Informações de perfil') }}</h6>
             </div>
             <div class="card-body pt-4 p-3">
-                <form action="" method="POST" role="form text-left">
+                <form action="{{route('perfil.atualizarPerfil', $user->id)}}" method="POST" role="form text-left">
                     @csrf
-                    @method('patch')
+                    @method('PUT')
                     @if($errors->any())
                         <div class="mt-3  alert alert-primary alert-dismissible fade show" role="alert">
                             <span class="alert-text text-white">
@@ -69,7 +69,7 @@
                             <div class="form-group">
                                 <label for="user-name" class="form-control-label">{{ __('Nome completo') }}</label>
                                 <div class="@error('user.name')border border-danger rounded-3 @enderror">
-                                    <input class="form-control" value="{{ auth()->user()->name }}" type="text" placeholder="Name" id="user-name" name="name">
+                                    <input class="form-control" value="{{ auth()->user()->name }}" type="text" placeholder="Digite seu nome aqui..." id="user-name" name="name">
                                         @error('name')
                                             <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                         @enderror
@@ -80,7 +80,7 @@
                             <div class="form-group">
                                 <label for="user-email" class="form-control-label">{{ __('E-mail') }}</label>
                                 <div class="@error('email')border border-danger rounded-3 @enderror">
-                                    <input class="form-control" value="{{ auth()->user()->email }}" type="email" placeholder="@example.com" id="user-email" name="email">
+                                    <input class="form-control" value="{{ auth()->user()->email }}" type="email" placeholder="Digite seu e-mail aqui..." id="user-email" name="email">
                                         @error('email')
                                             <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                         @enderror
