@@ -25,6 +25,7 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('/', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
         Route::put('/{user}', [App\Http\Controllers\PerfilController::class, 'atualizarPerfil'])->name('perfil.atualizarPerfil');
+        Route::get('/alterar-senha', [App\Http\Controllers\PerfilController::class, 'alterarSenha'])->name('perfil.alterar-senha');
         Route::post('/change-password', [App\Http\Controllers\PerfilController::class, 'changePassword'])->name('perfil.changePassword');
 
     });
