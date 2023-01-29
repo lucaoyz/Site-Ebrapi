@@ -51,7 +51,7 @@
     </div>
 
     <div class="card-footer">
-        <button class="btn btn-primary" type="submit">Confirmar</button>
+        <button class="btn btn-primary" style="background-image: linear-gradient(310deg,#008352,#008352);" type="submit">Confirmar</button>
 
         <a href="{{route('perfil')}}" class="btn btn-secondary">Voltar</a>
     </div>

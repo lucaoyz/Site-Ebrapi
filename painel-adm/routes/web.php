@@ -30,9 +30,9 @@ Route::group(['middleware' => 'auth'], function () {
 
     });
 
-	Route::get('user-management', function () {
-		return view('painel-adm.user-management');
-	})->name('user-management');
+	Route::get('gerenciador-paginas', function () {
+		return view('painel-adm.gerenciador-paginas');
+	})->name('gerenciador-paginas');
 
 
 
