@@ -85,6 +85,13 @@
 }
 
 @font-face {
+    font-family: "Gotham-Ultra";
+    src: url("../fonts/gotham/Gotham-Ultra.woff") format("woff"), url("../fonts/gotham/Gotham-Ultra.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "Gotham-UltraItalic";
     src: url("../fonts/gotham/Gotham-UltraItalic.woff") format("woff"), url("../fonts/gotham/Gotham-UltraItalic.woff") format("woff");
     font-style: normal;
