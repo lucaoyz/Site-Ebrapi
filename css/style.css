@@ -1,13 +1,11 @@
 /********** Template CSS **********/
 :root {
+    --primary: #5B8C51;
     --secondary: #EDDD5E;
     --light: #F7F7F7;
     --dark: #404A3D;
 }
 
-
-
-/*** Back to top ***/
 .back-to-top {
     position: fixed;
     display: none;
@@ -47,8 +45,7 @@
 /*** Button ***/
 .btn {
     transition: .5s;
-    font-weight: 600;
-    font-family: "Gotham-Bold", sans-serif;
+    font-weight: 500;
 }
 
 .btn-primary,
@@ -58,7 +55,7 @@
 
 .btn-secondary,
 .btn-outline-secondary:hover {
-    color: #000;
+    color: var(--dark);
 }
 
 .btn-square {
@@ -190,7 +187,6 @@
 .page-header {
     background: url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
-    min-height: 30.4rem;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -505,19 +501,3 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
-
-/*** scrollbar ***/
-
-body::-webkit-scrollbar {
-    width: 11px;               
-}
-  
-body::-webkit-scrollbar-track {
-    background: #000;        
-}
-  
-body::-webkit-scrollbar-thumb {
-    background-color: #B1C900;   
-    border: 2px solid #000;  
-}
-
