@@ -55,7 +55,7 @@
 
 .btn-secondary,
 .btn-outline-secondary:hover {
-    color: var(--dark);
+    color: #fff;
 }
 
 .btn-square {
