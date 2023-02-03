@@ -43,6 +43,7 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::group(['middleware' => 'guest'], function () {
+
     Route::get('/', function () {
 		return view('index');
 	})->name('index');
@@ -86,7 +87,7 @@ Route::group(['middleware' => 'guest'], function () {
     Route::get('/quemsomoseziquiel', function () {
 		return view('site.qrcode');
 	})->name('qrcode');
-    
+
 });
 
 require __DIR__.'/auth.php';
