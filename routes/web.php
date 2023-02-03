@@ -46,6 +46,47 @@ Route::group(['middleware' => 'guest'], function () {
     Route::get('/', function () {
 		return view('index');
 	})->name('index');
+
+    Route::get('/404', function () {
+		return view('site.404');
+	})->name('404');
+
+    Route::get('/sobre', function () {
+		return view('site.sobre');
+	})->name('sobre');
+
+    Route::get('/contato', function () {
+		return view('site.contato');
+	})->name('contato');
+
+    Route::get('/feature', function () {
+		return view('site.feature');
+	})->name('feature');
+
+    Route::get('/galeria', function () {
+		return view('site.galeria');
+	})->name('galeria');
+
+    Route::get('/produtos', function () {
+		return view('site.produtos');
+	})->name('produtos');
+
+    Route::get('/servicos', function () {
+		return view('site.servicos');
+	})->name('servicos');
+
+    Route::get('/testimonial', function () {
+		return view('site.testimonial');
+	})->name('testimonial');
+
+    Route::get('/time', function () {
+		return view('site.time');
+	})->name('time');
+
+    Route::get('/quemsomoseziquiel', function () {
+		return view('site.qrcode');
+	})->name('qrcode');
+    
 });
 
 require __DIR__.'/auth.php';
