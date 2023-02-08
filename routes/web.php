@@ -85,7 +85,7 @@ Route::group(['middleware' => 'guest'], function () {
 	})->name('time');
 
     Route::get('/quemsomoseziquiel', function () {
-		return view('site.qrcode');
+		return view('qrcode.index');
 	})->name('qrcode');
 
 });
