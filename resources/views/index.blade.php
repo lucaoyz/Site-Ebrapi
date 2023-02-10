@@ -79,11 +79,6 @@
                     </div>
                     <a href="{{route('contato')}}" class="nav-item nav-link active">Contact Us</a>
                 </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn-sm-square" href="{{ route('login') }}">
-                        <small class="fa fa-user text-body"></small>
-                    </a>
-                </div>
             </div>
         </nav>
     </div>
