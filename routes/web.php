@@ -17,7 +17,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::prefix('painel')->group(function(){
 
-        Route::get('dashboard', function () {
+        Route::get('/', function () {
             return view('painel-adm.dashboard');
         })->name('dashboard');
 
@@ -37,9 +37,45 @@ Route::group(['middleware' => 'auth'], function () {
 
 
         /*Painel adm Contato*/
-        Route::prefix('perfil')->group(function(){
+        Route::prefix('contato')->group(function(){
 
             Route::get('/', [App\Http\Controllers\ContatoController::class, 'indexPainelAdm'])->name('contato');
+
+        });
+
+        /*Painel adm Missao*/
+        Route::prefix('missao')->group(function(){
+
+            Route::get('/', function () {
+                return view('missao');
+            })->name('missao');
+
+        });
+
+        /*Painel adm Parceiros*/
+        Route::prefix('parceiros')->group(function(){
+
+            Route::get('/', function () {
+                return view('parceiros');
+            })->name('parceiros');
+
+        });
+
+        /*Painel adm Noticias*/
+        Route::prefix('noticias')->group(function(){
+
+            Route::get('/', function () {
+                return view('noticias');
+            })->name('noticias');
+
+        });
+
+        /*Painel adm produtos*/
+        Route::prefix('produtos')->group(function(){
+
+            Route::get('/', function () {
+                return view('produtos');
+            })->name('produtos');
 
         });
     });
