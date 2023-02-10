@@ -109,6 +109,22 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('site.produtos');
 	})->name('produtos');
 
+    Route::get('/defensivos', function () {
+		return view('site.defensivos');
+	})->name('defensivos');
+
+    Route::get('/fertilizantes', function () {
+		return view('site.fertilizantes');
+	})->name('fertilizantes');
+
+    Route::get('/biologicos', function () {
+		return view('site.biologicos');
+	})->name('biologicos');
+
+    Route::get('/sementes', function () {
+		return view('site.sementes');
+	})->name('sementes');
+
     Route::get('/servicos', function () {
 		return view('site.servicos');
 	})->name('servicos');

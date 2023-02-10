@@ -10,22 +10,30 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
 
-    // Sticky Navbar
+    // Fixed Navbar
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+        if ($(window).width() < 992) {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-white shadow');
+            } else {
+                $('.fixed-top').removeClass('bg-white shadow');
+            }
         } else {
-            $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+            } else {
+                $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+            }
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -61,6 +69,5 @@
         ]
     });
 
-    
-})(jQuery);
 
+})(jQuery);
