@@ -13,40 +13,41 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 Route::group(['middleware' => 'auth'], function () {
 
-	Route::get('dashboard', function () {
-		return view('painel-adm.dashboard');
-	})->name('dashboard');
+    Route::prefix('painel')->group(function(){
 
-    /* Perfil */
-    route::prefix('perfil')->group(function(){
+        Route::get('dashboard', function () {
+            return view('painel-adm.dashboard');
+        })->name('dashboard');
 
-        Route::get('/', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
-        Route::put('/{user}', [App\Http\Controllers\PerfilController::class, 'atualizarPerfil'])->name('perfil.atualizarPerfil');
-        Route::get('/alterar-senha', [App\Http\Controllers\PerfilController::class, 'alterarSenha'])->name('perfil.alterar-senha');
-        Route::post('/change-password', [App\Http\Controllers\PerfilController::class, 'changePassword'])->name('perfil.changePassword');
+        /* Perfil */
+        Route::prefix('perfil')->group(function(){
 
+            Route::get('/', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
+            Route::put('/{user}', [App\Http\Controllers\PerfilController::class, 'atualizarPerfil'])->name('perfil.atualizarPerfil');
+            Route::get('/alterar-senha', [App\Http\Controllers\PerfilController::class, 'alterarSenha'])->name('perfil.alterar-senha');
+            Route::post('/change-password', [App\Http\Controllers\PerfilController::class, 'changePassword'])->name('perfil.changePassword');
+
+        });
+
+        Route::get('gerenciador-paginas', function () {
+            return view('painel-adm.gerenciador-paginas');
+        })->name('gerenciador-paginas');
+
+
+        /*Painel adm Contato*/
+        Route::prefix('perfil')->group(function(){
+
+            Route::get('/', [App\Http\Controllers\ContatoController::class, 'indexPainelAdm'])->name('contato');
+
+        });
     });
-
-	Route::get('gerenciador-paginas', function () {
-		return view('painel-adm.gerenciador-paginas');
-	})->name('gerenciador-paginas');
-
-
-
-	Route::get('contato', function () {
-		return view('painel-adm.tables');
-	})->name('contato');
-
 });
 
-Route::group(['middleware' => 'guest'], function () {
-
     Route::get('/', function () {
-		return view('index');
-	})->name('index');
+        return view('index');
+    })->name('index');
 
     Route::get('/404', function () {
 		return view('site.404');
@@ -87,7 +88,5 @@ Route::group(['middleware' => 'guest'], function () {
     Route::get('/quemsomoseziquiel', function () {
 		return view('qrcode.index');
 	})->name('qrcode');
-
-});
 
 require __DIR__.'/auth.php';
