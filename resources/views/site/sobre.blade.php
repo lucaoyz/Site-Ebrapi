@@ -14,7 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -40,72 +40,65 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-0">
-        <div class="row g-0 d-none d-lg-flex">
-            <div class="col-lg-6 ps-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center text-light">
-                    <span>Follow Us:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 text-end">
-                <div class="h-100 bg-secondary d-inline-flex align-items-center text-dark py-2 px-4">
-                    <span class="me-2 fw-semi-bold"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span>+012 345 6789</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0">Milky</h1>
-        </a>
-        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="product.html" class="nav-item nav-link">Products</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="gallery.html" class="dropdown-item">Gallery</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <div class="container-fluid fixed-top px-0 wow fadeIn text-white" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@example.com</small>
             </div>
-            <div class="border-start ps-4 d-none d-lg-block">
-                <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+            <div class="col-lg-6 px-5 text-end text-white">
+                <small>Follow us:</small>
+                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-twitter" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-instagram" style="color: #fff"></i></a>
             </div>
         </div>
-    </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">F<span class="text-secondary">oo</span>dy</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="{{route('index')}}" class="nav-item nav-link">Menu</a>
+                    <a href="{{route('sobre')}}" class="nav-item nav-link">Sobre</a>
+                    <a href="{{route('servicos')}}" class="nav-item nav-link">Serviços</a>
+                    <a href="{{route('galeria')}}" class="nav-item nav-link">Galeria</a>
+                    <div class="nav-item dropdown">
+                        <a href="{{route('produtos')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{{route('produtos')}}" class="dropdown-item">Defensivos Agrícolas</a>
+                            <a href="{{route('produtos')}}" class="dropdown-item">Fertilizantes</a>
+                            <a href="{{route('produtos')}}" class="dropdown-item">Biológicos</a>
+                            <a href="{{route('produtos')}}" class="dropdown-item">Sementes</a>
+                        </div>
+                    </div>
+                    <a href="{{route('contato')}}" class="nav-item nav-link active">Contato</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn-sm-square" href="{{ route('login') }}">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
     <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">About Us</h1>
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Sobre Nós</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                    <li class="breadcrumb-item"><a href="{{route('index')}}">Menu</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Sobre</li>
                 </ol>
             </nav>
         </div>
@@ -114,45 +107,37 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 alt-services">
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                            <div class="about-experience bg-secondary rounded">
-                                <h1 class="display-1 mb-0">25</h1>
-                                <small class="fs-5 fw-bold">Years Experience</small>
+                            <div class="about-experience bg-secondary">
+                                <img class="img-fluid-49" src="img/49-ANOS.png">
                             </div>
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid rounded" src="img/service-1.jpg">
+                            <img class="img-fluid" src="img/Cópia-de-041.jpg">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid rounded" src="img/service-2.jpg">
+                            <img class="img-fluid" src="img/Cópia-de-039.jpg">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid rounded" src="img/service-3.jpg">
+                            <img class="img-fluid" src="img/Ebrapi-novo.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="section-title bg-white text-start text-primary pe-3">About Us</p>
-                    <h1 class="mb-4">Know About Our Dairy Farm & Our History</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h3 class="mb-4">Conheça a Agroinsumos</h3>
+                    <p class="mb-4" style="font-size: 19px;">Fornecedora de Agroinsumos desde 1974, com experiência e sucesso na distribuição de Fertilizantes, Sementes e Defensivos Agrícolas em geral.</p>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
-                            <img class="img-fluid mb-4" src="img/service.png" alt="">
-                            <h5 class="mb-3">Dedicated Services</h5>
-                            <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid mb-4" src="img/product.png" alt="">
-                            <h5 class="mb-3">Organic Products</h5>
-                            <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
+                            <h5 class="mb-3">Missão</h5>
+                            <p class="mb-4" style="font-size: 19px;">Buscar constantemente inovações, visando levar ao mercado brasileiro insumos agrícolas com menor custo benefício, para uma agricultura sustentável.</p>
                         </div>
                     </div>
-                    <a class="btn btn-secondary rounded-pill py-3 px-5" href="">Explore More</a>
+                    <a class="btn btn-secondary py-2 px-4" href="about.html">Saiba Mais</a>
                 </div>
             </div>
         </div>

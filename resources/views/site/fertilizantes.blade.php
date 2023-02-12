@@ -40,7 +40,7 @@
     <!-- Spinner End -->
 
 
-    <<!-- Navbar Start -->
+    <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn text-white" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
@@ -94,11 +94,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">Nossos Produtos</h1>
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Fertilizantes</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{route('index')}}">Menu</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Produtos</li>
+                    <li class="breadcrumb-item"><a href="{{route('produtos')}}">Produtos</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Fertilizantes</li>
                 </ol>
             </nav>
         </div>
@@ -182,59 +183,6 @@
         </div>
     </div>
     <!-- Product End -->
-
-
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title bg-white text-start text-primary pe-3">Why Us!</p>
-                    <h1 class="mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Clita erat ipsum et lorem et sit</p>
-                    <a class="btn btn-secondary rounded-pill py-3 px-5 mt-3" href="">Explore More</a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="rounded overflow-hidden">
-                        <div class="row g-0">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="text-center bg-primary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/experience.png" alt="">
-                                    <h1 class="display-6 text-white" data-toggle="counter-up">25</h1>
-                                    <span class="fs-5 fw-semi-bold text-secondary">Years Experience</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="text-center bg-secondary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/award.png" alt="">
-                                    <h1 class="display-6" data-toggle="counter-up">183</h1>
-                                    <span class="fs-5 fw-semi-bold text-primary">Award Winning</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="text-center bg-secondary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/animal.png" alt="">
-                                    <h1 class="display-6" data-toggle="counter-up">2619</h1>
-                                    <span class="fs-5 fw-semi-bold text-primary">Total Animals</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <div class="text-center bg-primary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/client.png" alt="">
-                                    <h1 class="display-6 text-white" data-toggle="counter-up">51940</h1>
-                                    <span class="fs-5 fw-semi-bold text-secondary">Happy Clients</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Features End -->
 
 
     <!-- Footer Start -->
