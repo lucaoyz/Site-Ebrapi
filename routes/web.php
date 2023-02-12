@@ -83,46 +83,46 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/', function () {
         return view('index');
-    })->name('index');
+    })->name('site.index');
 
     Route::get('/404', function () {
 		return view('site.404');
-	})->name('404');
+	})->name('site.404');
 
     Route::get('/sobre', function () {
 		return view('site.sobre');
-	})->name('sobre');
+	})->name('site.sobre');
 
     Route::get('/contato', function () {
 		return view('site.contato');
-	})->name('contato');
+	})->name('site.contato');
 
     Route::get('/feature', function () {
 		return view('site.feature');
-	})->name('feature');
+	})->name('site.feature');
 
     Route::get('/galeria', function () {
 		return view('site.galeria');
-	})->name('galeria');
+	})->name('site.galeria');
 
     Route::get('/produtos', function () {
 		return view('site.produtos');
-	})->name('produtos');
+	})->name('site.produtos');
 
     Route::get('/servicos', function () {
 		return view('site.servicos');
-	})->name('servicos');
+	})->name('site.servicos');
 
     Route::get('/testimonial', function () {
 		return view('site.testimonial');
-	})->name('testimonial');
+	})->name('site.testimonial');
 
     Route::get('/time', function () {
 		return view('site.time');
-	})->name('time');
+	})->name('site.time');
 
     Route::get('/quemsomoseziquiel', function () {
 		return view('qrcode.index');
-	})->name('qrcode');
+	})->name('site.qrcode');
 
 require __DIR__.'/auth.php';
