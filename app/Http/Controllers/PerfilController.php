@@ -39,7 +39,7 @@ class PerfilController extends Controller
     public function atualizarPerfil(Request $request, User $user)
     {
         $request->validate([
-            'name' => 'nullable',
+            'name' => 'required',
             'email' => 'required',
         ]);
 

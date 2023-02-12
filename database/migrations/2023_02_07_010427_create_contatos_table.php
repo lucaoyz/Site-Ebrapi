@@ -14,10 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('contatos', function (Blueprint $table) {
-            $table->id();
-            $table->string('con_endereco');
-            $table->string('con_telefone');
-            $table->string('con_email');
+            $table->id()->nullable();
+            $table->string('con_endereco')->nullable();
+            $table->string('con_telefone')->nullable();
+            $table->string('con_email')->nullable();
             $table->timestamps();
         });
     }

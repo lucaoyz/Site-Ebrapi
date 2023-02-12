@@ -40,6 +40,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::prefix('contato')->group(function(){
 
             Route::get('/', [App\Http\Controllers\ContatoController::class, 'indexPainelAdm'])->name('contato');
+            Route::put('/atualizar', [App\Http\Controllers\ContatoController::class, 'atualizarContato'])->name('contato.atualizarContato');
 
         });
 
