@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/Plantinha.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,11 +44,20 @@
     <div class="container-fluid fixed-top px-0 wow fadeIn text-white" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2 text-white"></i>{{$contato->con_endereco}}</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2 text-white"></i>{{$contato->con_email}}</small>
+                <small><i class="fa fa-map-marker-alt me-2 text-white"></i>
+                    @if ($contato === null)
+                    @elseif ($contato->count() === 1)
+                    {{ $contato->con_endereco }}
+                    @endif
+                </small>
+                <small class="ms-4"><i class="fa fa-envelope me-2 text-white"></i>
+                    @if ($contato === null)
+                    @elseif ($contato->count() === 1)
+                    {{ $contato->con_email }}
+                    @endif
+                </small>
             </div>
             <div class="col-lg-6 px-5 text-end text-white">
-                <small>Follow us:</small>
                 <a class="text-body ms-3" href=""><i class="fab fa-facebook-f" style="color: #fff"></i></a>
                 <a class="text-body ms-3" href=""><i class="fab fa-twitter" style="color: #fff"></i></a>
                 <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in" style="color: #fff"></i></a>
@@ -78,7 +87,7 @@
                             <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
                         </div>
                     </div>
-                    <a href="{{route('site.contato')}}" class="nav-item nav-link active">Contato</a>
+                    <a href="{{route('site.contato')}}" class="nav-item nav-link">Contato</a>
                     @auth
                     <a href="{{route('dashboard')}}" class="nav-item nav-link">Painel</a>
                     @else
@@ -97,19 +106,28 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>{{$contato->con_endereco}}</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>{{$contato->con_telefone}}</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>{{$contato->con_email}}</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h5 class="text-white mb-4">Contato</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
+                        @if ($contato === null)
+                        @elseif ($contato->count() === 1)
+                        {{ $contato->con_endereco }}
+                        @endif
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>
+                        @if ($contato === null)
+                        @elseif ($contato->count() === 1)
+                        {{ $contato->con_telefone }}
+                        @endif
+                    </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>
+                        @if ($contato === null)
+                        @elseif ($contato->count() === 1)
+                        {{ $contato->con_email }}
+                        @endif
+                    </p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <h5 class="text-white mb-4">Links Rápidos</h5>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
@@ -117,13 +135,13 @@
                     <a class="btn btn-link" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Business Hours</h5>
-                    <p class="mb-1">Monday - Friday</p>
-                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
-                    <p class="mb-1">Saturday</p>
-                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
-                    <p class="mb-1">Sunday</p>
-                    <h6 class="text-light">Closed</h6>
+                    <h5 class="text-white mb-4">Horários</h5>
+                    <p class="mb-1">Segunda - Quinta</p>
+                    <h6 class="text-light">07:30 - 17:30</h6>
+                    <p class="mb-1">Sexta</p>
+                    <h6 class="text-light">07:30 - 16:30</h6>
+                    <p class="mb-1">Sábado - Domingo</p>
+                    <h6 class="text-light">Fechado</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
@@ -145,7 +163,7 @@
             <div class="row">
                 <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold" target="_blank">© <script>
                     document.write(new Date().getFullYear())
-                  </script>, Feito por <i class="fa fa-bolt"></i>EAZY</a>
+                  </script>, Feito por <i class="fa fa-bolt"></i> EAZY</a>
             </div>
         </div>
     </div>

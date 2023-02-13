@@ -106,14 +106,15 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    color: #fff;
     font-weight: 500;
     outline: none;
 }
 
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--dark);
+    color: #000;
 }
 
 @media (max-width: 991.98px) {
@@ -190,11 +191,21 @@
 
 .page-header {
     padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     background-color: #B1C900;
     /*background: url(../img/carousel-1.jpg) top right no-repeat;*/
     background-size: cover;
 }
+
+.page-header-contato {
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    background-color: #B1C900;
+    background: url(../img/banner-2.jpg) top right no-repeat;
+    background-position: center 20%;
+    background-size: cover;
+}
+
 
 /*** Section Title ***/
 .section-title {
