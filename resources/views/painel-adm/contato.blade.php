@@ -21,7 +21,7 @@
                                 <i class="fa fa-close" aria-hidden="true"></i>
                             </button>
                         </div>
-                    @endif
+        @endif
       <div class="row">
         <div class="col-12">
           <div class="card mb-4">

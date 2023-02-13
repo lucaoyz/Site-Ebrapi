@@ -7,9 +7,8 @@
                         document.write(new Date().getFullYear())
                       </script>,
                       Feito por <i class="fa fa-bolt"></i>
-                      <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold" target="_blank">EAZY</a> |
-                      <a href="https://creative-tim.com/" class="font-weight-bold" target="_blank"> Creative Tim</a>
-                    </div>
+                      <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold" target="_blank">EAZY</a>
+                </div>
             </div>
             <div class="col-lg-6">
                 <ul class="nav nav-footer justify-content-center justify-content-lg-end">

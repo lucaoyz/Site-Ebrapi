@@ -82,61 +82,33 @@ Route::group(['middleware' => 'auth'], function () {
     });
 });
 
-    Route::get('/', function () {
-        return view('index');
-    })->name('site.index');
+    Route::get('/', [App\Http\Controllers\IndexController::class, 'indexSite'])->name('site.index');
 
-    Route::get('/404', function () {
-		return view('site.404');
-	})->name('site.404');
+    Route::get('/404', [App\Http\Controllers\IndexController::class, 'erroSite'])->name('site.404');
 
-    Route::get('/sobre', function () {
-		return view('site.sobre');
-	})->name('site.sobre');
+    Route::get('/sobre', [App\Http\Controllers\SobreController::class, 'indexSite'])->name('site.sobre');
 
-    Route::get('/contato', function () {
-		return view('site.contato');
-	})->name('site.contato');
+    Route::get('/contato', [App\Http\Controllers\ContatoController::class, 'indexSite'])->name('site.contato');
 
-    Route::get('/feature', function () {
-		return view('site.feature');
-	})->name('site.feature');
+    Route::get('/galeria', [App\Http\Controllers\GaleriaController::class, 'indexSite'])->name('site.galeria');
 
-    Route::get('/galeria', function () {
-		return view('site.galeria');
-	})->name('site.galeria');
+    Route::prefix('produtos')->group(function(){
 
-    Route::get('/produtos', function () {
-		return view('site.produtos');
-	})->name('site.produtos');
+        Route::get('/', [App\Http\Controllers\ProdutosController::class, 'indexSite'])->name('site.produtos');
 
-    Route::get('/defensivos', function () {
-		return view('site.defensivos');
-	})->name('defensivos');
+        Route::get('/defensivos', [App\Http\Controllers\ProdutosController::class, 'defensivosSite'])->name('site.defensivos');
 
-    Route::get('/fertilizantes', function () {
-		return view('site.fertilizantes');
-	})->name('fertilizantes');
+        Route::get('/fertilizantes', [App\Http\Controllers\ProdutosController::class, 'fertilizantesSite'])->name('site.fertilizantes');
 
-    Route::get('/biologicos', function () {
-		return view('site.biologicos');
-	})->name('biologicos');
+        Route::get('/biologicos', [App\Http\Controllers\ProdutosController::class, 'biologicosSite'])->name('site.biologicos');
 
-    Route::get('/sementes', function () {
-		return view('site.sementes');
-	})->name('sementes');
+        Route::get('/sementes', [App\Http\Controllers\ProdutosController::class, 'sementesSite'])->name('site.sementes');
 
-    Route::get('/servicos', function () {
-		return view('site.servicos');
-	})->name('site.servicos');
+    });
 
-    Route::get('/testimonial', function () {
-		return view('site.testimonial');
-	})->name('site.testimonial');
+    Route::get('/servicos', [App\Http\Controllers\ServicosController::class, 'servicosSite'])->name('site.servicos');
 
-    Route::get('/time', function () {
-		return view('site.time');
-	})->name('site.time');
+    Route::get('/time', [App\Http\Controllers\TimeController::class, 'timeSite'])->name('site.time');
 
     Route::get('/quemsomoseziquiel', function () {
 		return view('qrcode.index');
