@@ -58,16 +58,14 @@
                 </small>
             </div>
             <div class="col-lg-6 px-5 text-end text-white">
-                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f" style="color: #fff"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-twitter" style="color: #fff"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in" style="color: #fff"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-instagram" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href="https://www.facebook.com/ebrapiagroinsumos" target="blank_"><i class="fab fa-facebook-f" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href="https://instagram.com/ebrapiagronegocios?igshid=MDM4ZDc5MmU=" target="blank_"><i class="fab fa-instagram" style="color: #fff"></i></a>
             </div>
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-white m-0">Ebrapi</h1>
+                <img style="width: 100px;" src="img/Logo.png" alt="Menu">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -102,8 +100,8 @@
     @yield('content')
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <div class="container-fluid bg-dark footer mt-5 py-5-contact wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5-contact">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Contato</h5>
@@ -125,14 +123,18 @@
                         {{ $contato->con_email }}
                         @endif
                     </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light me-1" href="https://www.facebook.com/ebrapiagroinsumos" target="blank_"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="https://instagram.com/ebrapiagronegocios?igshid=MDM4ZDc5MmU=" target="blank_"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Links Rápidos</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Sobre</a>
+                    <a class="btn btn-link" href="">Contato</a>
+                    <a class="btn btn-link" href="">Serviços</a>
+                    <a class="btn btn-link" href="">Parceiros</a>
+                    <a class="btn btn-link" href="">Politica de Privacidade</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Horários</h5>
@@ -144,11 +146,10 @@
                     <h6 class="text-light">Fechado</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <h5 class="text-white mb-4">E-mail</h5>
+                    <p>Fale conosco!</p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <a class="btn btn-contact py-2 px-4" href="mailto:ebacchin@agroinsumos.com.br">Mande um E-mail</a>
                     </div>
                 </div>
             </div>
@@ -158,12 +159,15 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid bg-secondary text-body copyright py-4">
+    <div class="container-fluid bg-secondary text-white copyright py-4">
         <div class="container">
             <div class="row">
-                <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold" target="_blank">© <script>
-                    document.write(new Date().getFullYear())
-                  </script>, Feito por <i class="fa fa-bolt"></i> EAZY</a>
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    © <script>
+                        document.write(new Date().getFullYear())
+                      </script>, <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold text-white" target="_blank">
+                      Feito por <i class="fa fa-bolt"></i> EAZY</a>
+                </div>
             </div>
         </div>
     </div>
@@ -171,7 +175,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

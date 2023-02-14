@@ -12,7 +12,7 @@
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
                         <h1 class="display-1 text-white mb-5 animated slideInRight">Agroinsumos</h1>
-                        <a class="btn btn-secondary rounded-pill py-2 px-4" href="#recent-blog-posts">Read More</a>
+                        <a class="btn btn-contact py-2 px-4" href="#recent-blog-posts">Saiba mais</a>
                     </div>
                 </div>
             </div>

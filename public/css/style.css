@@ -3,7 +3,7 @@
     --primary: #5B8C51;
     --secondary: #EDDD5E;
     --light: #F7F7F7;
-    --dark: #404A3D;
+    --dark: #000;
 }
 
 .back-to-top {
@@ -69,8 +69,8 @@
 }
 
 .btn-lg-square {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
 }
 
 .btn-square,
@@ -111,10 +111,14 @@
     outline: none;
 }
 
+.sticky-top .navbar .navbar-nav .nav-link {
+    padding: 20px 0;
+    color: var(--dark);
+}
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #000;
+    color: var(--dark);
 }
 
 @media (max-width: 991.98px) {
@@ -191,7 +195,7 @@
 
 .page-header {
     padding-top: 12rem;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     background-color: #B1C900;
     /*background: url(../img/carousel-1.jpg) top right no-repeat;*/
     background-size: cover;
@@ -199,7 +203,7 @@
 
 .page-header-contato {
     padding-top: 12rem;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     background-color: #B1C900;
     background: url(../img/banner-2.jpg) top right no-repeat;
     background-position: center 20%;
@@ -481,7 +485,7 @@
 
 /*** Footer ***/
 .footer {
-    color: #B0B9AE;
+    color: #DCDCDC;
 }
 
 .footer .btn.btn-link {
@@ -489,7 +493,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: #DCDCDC;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;

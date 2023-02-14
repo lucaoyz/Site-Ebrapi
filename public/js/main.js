@@ -15,25 +15,18 @@
     // Initiate the wowjs
     new WOW().init();
 
-    var navbar = document.getElementsByClassName('navbar navbar-nav nav-link');
 
     // Fixed Navbar
     $(window).scroll(function () {
         if ($(window).width() < 992) {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow');
-                $(this).css({
-                    "color": "",
-                });
             } else {
                 $('.fixed-top').removeClass('bg-white shadow');
             }
         } else {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow').css('top', -45);
-                $(this).css({
-                    "color": "",
-                });
             } else {
                 $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
             }

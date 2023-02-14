@@ -1,14 +1,15 @@
 @extends('site.layout')
 
 @section('content')
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header-contato wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">Contato</h1>
+        <div class="container text-center">
+            <h1 class="display-3 mb-3 text-white animated slideInDown">Contato</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contato</li>
+                    <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
+                    <li class="breadcrumb-item text-body active" aria-current="page">Contato</li>
                 </ol>
             </nav>
         </div>
@@ -32,7 +33,7 @@
                             {{ $contato->con_telefone }}
                             @endif
                         </p>
-                        <h5>Email</h5>
+                        <h5>E-mail</h5>
                         <p class="mb-5 border-bottom"><i class="fa fa-envelope me-3"></i>
                             @if ($contato === null)
                             @elseif ($contato->count() === 1)
@@ -58,4 +59,5 @@
         </div>
     </div>
     <!-- Contact End -->
+
 @endsection
