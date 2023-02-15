@@ -9,9 +9,9 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Gerenciador de paginas</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Gerenciador de páginas</p>
                 <h5 class="font-weight-bolder mb-0">
-                  Variavel para total de paginas
+                    Acesso rápido para gerenciar as páginas
                 </h5>
               </div>
             </div>
@@ -25,6 +25,7 @@
       </div>
     </div>
     <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <a href="{{route('contato')}}">
         <div class="card">
           <div class="card-body p-3">
             <div class="row">
@@ -32,7 +33,7 @@
                 <div class="numbers">
                   <p class="text-sm mb-0 text-capitalize font-weight-bold">Contato</p>
                   <h5 class="font-weight-bolder mb-0">
-                    Acesso rapido para contato
+                    Acesso rápido para contato
                   </h5>
                 </div>
               </div>
@@ -44,6 +45,7 @@
             </div>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
         <div class="card">
@@ -53,7 +55,7 @@
                 <div class="numbers">
                   <p class="text-sm mb-0 text-capitalize font-weight-bold">Missão</p>
                   <h5 class="font-weight-bolder mb-0">
-                    Acesso rapido para Missão
+                    Acesso rápido para Missão
                   </h5>
                 </div>
               </div>
@@ -74,7 +76,7 @@
                 <div class="numbers">
                   <p class="text-sm mb-0 text-capitalize font-weight-bold">Parceiros</p>
                   <h5 class="font-weight-bolder mb-0">
-                    Acesso rapido para Parceiros
+                    Acesso rápido para Parceiros
                   </h5>
                 </div>
               </div>
@@ -98,7 +100,7 @@
                 <div class="numbers">
                   <p class="text-sm mb-0 text-capitalize font-weight-bold">Notícias</p>
                   <h5 class="font-weight-bolder mb-0">
-                    Acesso rapido para Notícias
+                    Acesso rápido para Notícias
                   </h5>
                 </div>
               </div>
@@ -119,7 +121,7 @@
                 <div class="numbers">
                   <p class="text-sm mb-0 text-capitalize font-weight-bold">Produtos</p>
                   <h5 class="font-weight-bolder mb-0">
-                    Acesso rapido para Produtos
+                    Acesso rápido para Produtos
                   </h5>
                 </div>
               </div>
