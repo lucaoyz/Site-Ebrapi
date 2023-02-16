@@ -120,15 +120,6 @@ Navbar
     outline: none;
 }
 
-.sticky-top .navbar .navbar-nav .nav-link {
-    padding: 20px 0;
-    color: var(--dark);
-}
-
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-    color: var(--dark);
-}
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
@@ -160,6 +151,7 @@ Navbar
         opacity: 1;
     }
 }
+
 
 
 /*--------------------------------------------------------------

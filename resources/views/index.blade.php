@@ -1,17 +1,16 @@
 @extends('site.layout')
 
 @section('content')
-    <!-- Carousel Start -->
-    <section id="home">
 
-        <div class="overlay"></div>
+    <!-- ======= Home Section ======= -->
+    <section id="home">
 
         <div class="carousel-caption">
             <div class="container">
                 <div class="row justify-content-start">
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
-                        <h1 class="display-1 text-white mb-5 animated slideInRight">Agroinsumos</h1>
+                        <img style="width: 740px;" src="{{asset('img/Logo-Agroinsumos.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
                         <a class="btn btn-contact py-2 px-4" href="#recent-blog-posts">Saiba mais</a>
                     </div>
                 </div>
@@ -19,7 +18,7 @@
         </div>
 
     </section>
-    <!-- Carousel End -->
+    <!-- Home End -->
 
 
     <!-- ======= Recent Blog Posts Section ======= -->
@@ -144,7 +143,7 @@
                     <div class="row g-2">
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
                             <div class="about-experience">
-                                <img class="img-fluid-49" src="{{asset('img/about/49-fundo-branco.png')}}">
+                                <img class="img-fluid-49" src="{{asset('img/about/49-ANOS.png')}}">
                             </div>
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
@@ -159,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h3 class="mb-4">Conheça a Agroinsumos</h3>
+                    <h3 class="mb-4">Conheça a Agroinsumos.com.br</h3>
                     <p class="mb-4" style="font-size: 19px;">Fornecedora de Agroinsumos desde 1974, com experiência e sucesso na distribuição de Fertilizantes, Sementes e Defensivos Agrícolas em geral.</p>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
