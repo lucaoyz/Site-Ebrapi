@@ -47,9 +47,8 @@ Route::group(['middleware' => 'auth'], function () {
         /*Painel adm Missao*/
         Route::prefix('missao')->group(function(){
 
-            Route::get('/', function () {
-                return view('missao');
-            })->name('missao');
+            Route::get('/', [App\Http\Controllers\SobreController::class, 'indexPainelAdm'])->name('missao');
+            Route::put('/atualizar', [App\Http\Controllers\SobreController::class, 'atualizarMissao'])->name('missao.atualizarMissao');
 
         });
 

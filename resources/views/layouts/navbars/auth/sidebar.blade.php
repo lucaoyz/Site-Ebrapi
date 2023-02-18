@@ -175,7 +175,7 @@
         <div class="docs-info">
           <h6 class="text-white up mb-0">Precisa de ajuda?</h6>
           <p class="text-xs font-weight-bold">Entre em contato com o suporte!</p>
-          <a href="/documentation/getting-started/overview.html" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Clique aqui</a>
+          <a href="https://wa.me/5519991415811?text=Ol%C3%A1%2C+vim+pelo+sistema+feito+pela+Eazy+e+gostaria+de+tirar+uma+d%C3%BAvida%21" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Clique aqui</a>
         </div>
       </div>
     </div>

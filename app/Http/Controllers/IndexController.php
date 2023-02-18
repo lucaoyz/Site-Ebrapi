@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contato;
+use App\Models\Sobre;
 
 class IndexController extends Controller
 {
@@ -16,11 +17,13 @@ class IndexController extends Controller
     public function indexSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $sobre = Sobre::all()->first();
 
-            //dd($contato);
+            //dd($sobre);
 
             return view('index',[
-                'contato' => $contato
+                'contato' => $contato,
+                'sobre' => $sobre,
             ]);
 
     }
@@ -30,15 +33,10 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function erroSite(Contato $contato)
+    public function erroSite()
     {
-            $contato = Contato::all()->first();
 
-            //dd($contato);
-
-            return view('site.404',[
-                'contato' => $contato
-            ]);
+            return view('site.404');
     }
 
 }
