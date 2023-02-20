@@ -159,17 +159,19 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h3 class="mb-4">Conheça a Agroinsumos.com.br</h3>
-                    <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                    <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                         @elseif ($sobre->count() === 1)
                         {{ $sobre->sob_sobre }}
-                        @endif</p>
+                        @endif
+                    </span>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
                             <h5 class="mb-3">Missão</h5>
-                            <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                            <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                                 @elseif ($sobre->count() === 1)
                                 {{ $sobre->sob_missao }}
-                                @endif</p>
+                                @endif
+                            </span>
                         </div>
                     </div>
                     <a class="btn btn-secondary py-2 px-4" href="{{route('site.sobre')}}">Saiba Mais</a>
