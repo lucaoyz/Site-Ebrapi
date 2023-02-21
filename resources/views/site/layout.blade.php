@@ -65,10 +65,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="{{route('site.index')}}" class="navbar-brand ms-4 ms-lg-0">
-                <img style="width: 170px;" src="{{asset('img/Grupo-Agroinsumos.png')}}" alt="Menu">
+                <img style="width: 190px;" src="{{asset('img/Grupo-Agroinsumos.png')}}" alt="Menu">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-list mobile-nav-toggle"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
@@ -77,8 +77,9 @@
                     <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços</a>
                     <a href="{{route('site.galeria')}}" class="nav-item nav-link">Galeria</a>
                     <div class="nav-item dropdown">
-                        <a href="{{route('site.produtos')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
                         <div class="dropdown-menu m-0">
+                            <a href="{{route('site.produtos')}}" class="dropdown-item">Produtos</a>
                             <a href="{{route('site.defensivos')}}" class="dropdown-item">Defensivos Agrícolas</a>
                             <a href="{{route('site.fertilizantes')}}" class="dropdown-item">Fertilizantes</a>
                             <a href="{{route('site.biologicos')}}" class="dropdown-item">Biológicos</a>

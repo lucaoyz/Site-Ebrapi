@@ -18,43 +18,45 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5 alt-services">
+    <div class="container-xxl py-5-about alt-services">
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                            <div class="about-experience bg-secondary">
-                                <img class="img-fluid-49" src="img/49-ANOS.png">
+                            <div class="about-experience">
+                                <img class="img-fluid-49" src="{{asset('img/about/49-ANOS.png')}}">
                             </div>
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/Cópia-de-041.jpg">
+                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-041.jpg')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid" src="img/Cópia-de-039.jpg">
+                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-039.jpg')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid" src="img/Ebrapi-novo.jpg">
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h3 class="mb-4">Conheça a Agroinsumos</h3>
-                    <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                    <h3 class="mb-4">Conheça a Agroinsumos.com.br</h3>
+                    <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                         @elseif ($sobre->count() === 1)
                         {{ $sobre->sob_sobre }}
-                        @endif</p>
+                        @endif
+                    </span>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
                             <h5 class="mb-3">Missão</h5>
-                            <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                            <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                                 @elseif ($sobre->count() === 1)
                                 {{ $sobre->sob_missao }}
-                                @endif</p>
+                                @endif
+                            </span>
                         </div>
                     </div>
-                    <a class="btn btn-secondary py-2 px-4" href="about.html">Saiba Mais</a>
+                    <a class="btn btn-secondary py-2 px-4" href="{{route('site.sobre')}}">Saiba Mais</a>
                 </div>
             </div>
         </div>
@@ -62,38 +64,23 @@
     <!-- About End -->
 
 
-    <!-- Banner Start -->
-    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/banner.jpg">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-4">
-                            <img class="img-fluid rounded" src="img/banner-1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="text-white mb-3">We Sell Best Dairy Products</h2>
-                            <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-4">
-                            <img class="img-fluid rounded" src="img/banner-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="text-white mb-3">We Deliver Fresh Mild Worldwide</h2>
-                            <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-blog-posts">Saiba mais</a>
+          </div>
         </div>
-    </div>
-    <!-- Banner End -->
+
+      </div>
+    </section>
+    <!-- End Cta Section -->
 
 
     <!-- Team Start -->

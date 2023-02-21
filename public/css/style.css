@@ -152,7 +152,27 @@ Navbar
     }
 }
 
+/**
+* Mobile Navigation
+*/
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
 
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
 
 /*--------------------------------------------------------------
 Header
@@ -210,6 +230,14 @@ Header
     background-color: #B1C900;
     background: url(../img/banner-2.jpg) top right no-repeat;
     background-position: center 20%;
+    background-size: cover;
+}
+
+.page-header-produtos {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    background: url(../img/banner.jpg) top right no-repeat;
     background-size: cover;
 }
 
