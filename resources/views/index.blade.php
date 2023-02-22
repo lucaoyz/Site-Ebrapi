@@ -27,7 +27,7 @@
 
 
         <div class="section-header">
-            <h2>Notícias</h2>
+            <h1>Notícias</h1>
         </div>
 
       <div class="row gy-5">
@@ -158,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h3 class="mb-4">Conheça a Agroinsumos.com.br</h3>
+                    <h1 class="mb-4">Conheça a Agroinsumos.com.br</h1>
                     <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                         @elseif ($sobre->count() === 1)
                         {{ $sobre->sob_sobre }}
@@ -205,7 +205,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-header">
-                <h2>Nossos Serviços</h2>
+                <h1>Nossos Serviços</h1>
             </div>
             <div class="row gy-5 gx-4">
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -275,13 +275,13 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-header">
-                <h2>Nossos Produtos</h2>
+                <h1>Nossos Produtos</h1>
             </div>
-            <div class="row gx-4">
+            <div class="row g-4">
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="product-item">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/product-1.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
@@ -289,15 +289,13 @@
                         </div>
                         <div class="text-center p-4">
                             <a class="d-block h5" href="">Pure Milk</a>
-                            <span class="text-primary me-1">$19.00</span>
-                            <span class="text-decoration-line-through">$29.00</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="product-item">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/product-2.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
@@ -305,15 +303,13 @@
                         </div>
                         <div class="text-center p-4">
                             <a class="d-block h5" href="">Fresh Meat</a>
-                            <span class="text-primary me-1">$19.00</span>
-                            <span class="text-decoration-line-through">$29.00</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="product-item">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/product-3.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
@@ -321,15 +317,13 @@
                         </div>
                         <div class="text-center p-4">
                             <a class="d-block h5" href="">Dairy Products</a>
-                            <span class="text-primary me-1">$19.00</span>
-                            <span class="text-decoration-line-through">$29.00</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="product-item">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/product-4.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
@@ -337,8 +331,6 @@
                         </div>
                         <div class="text-center p-4">
                             <a class="d-block h5" href="">Organic Food</a>
-                            <span class="text-primary me-1">$19.00</span>
-                            <span class="text-decoration-line-through">$29.00</span>
                         </div>
                     </div>
                 </div>
@@ -358,11 +350,10 @@
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 alt-services">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title bg-white text-start text-primary pe-3">Why Us!</p>
                     <h1 class="mb-4">Few Reasons Why People Choosing Us!</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
