@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/Plantinha.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,21 +72,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="{{route('site.index')}}" class="nav-item nav-link">Menu</a>
-                    <a href="{{route('site.sobre')}}" class="nav-item nav-link">Sobre</a>
-                    <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços</a>
-                    <a href="{{route('site.galeria')}}" class="nav-item nav-link">Galeria</a>
+                    <a href="{{route('site.index')}}" class="nav-item nav-link"><i class="fa fa-home" style="color: #fff"></i></a>
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{route('site.produtos')}}" class="dropdown-item">Produtos</a>
-                            <a href="{{route('site.defensivos')}}" class="dropdown-item">Defensivos Agrícolas</a>
-                            <a href="{{route('site.fertilizantes')}}" class="dropdown-item">Fertilizantes</a>
                             <a href="{{route('site.biologicos')}}" class="dropdown-item">Biológicos</a>
+                            <a href="{{route('site.fertilizantes')}}" class="dropdown-item">Fertilizantes</a>
+                            <a href="{{route('site.defensivos')}}" class="dropdown-item">Defensivos Agrícolas</a>
                             <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
                         </div>
                     </div>
+                    <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços</a>
                     <a href="{{route('site.contato')}}" class="nav-item nav-link">Contato</a>
+                    <a href="{{route('site.galeria')}}" class="nav-item nav-link">Histórico</a>
+                    <a href="{{route('site.sobre')}}" class="nav-item nav-link">Sobre</a>
                     @auth
                     <a href="{{route('dashboard')}}" class="nav-item nav-link">Painel</a>
                     @else

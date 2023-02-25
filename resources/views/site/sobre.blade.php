@@ -20,7 +20,7 @@
     <!-- About Start -->
     <div class="container-xxl py-5-about alt-services">
         <div class="container">
-            <div class="row g-5 align-items-end">
+            <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h3 class="mb-4">Conheça a Agroinsumos.com.br</h3>
+                    <h1 class="mb-4">Conheça a Agroinsumos.com.br</h1>
                     <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                         @elseif ($sobre->count() === 1)
                         {{ $sobre->sob_sobre }}

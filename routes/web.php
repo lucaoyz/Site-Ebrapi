@@ -109,6 +109,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/time', [App\Http\Controllers\TimeController::class, 'timeSite'])->name('site.time');
 
+    Route::get('/noticias', [App\Http\Controllers\NoticiaController::class, 'noticiasSite'])->name('site.noticias');
+
     Route::get('/quemsomoseziquiel', function () {
 		return view('qrcode.index');
 	})->name('site.qrcode');

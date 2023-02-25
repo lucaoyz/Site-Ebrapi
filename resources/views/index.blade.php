@@ -22,164 +22,114 @@
 
 
     <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
-      <div class="container" data-aos="fade-up"">
-
+    <div id="recent-blog-posts" class="container-xxl py-5-about recent-blog-posts" data-aos="fade-up"">
 
         <div class="section-header">
-            <h1>Notícias</h1>
+                <h1>News</h1>
         </div>
 
-      <div class="row gy-5">
+        <div class="row gy-5">
 
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="post-item position-relative h-100">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-item position-relative h-100">
 
-            <div class="post-img position-relative overflow-hidden">
-              <img src="{{asset('img/blog/blog-1.jpg')}}" class="img-fluid" alt="">
-              <span class="post-date">December 12</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('img/blog/blog-1.jpg')}}" class="img-fluid" alt="">
+                <span class="post-date">December 12</span>
                 </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                </div>
-              </div>
 
-              <hr>
+                <div class="post-content d-flex flex-column">
 
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
 
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="post-item position-relative h-100">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="{{asset('img/blog/blog-2.jpg')}}" class="img-fluid" alt="">
-              <span class="post-date">July 17</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6">
-          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="{{asset('img/blog/blog-3.jpg')}}" class="img-fluid" alt="">
-              <span class="post-date">September 05</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-      </div>
-
-      </div>
-    </section>
-    <!-- End Recent Blog Posts Section -->
-
-
-    <!-- About Start -->
-    <div class="container-xxl py-5-about alt-services">
-        <div class="container">
-            <div class="row g-5 align-items-end">
-                <div class="col-lg-6">
-                    <div class="row g-2">
-                        <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                            <div class="about-experience">
-                                <img class="img-fluid-49" src="{{asset('img/about/49-ANOS.png')}}">
-                            </div>
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-041.jpg')}}">
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-039.jpg')}}">
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
-                        </div>
+                <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="mb-4">Conheça a Agroinsumos.com.br</h1>
-                    <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
-                        @elseif ($sobre->count() === 1)
-                        {{ $sobre->sob_sobre }}
-                        @endif
-                    </span>
-                    <div class="row g-5 pt-2 mb-5">
-                        <div class="col-sm-6">
-                            <h5 class="mb-3">Missão</h5>
-                            <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
-                                @elseif ($sobre->count() === 1)
-                                {{ $sobre->sob_missao }}
-                                @endif
-                            </span>
-                        </div>
-                    </div>
-                    <a class="btn btn-secondary py-2 px-4" href="{{route('site.sobre')}}">Saiba Mais</a>
+
+                <hr>
+
+                <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Read More</span><i
+                    class="bi bi-arrow-right"></i></a>
+
                 </div>
+
             </div>
+            </div><!-- End post item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-item position-relative h-100">
+
+                <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('img/blog/blog-2.jpg')}}" class="img-fluid" alt="">
+                <span class="post-date">July 17</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+                <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                    class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+            </div>
+            </div><!-- End post item -->
+
+            <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+                <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('img/blog/blog-3.jpg')}}" class="img-fluid" alt="">
+                <span class="post-date">September 05</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+                <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                    class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+            </div>
+            </div><!-- End post item -->
+
         </div>
+
     </div>
-    <!-- About End -->
+    <!-- End Recent Blog Posts Section -->
 
 
     <!-- ======= Cta Section ======= -->
@@ -200,29 +150,13 @@
     </section>
     <!-- End Cta Section -->
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <!-- ======= Services Section ======= -->
+    <div class="container-xxl py-5-about section-bg-white">
         <div class="container">
             <div class="section-header">
-                <h1>Nossos Serviços</h1>
+                <h1>Serviços Prestados</h1>
             </div>
-            <div class="row gy-5 gx-4">
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100">
-                        <div class="service-img">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        </div>
-                        <div class="service-text p-5 pt-0">
-                            <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-1.jpg" alt="">
-                            </div>
-                            <h5 class="mb-3">Best Animal Selection</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="row gy-5 gx-4">''
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex h-100">
                         <div class="service-img">
@@ -256,23 +190,82 @@
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- End Services Section -->
 
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-            <div class="section-header">
-            <h3 class="section-title">Portfolio</h3>
-            <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+    <!-- Gallery Start -->
+    <section>
+        <div class="container-xxl py-5-about">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Explore o nosso Histórico</h1>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-5.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-1.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-2.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-6.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-7.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-3.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-3.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/gallery-8.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/gallery-8.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- End Portfolio Section -->
+    <!-- Gallery End -->
 
 
     <!-- Product Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5-about">
         <div class="container">
             <div class="section-header">
                 <h1>Nossos Produtos</h1>
@@ -283,12 +276,11 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
                             <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <a class="d-block h5" href="">Pure Milk</a>
+                            <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
                         </div>
                     </div>
                 </div>
@@ -297,12 +289,11 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
                             <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.fertilizantes')}}"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <a class="d-block h5" href="">Fresh Meat</a>
+                            <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
                         </div>
                     </div>
                 </div>
@@ -311,12 +302,11 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
                             <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.defensivos')}}"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <a class="d-block h5" href="">Dairy Products</a>
+                            <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>
                         </div>
                     </div>
                 </div>
@@ -325,12 +315,11 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                             <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <a class="d-block h5" href="">Organic Food</a>
+                            <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
                         </div>
                     </div>
                 </div>
@@ -350,11 +339,11 @@
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5 alt-services">
+    <div class="container-xxl py-5-about alt-services">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-4">Few Reasons Why People Choosing Us!</h1>
+                    <h1 class="mb-4">Política de Privacidade</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
@@ -385,4 +374,5 @@
         </div>
     </div>
     <!-- Features End -->
+
 @endsection
