@@ -7,18 +7,18 @@
 
 
  /*--------------------------------------------------------------
-# Recent Blog Posts Section
+# Recent news Posts Section
 --------------------------------------------------------------*/
-.recent-blog-posts .post-item {
+.recent-news-posts .post-item {
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
   transition: 0.3s;
 }
 
-.recent-blog-posts .post-item .post-img img {
+.recent-news-posts .post-item .post-img img {
   transition: 0.5s;
 }
 
-.recent-blog-posts .post-item .post-date {
+.recent-news-posts .post-item .post-date {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -30,12 +30,12 @@
   font-weight: 500;
 }
 
-.recent-blog-posts .post-item .post-content {
+.recent-news-posts .post-item .post-content {
   padding: 30px;
   background-color: #fff;
 }
 
-.recent-blog-posts .post-item .post-title {
+.recent-news-posts .post-item .post-title {
   font-size: 24px;
   color: var(--color-secondary);
   font-weight: 700;
@@ -43,22 +43,22 @@
   margin-bottom: 15px;
 }
 
-.recent-blog-posts .post-item .meta i {
+.recent-news-posts .post-item .meta i {
   font-size: 16px;
   color: #B1C900;
 }
 
-.recent-blog-posts .post-item .meta span {
+.recent-news-posts .post-item .meta span {
   font-size: 15px;
   color: #838893;
 }
 
-.recent-blog-posts .post-item hr {
+.recent-news-posts .post-item hr {
   color: #888;
   margin: 20px 0;
 }
 
-.recent-blog-posts .post-item .readmore {
+.recent-news-posts .post-item .readmore {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -67,18 +67,18 @@
   color: #838893;
 }
 
-.recent-blog-posts .post-item .readmore i {
+.recent-news-posts .post-item .readmore i {
   line-height: 0;
   margin-left: 6px;
   font-size: 16px;
 }
 
-.recent-blog-posts .post-item:hover .post-title,
-.recent-blog-posts .post-item:hover .readmore {
+.recent-news-posts .post-item:hover .post-title,
+.recent-news-posts .post-item:hover .readmore {
   color: #B1C900;
 }
 
-.recent-blog-posts .post-item:hover .post-img img {
+.recent-news-posts .post-item:hover .post-img img {
   transform: scale(1.1);
 }
 

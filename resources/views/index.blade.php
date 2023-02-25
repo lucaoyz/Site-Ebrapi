@@ -11,7 +11,7 @@
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
                         <img style="width: 740px;" src="{{asset('img/Logo-Agroinsumos.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
-                        <a class="btn btn-contact py-2 px-4" href="#recent-blog-posts">Saiba mais</a>
+                        <a class="btn btn-contact py-2 px-4" href="#recent-news-posts">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -21,8 +21,8 @@
     <!-- Home End -->
 
 
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <div id="recent-blog-posts" class="container-xxl py-5-about recent-blog-posts" data-aos="fade-up"">
+    <!-- ======= Recent news Posts Section ======= -->
+    <div id="recent-news-posts" class="container-xxl py-5-about recent-news-posts" data-aos="fade-up"">
 
         <div class="section-header">
                 <h1>News</h1>
@@ -34,7 +34,7 @@
             <div class="post-item position-relative h-100">
 
                 <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/blog/blog-1.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
                 <span class="post-date">December 12</span>
                 </div>
 
@@ -66,7 +66,7 @@
             <div class="post-item position-relative h-100">
 
                 <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/blog/blog-2.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('img/news/news-2.jpg')}}" class="img-fluid" alt="">
                 <span class="post-date">July 17</span>
                 </div>
 
@@ -86,7 +86,7 @@
 
                 <hr>
 
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                <a href="news-details.html" class="readmore stretched-link"><span>Read More</span><i
                     class="bi bi-arrow-right"></i></a>
 
                 </div>
@@ -98,7 +98,7 @@
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
 
                 <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/blog/blog-3.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('img/news/news-3.jpg')}}" class="img-fluid" alt="">
                 <span class="post-date">September 05</span>
                 </div>
 
@@ -118,7 +118,7 @@
 
                 <hr>
 
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                <a href="news-details.html" class="readmore stretched-link"><span>Read More</span><i
                     class="bi bi-arrow-right"></i></a>
 
                 </div>
@@ -129,7 +129,7 @@
         </div>
 
     </div>
-    <!-- End Recent Blog Posts Section -->
+    <!-- End Recent news Posts Section -->
 
 
     <!-- ======= Cta Section ======= -->
@@ -142,7 +142,7 @@
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-blog-posts">Saiba mais</a>
+            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
           </div>
         </div>
 
