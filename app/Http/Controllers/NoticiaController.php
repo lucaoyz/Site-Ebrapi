@@ -17,12 +17,19 @@ class NoticiaController extends Controller
     public function indexPainelAdm( )
     {
 
-            //dd($contato);
+            return view('painel-adm.noticias.noticias',[
+            ]);
 
-            return view('painel-adm.noticias',[
+    } 
+
+    public function createNoticias( )
+    {
+
+            return view('painel-adm.noticias.createNoticia',[
             ]);
 
     }
+
     public function noticiasSite(Contato $contato)
     {
             $contato = Contato::all()->first();

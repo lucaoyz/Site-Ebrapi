@@ -65,7 +65,18 @@ Route::group(['middleware' => 'auth'], function () {
         Route::prefix('noticias')->group(function(){
 
             Route::get('/', [App\Http\Controllers\NoticiaController::class, 'indexPainelAdm'])->name('noticias');
-            Route::put('/atualizar', [App\Http\Controllers\NoticiaController::class, 'atualizarNoticias'])->name('noticias.atualizarNoticias');
+            Route::get('/create', [App\Http\Controllers\NoticiaController::class, 'createNoticias'])->name('noticias.createNoticias');
+            Route::post('/store', [App\Http\Controllers\NoticiaController::class, 'storeNoticias'])->name('noticias.storeNoticias');
+            Route::get('/editar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'editarNoticias'])->name('noticias.editarNoticias');
+            Route::put('/atualizar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarNoticias'])->name('noticias.atualizarNoticias');
+            Route::delete('/delete/{noticia}', [App\Http\Controllers\NoticiaController::class, 'deleteNoticias'])->name('noticias.deleteNoticias');
+
+            Route::get('/{noticia}/imagens/', [App\Http\Controllers\NoticiaController::class, 'fotoNoticiaIndex'])->name('noticias.fotoNoticia');
+            Route::get('/{noticia}/imagens/create/', [App\Http\Controllers\NoticiaController::class, 'createFotoNoticias'])->name('noticias.create.fotoNoticias');
+            Route::post('/{noticia}/imagens/store/', [App\Http\Controllers\NoticiaController::class, 'storeFotoNoticias'])->name('noticias.store.fotoNoticias');
+            Route::get('/{noticia}/imagens/editar/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'editarFotoNoticias'])->name('noticias.editar.fotoNoticias');
+            Route::put('/{noticia}/imagens/atualizar/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarFotoNoticias'])->name('noticias.atualizar.fotoNoticias');
+            Route::delete('/{noticia}/imagens/delete/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'deleteFotoNoticias'])->name('noticias.delete.fotoNoticias');
 
         });
 
