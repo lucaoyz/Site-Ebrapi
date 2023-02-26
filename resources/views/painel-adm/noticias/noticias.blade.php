@@ -11,7 +11,8 @@
                             <h5 class="mb-0">Todas as notícias</h5>
                         </div>
                         <a href="{{route('noticias.createNoticias')}}" class="btn bg-gradient-primary btn-sm mb-0" type="button">+&nbsp; adicionar notícia</a>
-                    </div>
+                    </div><br>
+                    <a href="{{route('noticias.createNoticias')}}" class="btn bg-gradient-secondary btn-sm mb-0" type="button">+&nbsp; criar categoria</a>
                 </div>
                 <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">

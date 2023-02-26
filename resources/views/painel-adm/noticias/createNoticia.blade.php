@@ -18,6 +18,7 @@
             </button>
         </div>
         @endif
+
         <div class="mb-3">
             <label for="no_titulo" class="form-label">Titulo</label>
             <input name="no_titulo" type="text" class="form-control @error('no_titulo') is-invalid @enderror" id="no_titulo"
@@ -29,6 +30,7 @@
                 </span>
                 @enderror
         </div>
+
         <div class="mb-3">
             <label for="no_corpo" class="form-label">Corpo</label>
             <input name="no_corpo" type="text" class="form-control @error('no_corpo') is-invalid @enderror" id="no_corpo"
@@ -64,6 +66,7 @@
                 </span>
                 @enderror
         </div>
+
     </div>
 
     <div class="card-footer">
