@@ -150,7 +150,7 @@
     </section>
     <!-- End Cta Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Services Start ======= -->
     <div class="container-xxl py-5-about section-bg-white">
         <div class="container">
             <div class="section-header">
@@ -160,7 +160,7 @@
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex h-100">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/service-2.jpg')}}" alt="">
                         </div>
                         <div class="service-text p-5 pt-0">
                             <div class="service-icon">
@@ -190,7 +190,7 @@
             </div>
         </div>
     </div>
-    <!-- End Services Section -->
+    <!-- End Services -->
 
 
     <!-- Gallery Start -->
