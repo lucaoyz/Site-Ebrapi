@@ -1,9 +1,6 @@
 @extends('layouts.user_type.auth')
 
 @section('content')
-
-
-
 <form action="{{ route('perfil.changePassword') }}" method="POST">
     @csrf
     <div class="card-body">
