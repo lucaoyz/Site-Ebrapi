@@ -64,9 +64,8 @@ Route::group(['middleware' => 'auth'], function () {
         /*Painel adm Noticias*/
         Route::prefix('noticias')->group(function(){
 
-            Route::get('/', function () {
-                return view('noticias');
-            })->name('noticias');
+            Route::get('/', [App\Http\Controllers\NoticiaController::class, 'indexPainelAdm'])->name('noticias');
+            Route::put('/atualizar', [App\Http\Controllers\NoticiaController::class, 'atualizarNoticias'])->name('noticias.atualizarNoticias');
 
         });
 
