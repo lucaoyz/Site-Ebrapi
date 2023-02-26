@@ -21,7 +21,7 @@
     <!-- Home End -->
 
 
-    <!-- ======= Recent news Posts Section ======= -->
+    <!-- ======= Recent news Posts ======= -->
     <div id="recent-news-posts" class="container-xxl py-5-about recent-news-posts" data-aos="fade-up"">
 
         <div class="section-header">
