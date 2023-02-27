@@ -54,6 +54,9 @@
         time: 2000
     });
 
+    // Partners counter
+
+
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({

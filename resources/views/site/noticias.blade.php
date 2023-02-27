@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- ======= Page Header Start ======= -->
-    <div class="container-fluid page-header-news wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
             <h1 class="display-3 mb-3 text-white animated slideInDown">Nome da noticia</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -20,7 +20,7 @@
     <!-- ======= News Details ======= -->
     <div class="container-xxl news py-5" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row" style="justify-content: center;">
 
             <div class="col-lg-8">
 

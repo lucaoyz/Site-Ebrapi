@@ -156,7 +156,7 @@
             <div class="section-header">
                 <h1>Serviços Prestados</h1>
             </div>
-            <div class="row gy-5 gx-4">''
+            <div class="row gy-5 gx-4" style="justify-content: center;">
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex h-100">
                         <div class="service-img">
@@ -335,7 +335,7 @@
 
       </div>
     </section>
-    <!-- End Cta Section -->
+    <!-- End Partners -->
 
 
     <!-- Features Start -->
