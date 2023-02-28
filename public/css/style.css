@@ -32,7 +32,9 @@
 
 
 
-/*** Spinner ***/
+/*--------------------------------------------------------------
+# Spinner
+--------------------------------------------------------------*/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -48,7 +50,7 @@
 
 
 /*--------------------------------------------------------------
-Button
+# Button
 --------------------------------------------------------------*/
 .btn {
     transition: .5s;
@@ -538,7 +540,7 @@ Button
 }
 
 /*--------------------------------------------------------------
-Navbar
+# Navbar
 --------------------------------------------------------------*/
 .fixed-top {
     transition: .5s;
@@ -597,9 +599,9 @@ Navbar
     }
 }
 
-/**
-* Mobile Navigation
-*/
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -620,7 +622,7 @@ Navbar
 }
 
 /*--------------------------------------------------------------
-Header
+# Header
 --------------------------------------------------------------*/
 .carousel-caption {
     top: 0;
@@ -697,7 +699,7 @@ Header
 
 
 /*--------------------------------------------------------------
-Counts
+# Counts
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(90deg, #008352 0%, #B1C900 100%), url("../img/counts-bg.png") center center no-repeat;
@@ -749,9 +751,8 @@ Counts
 }
 
 
-
 /*--------------------------------------------------------------
-Section Title
+# Section Title
 --------------------------------------------------------------*/
 .section-title {
     position: relative;
@@ -793,7 +794,9 @@ Section Title
 }
 
 
-/*** About ***/
+/*--------------------------------------------------------------
+About
+--------------------------------------------------------------*/
 .about-experience {
     position: absolute;
     width: 100%;
@@ -805,10 +808,11 @@ Section Title
 }
 
 
-/*** Service ***/
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
 .service-item {
     position: relative;
-    border-radius: 8px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
@@ -818,7 +822,6 @@ Section Title
     height: 100%;
     top: 0;
     left: 0;
-    border-radius: 8px;
     overflow: hidden;
     z-index: -1;
 }
@@ -829,7 +832,6 @@ Section Title
     height: 100%;
     left: 0;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .service-item .service-img::before {
@@ -840,7 +842,6 @@ Section Title
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .5);
-    border-radius: 10px;
     z-index: 1;
 }
 
@@ -863,15 +864,10 @@ Section Title
 }
 
 .service-item .service-text .service-icon {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     padding: 15px;
-    margin-top: -70px;
-    margin-bottom: 40px;
-    background: #FFFFFF;
-    border-radius: 140px;
     overflow: hidden;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .1);
 }
 
 .service-item .service-text h5,
@@ -884,19 +880,24 @@ Section Title
     color: #FFFFFF;
 }
 
-.service-item .service-text .btn {
-    color: var(--secondary);
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .25);
+.service-item .service-text .readmore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+    color: #000;
 }
 
-.service-item .service-text .btn:hover {
-    color: var(--dark);
-    background: var(--secondary);
+.service-item .service-text .readmore:hover {
+    color: #008352;
 }
 
 
-/*** Product ***/
+
+/*--------------------------------------------------------------
+# Products
+--------------------------------------------------------------*/
 .product-item {
     position: relative;
     overflow: hidden;
@@ -923,7 +924,6 @@ Section Title
     padding-top: 0;
 }
 
-/*** Product ***/
 .product-item {
     position: relative;
     overflow: hidden;
@@ -951,7 +951,9 @@ Section Title
 }
 
 
-/*** Team ***/
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
 .team-item {
     position: relative;
     text-align: center;
@@ -970,11 +972,13 @@ Section Title
 --------------------------------------------------------------*/
 .partners {
   background-color: #F7F7F7;
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 
-/*** Testimonial ***/
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
 .testimonial-img {
     position: relative;
     min-height: 400px;
@@ -1057,7 +1061,9 @@ Section Title
 }
 
 
-/*** Footer ***/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 .footer {
     color: #DCDCDC;
 }

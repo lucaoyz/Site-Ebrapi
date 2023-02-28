@@ -22,7 +22,7 @@
 
 
     <!-- ======= Recent news Posts ======= -->
-    <div id="recent-news-posts" class="container-xxl py-5-about recent-news-posts" data-aos="fade-up"">
+    <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
 
         <div class="section-header">
                 <h1>News</h1>
@@ -151,39 +151,39 @@
     <!-- End Cta Section -->
 
     <!-- ======= Services Start ======= -->
-    <div class="container-xxl py-5-about section-bg-white">
+    <div class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
                 <h1>Serviços Prestados</h1>
             </div>
             <div class="row gy-5 gx-4" style="justify-content: center;">
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex h-100">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{asset('img/service-2.jpg')}}" alt="">
+                            <img class="img-fluid" src="img/services/service-1.jpg" alt="">
                         </div>
                         <div class="service-text p-5 pt-0">
                             <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-2.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3">Breeding & Veterinary</h5>
+                            <h5 class="mb-3" style="font-size: 21px;">Reflorestamento: Recomposição de mata-ciliar</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
+                            <a class="readmore" href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex h-100">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                            <img class="img-fluid" src="img/services/service-2.jpg" alt="">
                         </div>
                         <div class="service-text p-5 pt-0">
                             <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3">Care & Milking</h5>
+                            <h5 class="mb-3" style="font-size: 21px;">Acompanhamento Agronômico</h5>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
+                            <a class="readmore" href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
 
     <!-- Gallery Start -->
     <section>
-        <div class="container-xxl py-5-about">
+        <div class="container-xxl py-5-5">
             <div class="container">
                 <div class="section-header">
                     <h1>Explore o nosso Histórico</h1>
@@ -265,7 +265,7 @@
 
 
     <!-- Product Start -->
-    <div class="container-xxl py-5-about">
+    <div class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
                 <h1>Nossos Produtos</h1>
@@ -330,16 +330,30 @@
 
 
     <!-- ======= Partners ======= -->
-    <section id="partners" class="partners">
-      <div class="container">
-
-      </div>
+    <section class="partners">
+        <div class="container-xxl wow fadeInUp" data-wow-delay="0.1s">
+            <!--<div class="container">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="{{asset('img/partners/logo-biocontrole.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-aminoagro.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-koppert.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-bayer.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-monsanto.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-nutrien.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-fmc.png')}}" alt="">
+                    <img src="{{asset('img/partners/logo-yara.png')}}" alt="">
+                    <img src="{{asset('img/partners/.png')}}" alt="">
+                </div>
+            </div>-->
+        </div>
     </section>
     <!-- End Partners -->
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5-about alt-services">
+    <div class="container-xxl py-5-5 alt-services">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
