@@ -54,8 +54,7 @@
 
                 <hr>
 
-                <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Read More</span><i
-                    class="bi bi-arrow-right"></i></a>
+                <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
 
                 </div>
 
@@ -86,8 +85,7 @@
 
                 <hr>
 
-                <a href="news-details.html" class="readmore stretched-link"><span>Read More</span><i
-                    class="bi bi-arrow-right"></i></a>
+                <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
 
                 </div>
 
@@ -118,8 +116,7 @@
 
                 <hr>
 
-                <a href="news-details.html" class="readmore stretched-link"><span>Read More</span><i
-                    class="bi bi-arrow-right"></i></a>
+                <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
 
                 </div>
 
@@ -151,7 +148,7 @@
     <!-- End Cta Section -->
 
     <!-- ======= Services Start ======= -->
-    <div class="container-xxl py-5-5">
+    <div id="services" class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
                 <h1>Serviços Prestados</h1>
@@ -168,7 +165,6 @@
                             </div>
                             <h5 class="mb-3" style="font-size: 21px;">Reflorestamento: Recomposição de mata-ciliar</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="readmore" href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +179,6 @@
                             </div>
                             <h5 class="mb-3" style="font-size: 21px;">Acompanhamento Agronômico</h5>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="readmore" href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>

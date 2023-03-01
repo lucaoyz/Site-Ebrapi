@@ -18,7 +18,7 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5-about alt-services">
+    <div class="container-xxl py-5-5 alt-services">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
