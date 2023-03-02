@@ -105,7 +105,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/contato', [App\Http\Controllers\ContatoController::class, 'indexSite'])->name('site.contato');
 
-    Route::get('/galeria', [App\Http\Controllers\GaleriaController::class, 'indexSite'])->name('site.galeria');
+    Route::get('/historico', [App\Http\Controllers\HistoricoController::class, 'indexSite'])->name('site.historico');
 
     Route::prefix('produtos')->group(function(){
 

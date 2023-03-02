@@ -65,7 +65,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="{{route('site.index')}}" class="navbar-brand ms-4 ms-lg-0">
-                <img style="width: 190px;" src="{{asset('img/Grupo-Agroinsumos.png')}}" alt="Menu">
+                <img style="width: 180px;" src="{{asset('img/logo-agroinsumos-nav.png')}}" alt="Menu">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -83,9 +83,9 @@
                             <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
                         </div>
                     </div>
-                    <a href="#services" class="nav-item nav-link">Serviços</a>
+                    <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços</a>
                     <a href="{{route('site.contato')}}" class="nav-item nav-link">Contato</a>
-                    <a href="{{route('site.galeria')}}" class="nav-item nav-link">Histórico</a>
+                    <a href="{{route('site.historico')}}" class="nav-item nav-link">Histórico</a>
                     <a href="{{route('site.sobre')}}" class="nav-item nav-link">Sobre</a>
                     @auth
                     <a href="{{route('dashboard')}}" class="nav-item nav-link">Painel</a>

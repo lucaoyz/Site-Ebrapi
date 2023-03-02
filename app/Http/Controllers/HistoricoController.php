@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contato;
 
-class GaleriaController extends Controller
+class HistoricoController extends Controller
 {
      /**
      * Display a listing of the resource.
@@ -18,7 +18,7 @@ class GaleriaController extends Controller
 
             //dd($contato);
 
-            return view('site.galeria',[
+            return view('site.historico',[
                 'contato' => $contato
             ]);
 

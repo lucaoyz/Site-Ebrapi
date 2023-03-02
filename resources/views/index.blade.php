@@ -21,7 +21,7 @@
     <!-- Home End -->
 
 
-    <!-- ======= Recent news Posts ======= -->
+    <!-- ======= Recent News Posts ======= -->
     <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
 
         <div class="section-header">
@@ -31,97 +31,97 @@
         <div class="row gy-5">
 
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="post-item position-relative h-100">
+                <div class="post-item position-relative h-100">
 
-                <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
-                <span class="post-date">December 12</span>
-                </div>
-
-                <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
-                <div class="meta d-flex align-items-center">
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                    <div class="post-img position-relative overflow-hidden">
+                    <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
+                    <span class="post-date">December 12</span>
                     </div>
-                    <span class="px-3 text-black-50">/</span>
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+
+                    <div class="post-content d-flex flex-column">
+
+                    <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+
+                    <div class="meta d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                        </div>
+                        <span class="px-3 text-black-50">/</span>
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                        </div>
                     </div>
+
+                    <hr>
+
+                    <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                    </div>
+
                 </div>
-
-                <hr>
-
-                <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                </div>
-
             </div>
-            </div><!-- End post item -->
 
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="post-item position-relative h-100">
+                <div class="post-item position-relative h-100">
 
-                <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/news/news-2.jpg')}}" class="img-fluid" alt="">
-                <span class="post-date">July 17</span>
-                </div>
-
-                <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
-                <div class="meta d-flex align-items-center">
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                    <div class="post-img position-relative overflow-hidden">
+                    <img src="{{asset('img/news/news-2.jpg')}}" class="img-fluid" alt="">
+                    <span class="post-date">July 17</span>
                     </div>
-                    <span class="px-3 text-black-50">/</span>
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+
+                    <div class="post-content d-flex flex-column">
+
+                    <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+                    <div class="meta d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                        </div>
+                        <span class="px-3 text-black-50">/</span>
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                        </div>
                     </div>
+
+                    <hr>
+
+                    <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                    </div>
+
                 </div>
-
-                <hr>
-
-                <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                </div>
-
             </div>
-            </div><!-- End post item -->
 
             <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
 
-                <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('img/news/news-3.jpg')}}" class="img-fluid" alt="">
-                <span class="post-date">September 05</span>
-                </div>
-
-                <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-                <div class="meta d-flex align-items-center">
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                    <div class="post-img position-relative overflow-hidden">
+                    <img src="{{asset('img/news/news-3.jpg')}}" class="img-fluid" alt="">
+                    <span class="post-date">September 05</span>
                     </div>
-                    <span class="px-3 text-black-50">/</span>
-                    <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+
+                    <div class="post-content d-flex flex-column">
+
+                    <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+                    <div class="meta d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                        </div>
+                        <span class="px-3 text-black-50">/</span>
+                        <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                        </div>
                     </div>
+
+                    <hr>
+
+                    <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                    </div>
+
                 </div>
-
-                <hr>
-
-                <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                </div>
-
             </div>
-            </div><!-- End post item -->
 
         </div>
 
@@ -146,6 +146,7 @@
       </div>
     </section>
     <!-- End Cta Section -->
+
 
     <!-- ======= Services Start ======= -->
     <div id="services" class="container-xxl py-5-5">
@@ -188,67 +189,105 @@
     <!-- End Services -->
 
 
-    <!-- Gallery Start -->
-    <section>
+    <!-- ======= Historic Start ======= -->
+    <section class="historic">
         <div class="container-xxl py-5-5">
             <div class="container">
                 <div class="section-header">
                     <h1>Explore o nosso Histórico</h1>
                 </div>
-                <div class="row g-0">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-5.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-5.jpg" alt="">
-                                </a>
+                <div class="portfolio-isotope">
+
+                    <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-1.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-1.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-2.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-2.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-6.jpg" alt="">
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-7.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-7.jpg" alt="">
-                                </a>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-3.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-3.jpg" alt="">
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-4.jpg" alt="">
-                                </a>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
-                            <div class="col-12">
-                                <a class="d-block" href="img/gallery-8.jpg" data-lightbox="gallery">
-                                    <img class="img-fluid" src="img/gallery-8.jpg" alt="">
-                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-rcol-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                            <img src="{{asset('img/historic/historic-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="{{asset('img/historic/historic-1.jpg')}}" title="Corn" data-lightbox="gallery" class="glightbox preview-link"><i class="fa fa-plus" style="font-size: 23px;"></i></a>
+                                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -256,10 +295,10 @@
             </div>
         </div>
     </section>
-    <!-- Gallery End -->
+    <!-- Historic End -->
 
 
-    <!-- Product Start -->
+    <!-- ======= Products Start ======= -->
     <div class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
@@ -347,7 +386,7 @@
     <!-- End Partners -->
 
 
-    <!-- Features Start -->
+    <!-- ======= Politic Start ======= -->
     <div class="container-xxl py-5-5 alt-services">
         <div class="container">
             <div class="row g-5 align-items-center">
@@ -382,6 +421,6 @@
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- Politic End -->
 
 @endsection
