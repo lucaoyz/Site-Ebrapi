@@ -83,7 +83,7 @@
                             <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
                         </div>
                     </div>
-                    <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços</a>
+                    <a href="{{route('site.servicos')}}" class="nav-item nav-link">Serviços Prestados</a>
                     <a href="{{route('site.contato')}}" class="nav-item nav-link">Contato</a>
                     <a href="{{route('site.historico')}}" class="nav-item nav-link">Histórico</a>
                     <a href="{{route('site.sobre')}}" class="nav-item nav-link">Sobre</a>

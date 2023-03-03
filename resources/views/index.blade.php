@@ -392,7 +392,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="mb-4">Política de Privacidade</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4" style="font-size: 19px;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Clita erat ipsum et lorem et sit</p>

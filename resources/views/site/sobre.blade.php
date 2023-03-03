@@ -41,19 +41,19 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="mb-4">Conheça a Agroinsumos.com.br</h1>
-                    <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                    <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                         @elseif ($sobre->count() === 1)
                         {{ $sobre->sob_sobre }}
                         @endif
-                    </span>
+                    </p>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
                             <h5 class="mb-3">Missão</h5>
-                            <span class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                            <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
                                 @elseif ($sobre->count() === 1)
                                 {{ $sobre->sob_missao }}
                                 @endif
-                            </span>
+                            </p>
                         </div>
                     </div>
                     <a class="btn btn-secondary py-2 px-4" href="{{route('site.sobre')}}">Saiba Mais</a>
@@ -83,53 +83,102 @@
     <!-- End Cta Section -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- ======= Politic Start ======= -->
+    <div class="container-xxl py-5-5 alt-services">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
-                <h1 class="mb-5">Experienced Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded p-4">
-                        <img class="img-fluid rounded mb-4" src="img/team-1.jpg" alt="">
-                        <h5>Adam Crew</h5>
-                        <p class="text-primary">Founder</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-4">Política de Sustentabilidade</h1>
+                    <p class="mb-4" style="font-size: 19px;">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Clita erat ipsum et lorem et sit</p>
+                    <a class="btn btn-secondary py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded p-4">
-                        <img class="img-fluid rounded mb-4" src="img/team-2.jpg" alt="">
-                        <h5>Doris Jordan</h5>
-                        <p class="text-primary">Veterinarian</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
-                        <img class="img-fluid rounded mb-4" src="img/team-3.jpg" alt="">
-                        <h5>Jack Dawson</h5>
-                        <p class="text-primary">Farmer</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                <div class="col-lg-6">
+                    <div class="rounded overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="text-center bg-secondary py-5 px-4">
+                                    <img class="img-fluid mb-4" src="img/award.png" alt="">
+                                    <h1 class="display-6" data-toggle="counter-up">183</h1>
+                                    <span class="fs-5 fw-semi-bold text-primary">Award Winning</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="text-center bg-secondary py-5 px-4">
+                                    <img class="img-fluid mb-4" src="img/animal.png" alt="">
+                                    <h1 class="display-6" data-toggle="counter-up">2619</h1>
+                                    <span class="fs-5 fw-semi-bold text-primary">Total Animals</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Politic End -->
+
+
+    <!-- Team Start -->
+    <section>
+        <div class="container-xxl py-5-5">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Equipe Ebrapi Agroinsumos</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
+                    <h1 class="mb-5">Experienced Team Members</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item rounded p-4">
+                            <img class="img-fluid rounded mb-4" src="img/team-1.jpg" alt="">
+                            <h5>Adam Crew</h5>
+                            <p class="text-primary">Founder</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item rounded p-4">
+                            <img class="img-fluid rounded mb-4" src="img/team-2.jpg" alt="">
+                            <h5>Doris Jordan</h5>
+                            <p class="text-primary">Veterinarian</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item rounded p-4">
+                            <img class="img-fluid rounded mb-4" src="img/team-3.jpg" alt="">
+                            <h5>Jack Dawson</h5>
+                            <p class="text-primary">Farmer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
     <!-- Team End -->
 
 @endsection
