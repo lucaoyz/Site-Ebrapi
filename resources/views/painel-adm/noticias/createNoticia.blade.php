@@ -33,8 +33,8 @@
 
         <div class="mb-3">
             <label for="no_corpo" class="form-label">Corpo</label>
-            <input name="no_corpo" type="text" class="form-control @error('no_corpo') is-invalid @enderror" id="no_corpo"
-                placeholder="Digite o corpo da notícia..">
+            <textarea name="no_corpo" id="no_corpo" rows="7" class="form-control @error('no_corpo') is-invalid @enderror"
+            placeholder="Digite o corpo da notícia.."></textarea>
 
                 @error('no_corpo')
                 <span class="invalid-feedback" role="alert">
@@ -44,11 +44,30 @@
         </div>
 
         <div class="mb-3">
-            <label for="no_categoria" class="form-label">Categoria</label>
-            <input name="no_categoria" type="text" class="form-control @error('no_categoria') is-invalid @enderror" id="no_categoria"
-                placeholder="Categoria da notícia">
+            <label for="ca_id" class="form-label">Categoria</label>
+            @empty($categoriaExiste)
+            <a href="{{route('categoria')}}" class="text-primary">
+                Não há nenhuma categoria, clique aqui para adicionar a primeira..
+                </a>
+            @endempty
+                <select name="ca_id" id="ca_id"
+                class="form-select @error('ca_id') is-invalid @enderror"
+                value="{{ old('ca_id') }}" required autocomplete="ca_id">
 
-                @error('no_categoria')
+                        <option
+                            value=""> Selecione uma categoria..
+                        </option>
+
+                        <optgroup label="Categorias">
+                    @foreach ($categorias as $categoria)
+                        <option
+                            value="{{ $categoria['id'] }}"> {{ $categoria['ca_nome'] }}
+                        </option>
+                    @endforeach
+                        </optgroup>
+                </select>
+
+                @error('ca_id')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                 </span>
@@ -57,12 +76,14 @@
 
         <div class="mb-3">
             <label for="no_data" class="form-label">Data da notícia</label>
-            <input name="no_data" type="date" class="form-control @error('no_data') is-invalid @enderror" id="no_data"
-                placeholder="Categoria da notícia">
+            <input id="no_data" type="date"
+                class="form-control @error('no_data') is-invalid @enderror"
+                name="no_data" value="{{ old('no_data') }}" required autocomplete="no_data" autofocus
+                max="{{ now()->toDateString('d-m-Y') }}">
 
                 @error('no_data')
                 <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
+                <strong>{{ $message }}</strong>
                 </span>
                 @enderror
         </div>
