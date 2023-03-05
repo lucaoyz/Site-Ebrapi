@@ -129,23 +129,14 @@
     <!-- End Recent news Posts Section -->
 
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
+    <!-- ======= Image Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="zoom-in">
 
-        <div class="row" data-aos="zoom-out">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
-          </div>
+
         </div>
-
-      </div>
     </section>
-    <!-- End Cta Section -->
+    <!-- End Image Section -->
 
 
     <!-- ======= Services Start ======= -->
@@ -363,26 +354,27 @@
     <!-- Product End -->
 
 
-    <!-- ======= Partners ======= -->
-    <section class="partners">
-        <div class="container-xxl wow fadeInUp" data-wow-delay="0.1s">
-            <!--<div class="container">
-                <div class="owl-carousel vendor-carousel">
-                    <img src="{{asset('img/partners/logo-biocontrole.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-aminoagro.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-koppert.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-bayer.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-monsanto.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-semeali.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-nutrien.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-fmc.png')}}" alt="">
-                    <img src="{{asset('img/partners/logo-yara.png')}}" alt="">
-                    <img src="{{asset('img/partners/.png')}}" alt="">
-                </div>
-            </div>-->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
+          </div>
         </div>
+
+      </div>
     </section>
+    <!-- End Cta Section -->
+
+
+    <!-- ======= Partners ======= -->
+
     <!-- End Partners -->
 
 
