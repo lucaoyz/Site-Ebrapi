@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('foto_noticias', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('no_id')->nullable()->constrained('noticias');
             $table->string('fn_ordem')->nullable();
             $table->string('fn_imagem')->nullable();
             $table->timestamps();

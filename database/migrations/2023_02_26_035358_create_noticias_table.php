@@ -15,11 +15,10 @@ return new class extends Migration
     {
         Schema::create('noticias', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('fn_id')->nullable()->constrained('foto_noticias');
+            $table->foreignId('ca_id')->nullable()->constrained('categorias');
             $table->string('no_titulo')->nullable();
             $table->string('no_corpo')->nullable();
-            $table->string('no_categoria')->nullable();
-            $table->date('no_data')->nullable();
+            $table->date('no_data');
             $table->timestamps();
         });
     }

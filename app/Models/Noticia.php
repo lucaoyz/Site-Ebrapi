@@ -10,19 +10,24 @@ class Noticia extends Model
     use HasFactory;
 
     protected $fillable = [
-        'fn_id',
+        'ca_id',
         'no_titulo',
         'no_corpo',
-        'no_categoria',
+        'no_data',
     ];
 
     protected $dates = [
         'no_data',
     ];
 
-    public function fotoNoticiaId()
-    {
-        return $this->belongsTo(FotoNoticia::class, 'fn_id', 'id');
+    public function NoticiaParaFotoNoticia() {
+        return $this->hasOne(FotoNoticia::class, 'no_id', 'id');
     }
+
+    public function categoriaId()
+    {
+        return $this->belongsTo(Categoria::class, 'ca_id', 'id');
+    }
+
 
 }

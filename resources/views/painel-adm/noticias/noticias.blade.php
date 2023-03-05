@@ -2,6 +2,11 @@
 
 @section('content')
 <div>
+    @if(session('success'))
+   <div class="alert alert-success text-white">
+      {{ session('success') }}
+   </div>
+ @endif
     <div class="row">
         <div class="col-12">
             <div class="card mb-4 mx-4">
@@ -43,9 +48,10 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach ($noticias as $noticia)
                                 <tr>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">1</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$noticia->id}}</p>
                                     </td>
                                     <td>
                                         <div>
@@ -53,16 +59,16 @@
                                         </div>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">Titulo</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$noticia->no_titulo}}</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">Clique aqui para visualizar o corpo da notícia</p>
+                                        <a href="" class="text-xs font-weight-bold mb-0" data-bs-toggle="modal" data-bs-target="#corpoNoticia{{$noticia->id}}">Clique aqui para visualizar o corpo da notícia</a>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">Categoria</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$noticia->ca_nome}}</p>
                                     </td>
                                     <td class="text-center">
-                                        <span class="text-secondary text-xs font-weight-bold">14/06/2005</span>
+                                        <span class="text-secondary text-xs font-weight-bold">{{$noticia->no_data->format('d/m/Y')}}</span>
                                     </td>
                                     <td class="text-center">
                                         <a href="#" class="mx-3" data-bs-toggle="tooltip" data-bs-original-title="Editar">
@@ -73,13 +79,22 @@
                                         </span>
                                     </td>
                                 </tr>
+                                @endforeach
                             </tbody>
                         </table>
+                    <!-- Paginação com e sem filtros -->
+                    @if (isset($filters))
+                        {{ $noticias->appends($filters)->links() }}
+                    @else
+                        {{ $noticias->links() }}
+                    @endif
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@include('painel-adm.noticias.modals.modalsNoticias')
 
 @endsection
