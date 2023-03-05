@@ -2,6 +2,11 @@
 
 @section('content')
 <div>
+    @if(session('success'))
+   <div class="alert alert-success text-white">
+      {{ session('success') }}
+   </div>
+ @endif
     <div class="row">
         <div class="col-12">
             <div class="card mb-4 mx-4">

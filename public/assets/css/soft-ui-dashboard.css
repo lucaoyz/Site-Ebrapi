@@ -36,3 +36,7 @@
 .alert-success{
     background-image:linear-gradient(310deg,#84dc14,#17ad37)
 }
+
+.hide{
+    display:none!important
+}
