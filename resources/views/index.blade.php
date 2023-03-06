@@ -22,121 +22,113 @@
 
 
     <!-- ======= Recent News Posts ======= -->
-    <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
+    <section>
+        <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
 
-        <div class="section-header">
-                <h1>News</h1>
-        </div>
-
-        <div class="row gy-5">
-
-            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="post-item position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                    <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
-                    <span class="post-date">December 12</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                    <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
-                    <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                    </div>
-
-                </div>
+            <div class="section-header">
+                    <h1>News</h1>
             </div>
 
-            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="post-item position-relative h-100">
+            <div class="row gy-5">
 
-                    <div class="post-img position-relative overflow-hidden">
-                    <img src="{{asset('img/news/news-2.jpg')}}" class="img-fluid" alt="">
-                    <span class="post-date">July 17</span>
-                    </div>
+                <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="post-item position-relative h-100">
 
-                    <div class="post-content d-flex flex-column">
-
-                    <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
-                    <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                        <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
+                        <span class="post-date">December 12</span>
                         </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+
+                        <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                            </div>
                         </div>
+
+                        <hr>
+
+                        <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                        </div>
+
                     </div>
-
-                    <hr>
-
-                    <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                    </div>
-
                 </div>
-            </div>
 
-            <div class="col-xl-4 col-md-6">
-                <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="post-item position-relative h-100">
 
-                    <div class="post-img position-relative overflow-hidden">
-                    <img src="{{asset('img/news/news-3.jpg')}}" class="img-fluid" alt="">
-                    <span class="post-date">September 05</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                    <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-                    <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                        <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('img/news/news-2.jpg')}}" class="img-fluid" alt="">
+                        <span class="post-date">July 17</span>
                         </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                        <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+
+                        <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                            </div>
                         </div>
+
+                        <hr>
+
+                        <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                        </div>
+
                     </div>
-
-                    <hr>
-
-                    <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
-
-                    </div>
-
                 </div>
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+                        <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('img/news/news-3.jpg')}}" class="img-fluid" alt="">
+                        <span class="post-date">September 05</span>
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                            <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="news-details.html" class="readmore stretched-link"><span>Saiba mais</span></a>
+
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
-
-        </div>
-
-    </div>
-    <!-- End Recent news Posts Section -->
-
-
-    <!-- ======= Image Section ======= -->
-    <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-
 
         </div>
     </section>
-    <!-- End Image Section -->
+    <!-- End Recent news Posts Section -->
 
 
     <!-- ======= Services Start ======= -->
@@ -151,11 +143,11 @@
                         <div class="service-img">
                             <img class="img-fluid" src="img/services/service-1.jpg" alt="">
                         </div>
-                        <div class="service-text p-5 pt-0">
+                        <div class="service-text p-5">
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 21px;">Reflorestamento: Recomposição de mata-ciliar</h4>
+                            <h5 class="mb-3" style="font-size: 22px;">Reflorestamento: Recomposição de mata-ciliar</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                         </div>
                     </div>
@@ -165,11 +157,11 @@
                         <div class="service-img">
                             <img class="img-fluid" src="img/services/service-2.jpg" alt="">
                         </div>
-                        <div class="service-text p-5 pt-0">
+                        <div class="service-text p-5">
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 21px;">Acompanhamento Agronômico</h5>
+                            <h5 class="mb-3" style="font-size: 22px;">Acompanhamento Agronômico</h5>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                         </div>
                     </div>
@@ -356,25 +348,33 @@
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
-      <div class="container">
+        <div class="container">
 
-        <div class="row" data-aos="zoom-out">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
-          </div>
+            <div class="row" data-aos="zoom-out">
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h3>COMPRE AGORA</h3>
+                    <p style="font-size: 19px;">Converse conosco via whatsapp e adquira seu produto diretamente com nossa equipe.</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
+                </div>
+            </div>
+
         </div>
-
-      </div>
     </section>
     <!-- End Cta Section -->
 
 
     <!-- ======= Partners ======= -->
+    <section class="partners">
+        <div class="container py-5-5">
 
+            <div class="section-header">
+                <h1>Nossos Parceiros</h1>
+            </div>
+
+        </div>
+    </section>
     <!-- End Partners -->
 
 
@@ -384,31 +384,14 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="mb-4">Política de Privacidade</h1>
-                    <p class="mb-4" style="font-size: 19px;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4" style="font-size: 19px;">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Clita erat ipsum et lorem et sit</p>
-                    <a class="btn btn-secondary rounded-pill py-3 px-5 mt-3" href="">Explore More</a>
+                    <a class="btn btn-secondary py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="rounded overflow-hidden">
-                        <div class="row g-0">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="text-center bg-secondary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/award.png" alt="">
-                                    <h1 class="display-6" data-toggle="counter-up">183</h1>
-                                    <span class="fs-5 fw-semi-bold text-primary">Award Winning</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="text-center bg-secondary py-5 px-4">
-                                    <img class="img-fluid mb-4" src="img/animal.png" alt="">
-                                    <h1 class="display-6" data-toggle="counter-up">2619</h1>
-                                    <span class="fs-5 fw-semi-bold text-primary">Total Animals</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="{{asset('img/banner-3.jpg')}}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

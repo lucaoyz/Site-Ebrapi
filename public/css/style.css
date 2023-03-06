@@ -119,6 +119,7 @@
 
 .recent-news-posts .post-item .post-content {
   padding: 30px;
+  background-color: #fff;
 }
 
 .recent-news-posts .post-item .post-title {
@@ -1046,29 +1047,6 @@
 .partners {
   background-color: #F7F7F7;
   padding: 50px 0;
-}
-
-
-
-/*--------------------------------------------------------------
-# Image
---------------------------------------------------------------*/
-.testimonials {
-  padding: 80px 0;
-  background: url("../img/banner.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.testimonials::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
 }
 
 

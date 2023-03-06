@@ -71,30 +71,11 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h1 class="mb-4">Política de Sustentabilidade</h1>
                         <p class="mb-4" style="font-size: 19px;">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Justo magna erat amet</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Clita erat ipsum et lorem et sit</p>
-                        <a class="btn btn-secondary py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
+                        <p lass="mb-4" style="font-size: 19px;">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
+                        <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">Saiba Mais</a>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="rounded overflow-hidden">
-                            <div class="row g-0">
-                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="text-center bg-secondary py-5 px-4">
-                                        <img class="img-fluid mb-4" src="img/award.png" alt="">
-                                        <h1 class="display-6" data-toggle="counter-up">183</h1>
-                                        <span class="fs-5 fw-semi-bold text-primary">Award Winning</span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="text-center bg-secondary py-5 px-4">
-                                        <img class="img-fluid mb-4" src="img/animal.png" alt="">
-                                        <h1 class="display-6" data-toggle="counter-up">2619</h1>
-                                        <span class="fs-5 fw-semi-bold text-primary">Total Animals</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{asset('img/banner-3.jpg')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
