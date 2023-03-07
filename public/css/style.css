@@ -709,7 +709,7 @@
 
 .cta h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 700;
 }
 
@@ -718,7 +718,7 @@
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham-Medium", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -1044,12 +1044,29 @@
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
-.partners {
-  background-color: #F7F7F7;
-  padding: 50px 0;
+.owl-partners {
+    padding: 0 45px;
+    height: 95px;
+    text-align: center;
 }
 
+.owl-partners .logo-partners {
+    height: 95px;
+    display: table;
+    width: 100%;
+}
 
+.owl-partners .item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.area-partners {
+    background-color: #FFF;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

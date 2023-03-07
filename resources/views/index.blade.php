@@ -356,7 +356,7 @@
                     <p style="font-size: 19px;">Converse conosco via whatsapp e adquira seu produto diretamente com nossa equipe.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="btn btn-contact align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
+                    <a class="btn cta-btn align-middle py-2 px-4" href="#recent-news-posts">Saiba mais</a>
                 </div>
             </div>
 
@@ -366,12 +366,14 @@
 
 
     <!-- ======= Partners ======= -->
-    <section class="partners">
+    <section class="area-partners">
         <div class="container py-5-5">
 
             <div class="section-header">
                 <h1>Nossos Parceiros</h1>
             </div>
+
+
 
         </div>
     </section>

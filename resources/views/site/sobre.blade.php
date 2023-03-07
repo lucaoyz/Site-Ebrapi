@@ -46,10 +46,20 @@
                         {{ $sobre->sob_sobre }}
                         @endif
                     </p>
-                    <div class="row g-5 pt-2 mb-5">
+                    <div class="row g-5 pt-2">
+                        <div class="col-sm-6">
+                            <h5 class="mb-3">O que fazemos</h5>
+                            <p class="mb-4">@if ($sobre === null)
+                                @elseif ($sobre->count() === 1)
+                                {{ $sobre->sob_missao }}
+                                @endif
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row g-5 pt-2">
                         <div class="col-sm-6">
                             <h5 class="mb-3">Missão</h5>
-                            <p class="mb-4" style="font-size: 19px;">@if ($sobre === null)
+                            <p class="mb-4">@if ($sobre === null)
                                 @elseif ($sobre->count() === 1)
                                 {{ $sobre->sob_missao }}
                                 @endif
@@ -63,19 +73,39 @@
     <!-- About End -->
 
 
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container">
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h3>Nosso Primeiro Produto</h3>
+                    <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
+                    <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="{{asset('img/banner.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Cta Section -->
+
+
     <!-- ======= Politic Start ======= -->
     <section>
         <div class="container-xxl py-5-5 alt-services">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <h1 class="mb-4">Política de Sustentabilidade</h1>
-                        <p class="mb-4" style="font-size: 19px;">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
-                        <p lass="mb-4" style="font-size: 19px;">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
-                        <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">Saiba Mais</a>
+                        <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
+                        <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
+                        <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">PDF</a>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{asset('img/banner-3.jpg')}}" alt="" class="img-fluid">
+                        <img src="{{asset('img/logo-rodape-inpev.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
