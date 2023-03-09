@@ -2,6 +2,16 @@
 
 @section('content')
 <div>
+    @if(session('success'))
+   <div class="alert alert-success text-white">
+      {{ session('success') }}
+   </div>
+ @endif
+ @if(session('error'))
+   <div class="alert alert-danger text-white">
+      {{ session('error') }}
+   </div>
+ @endif
     <div class="row">
         <div class="col-12">
                         <!-- Filtro -->

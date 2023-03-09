@@ -7,6 +7,11 @@
       {{ session('success') }}
    </div>
  @endif
+ @if(session('error'))
+ <div class="alert alert-danger text-white">
+    {{ session('error') }}
+ </div>
+@endif
     <div class="row">
         <div class="col-12">
             <div class="card mb-4 mx-4">
@@ -74,7 +79,7 @@
                                         <a href="#" class="mx-3" data-bs-toggle="modal" data-bs-target="#editarNoticiaModal{{$noticia->id}}">
                                             <i class="fa fa-pencil text-secondary"></i>
                                         </a>
-                                        <a data-bs-toggle="modal" data-bs-target="#">
+                                        <a data-bs-toggle="modal" data-bs-target="#excluirNoticiaModal{{$noticia->id}}">
                                             <i class="cursor-pointer fas fa-trash text-secondary"></i>
                                         </a>
                                     </td>

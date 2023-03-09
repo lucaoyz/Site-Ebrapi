@@ -70,6 +70,7 @@ Route::group(['middleware' => 'auth'], function () {
             Route::get('/editar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'editarNoticias'])->name('noticias.editarNoticias');
             Route::put('/atualizar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarNoticias'])->name('noticias.atualizarNoticias');
             Route::delete('/delete/{noticia}', [App\Http\Controllers\NoticiaController::class, 'deleteNoticias'])->name('noticias.deleteNoticias');
+            Route::delete('/limpar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'limparFotoNoticias'])->name('noticias.limparFotoNoticias');
 
             Route::get('/{noticia}/imagens/', [App\Http\Controllers\NoticiaController::class, 'fotoNoticiaIndex'])->name('noticias.fotoNoticia');
             Route::get('/{noticia}/imagens/create/', [App\Http\Controllers\NoticiaController::class, 'createFotoNoticias'])->name('noticias.create.fotoNoticias');

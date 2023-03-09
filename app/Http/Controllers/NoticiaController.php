@@ -121,6 +121,32 @@ class NoticiaController extends Controller
 
     }
 
+    public function deleteNoticias(Noticia $noticia)
+    {
+        $existeFotoNoticia = FotoNoticia::where('no_id', '=', $noticia->id)->first();
+        //dd($existeFotoNoticia);
+        if(empty($existeFotoNoticia)){
+            $noticia->delete();
+            return redirect()->route('noticias')
+            ->with('success','Noticia excluida com sucesso!');
+        } else {
+            return redirect()->route('noticias')
+            ->with('error','Você precisa limpar as imagens da notícia antes de exclui-la!');
+        }
+
+    }
+
+    public function limparFotoNoticias(Noticia $noticia)
+    {
+        $FotoNoticia = FotoNoticia::where('no_id', '=', $noticia->id)->get();
+        //dd($existeFotoNoticia);
+
+            $FotoNoticia->each->delete();
+            return redirect()->route('noticias')
+            ->with('success','Fotos limpas com sucesso!');
+
+    }
+
     public function noticiasSite(Contato $contato)
     {
             $contato = Contato::all()->first();

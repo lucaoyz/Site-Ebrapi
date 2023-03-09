@@ -151,3 +151,38 @@
     </div>
   </div>
   @endforeach
+
+   <!-- Modal de excluir categoria -->
+   @foreach($noticias as $noticia)
+   <div class="modal fade" id="excluirNoticiaModal{{$noticia->id}}" tabindex="-1" role="dialog" aria-labelledby="excluirNoticiaModal{{$noticia->id}}" aria-hidden="true">
+       <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title font-weight-normal" id="excluirNoticiaModal{{$noticia->id}}">Excluir Notícia</h5>
+             <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+
+               <p>Deseja excluir essa notícia?</p>
+               <form action="{{ route('noticias.limparFotoNoticias',$noticia->id) }}" method="POST">
+
+                   @csrf
+                   @method('DELETE')
+
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Cancelar</button>
+             <button type="submit" class="btn btn-danger">Limpar imagens da notícia</button>
+           </form>
+           <form action="{{route('noticias.deleteNoticias', $noticia->id)}}" method="post">
+            @csrf
+            @method('DELETE')
+            <button type="submit" class="btn btn-danger">Excluir notícia</button>
+            </form>
+           </div>
+         </div>
+       </div>
+     </div>
+   @endforeach

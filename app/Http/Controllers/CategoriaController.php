@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Categoria;
+use App\Models\Noticia;
 
 class CategoriaController extends Controller
 {
@@ -90,10 +91,16 @@ class CategoriaController extends Controller
      */
     public function deleteCategoria(Categoria $categoria)
     {
+        $noticiaUsa = Noticia::where('ca_id' , '=', $categoria->id)->first();
+        //dd($noticiaUsa);
+        if(empty($noticiaUsa)){
         $categoria->delete();
-
         return redirect()->route('categoria')
-                        ->with('success','Categoria excluida com sucesso!');
+        ->with('success','Categoria excluida com sucesso!');
+        } else {
+            return redirect()->route('categoria')
+            ->with('error','Categoria sendo usada por outras notícias, remova as notícias para exclui-la!');
+        }
     }
 
     public function searchCategoria(Request $request)

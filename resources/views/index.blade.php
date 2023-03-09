@@ -58,9 +58,10 @@
                     </div>
                 </div>
                 @endforeach
-
+            </div><br>
+            <div style="display:flex; justify-content:center;">
+            <a href="" class="btn btn-primary">Ver outras notícias</a>
             </div>
-
         </div>
     </section>
     <!-- End Recent news Posts Section -->
