@@ -12,7 +12,7 @@ class ServicosController extends Controller
      *
      * @return \Illuminate\Http\Response
     */
-    public function indexSite(Contato $contato)
+    public function servicosSite(Contato $contato)
     {
             $contato = Contato::all()->first();
 
