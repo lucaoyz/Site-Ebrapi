@@ -21,8 +21,11 @@ class NoticiaController extends Controller
     {
         $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
         ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(5);
+
+        $categorias = Categoria::latest()->paginate(5);
             return view('painel-adm.noticias.noticias',[
                 'noticias' => $noticias,
+                'categorias' => $categorias,
             ]);
 
     }
@@ -92,6 +95,29 @@ class NoticiaController extends Controller
 
             return redirect()->route('noticias.create.fotoNoticias', $noticia->id)
                             ->with('success','Noticia criada com sucesso!');
+
+    }
+
+    public function atualizarNoticias(Request $request, Noticia $noticia)
+    {
+
+        $request->validate([
+            'no_titulo' => 'required',
+            'no_corpo' => 'required',
+            'ca_id' => 'required',
+            'no_data' => 'required|date',
+        ]);
+
+        $noticia->id = $request->id;
+        $noticia->no_titulo = $request->no_titulo;
+        $noticia->no_corpo = $request->no_corpo;
+        $noticia->ca_id = $request->ca_id;
+        $noticia->no_data = $request->no_data;
+
+        $noticia->save();
+
+            return redirect()->route('noticias')
+                        ->with('success', 'Notícia atualizada com sucesso!');
 
     }
 

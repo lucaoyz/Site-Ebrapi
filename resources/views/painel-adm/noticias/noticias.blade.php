@@ -71,12 +71,12 @@
                                         <span class="text-secondary text-xs font-weight-bold">{{$noticia->no_data->format('d/m/Y')}}</span>
                                     </td>
                                     <td class="text-center">
-                                        <a href="#" class="mx-3" data-bs-toggle="tooltip" data-bs-original-title="Editar">
+                                        <a href="#" class="mx-3" data-bs-toggle="modal" data-bs-target="#editarNoticiaModal{{$noticia->id}}">
                                             <i class="fa fa-pencil text-secondary"></i>
                                         </a>
-                                        <span>
+                                        <a data-bs-toggle="modal" data-bs-target="#">
                                             <i class="cursor-pointer fas fa-trash text-secondary"></i>
-                                        </span>
+                                        </a>
                                     </td>
                                 </tr>
                                 @endforeach

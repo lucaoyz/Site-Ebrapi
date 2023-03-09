@@ -21,3 +21,133 @@
     </div>
   </div>
 @endforeach
+
+<!-- editar categoria -->
+@foreach($noticias as $noticia)
+@if ($errors->any())
+<div class="alert alert-danger">
+    <strong>Whoops!</strong> Pode haver problemas em seu formulário!<br><br>
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
+<div class="modal fade" id="editarNoticiaModal{{$noticia->id}}" tabindex="-1" role="dialog" aria-labelledby="editarNoticiaModal{{$noticia->id}}" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 700px">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-weight-normal" id="editarNoticiaModal{{$noticia->id}}">Editar</h5>
+          <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="{{ route('noticias.atualizarNoticias',$noticia->id) }}" method="POST">
+                @csrf
+                @method('PUT')
+
+
+                    <div class="row mb-3">
+                        <label for="id" class="col-md-4 col-form-label text-md-end">{{ __('ID') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="id" type="text" {{ $noticia->id ? 'readonly' : '' }}
+                            class="form-control @error('id') is-invalid @enderror"
+                            name="id" value="{{ $noticia->id }}" required autocomplete="id" autofocus>
+
+                            @error('id')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="no_titulo" class="col-md-4 col-form-label text-md-end">{{ __('Titulo da notícia') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="no_titulo" type="text"
+                             class="form-control @error('no_titulo') is-invalid @enderror"
+                              name="no_titulo" value="{{ $noticia->no_titulo }}" required autocomplete="no_titulo" autofocus>
+
+                            @error('no_titulo')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="no_corpo" class="col-md-4 col-form-label text-md-end">{{ __('Corpo da notícia') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="no_corpo" type="text"
+                             class="form-control @error('no_corpo') is-invalid @enderror"
+                              name="no_corpo" value="{{ $noticia->no_corpo }}" required autocomplete="no_corpo" autofocus>
+
+                            @error('no_corpo')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="ca_id" class="col-md-4 col-form-label text-md-end">{{ __('Categoria da notícia') }}</label>
+
+                        <div class="col-md-6">
+                            <select name="ca_id" id="per_id"
+                            class="form-select @error('ca_id') is-invalid @enderror"
+                            value="{{ old('ca_id') }}" required autocomplete="ca_id">
+
+                                @foreach ($categorias as $categoria)
+                                    <option
+                                        value="{{ $categoria['id'] }}"" @if($categoria->id == $noticia->ca_id) selected @endif"> {{ $categoria['ca_nome'] }}
+                                    </option>
+                                @endforeach
+
+                            </select>
+
+                            @error('ca_id')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="no_data" class="col-md-4 col-form-label text-md-end">{{ __('Data da notícia') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="no_data" type="date"
+                            class="form-control @error('no_data') is-invalid @enderror"
+                            name="no_data" value="{{ $noticia->no_data->format('Y-m-d') }}" required autocomplete="no_data" autofocus
+                            max="{{ now()->toDateString('d-m-Y') }}">
+
+                            @error('no_data')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+        </div>
+        <div class="modal-footer">
+            <div class="row mb-0">
+                    <button type="submit" class="btn btn-primary" style="background-image: linear-gradient(310deg,#008352,#008352);">
+                        {{ __('Atualizar') }}
+                    </button>
+            </div>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+  @endforeach
