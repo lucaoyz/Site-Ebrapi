@@ -128,7 +128,7 @@ class NoticiaController extends Controller
             //dd($contato);
 
             return view('site.noticias',[
-                'contato' => $contato
+                'contato' => $contato,
             ]);
 
     }
