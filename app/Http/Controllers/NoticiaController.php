@@ -63,21 +63,15 @@ class NoticiaController extends Controller
             foreach($request->file('fn_imagem') as $image)
             {
                 $name=$image->getClientOriginalName();
-                $image->move(public_path().'assets/img/fotosNoticias/', $name);
-                $data[] = $name;
+                $image->move(public_path().'/assets/img/fotosNoticias/', $name);
+
+                $fotoNoticia= new FotoNoticia();
+                $fotoNoticia->fn_imagem = $name;
+                $fotoNoticia->no_id = $noticia->id;
+
+               $fotoNoticia->save();
             }
          }
-
-         $jsonstr = $data;
-            $ar = json_decode($jsonstr,true); # json string to Array
-            $obj = json_decode($jsonstr); # json string to Object
-            var_dump($ar,$obj);
-
-         $fotoNoticia= new FotoNoticia();
-         $fotoNoticia->fn_imagem = json_decode($data);
-         $fotoNoticia->no_id = $noticia->id;
-
-        $fotoNoticia->save();
 
         return redirect()->route('noticias')
         ->with('success', 'Suas imagens foram adicionadas com sucesso!');
