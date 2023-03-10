@@ -36,6 +36,7 @@
 
                     <div class="entry-meta">
                     <ul>
+                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>{{$noticia->no_autor}}</a></li>
                         <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time>{{$noticia->no_data->format('d/M/Y')}}</a></li>
                     </ul>
                     </div>

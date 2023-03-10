@@ -12,6 +12,7 @@ class Noticia extends Model
     protected $fillable = [
         'ca_id',
         'no_titulo',
+        'no_autor',
         'no_corpo',
         'no_img',
         'no_data',

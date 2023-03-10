@@ -43,6 +43,18 @@
         </div>
 
         <div class="mb-3">
+            <label for="no_autor" class="form-label">Autor ou Fonte</label>
+            <input name="no_autor" type="text" class="form-control @error('no_autor') is-invalid @enderror" id="no_autor"
+                placeholder="Digite o autor ou fonte da notícia..">
+
+                @error('no_autor')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+        </div>
+
+        <div class="mb-3">
             <label for="no_corpo" class="form-label">Corpo</label>
             <textarea name="no_corpo" id="no_corpo" rows="7" class="form-control @error('no_corpo') is-invalid @enderror"
             placeholder="Digite o corpo da notícia.."></textarea>

@@ -102,6 +102,7 @@ class NoticiaController extends Controller
     {
         $request->validate([
             'no_titulo' => 'required',
+            'no_autor' => 'required',
             'no_corpo' => 'required',
             'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
             'ca_id' => 'required',
@@ -151,6 +152,7 @@ class NoticiaController extends Controller
 
         $noticia->id = $request->id;
         $noticia->no_titulo = $request->no_titulo;
+        $noticia->no_autor = $request->no_autor;
         $noticia->no_corpo = $request->no_corpo;
         $noticia->ca_id = $request->ca_id;
         $noticia->no_data = $request->no_data;

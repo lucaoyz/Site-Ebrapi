@@ -39,6 +39,9 @@
                                         Titulo
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Autor ou fonte
+                                    </th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                         Corpo
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
@@ -68,6 +71,9 @@
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">{{$noticia->no_titulo}}</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <p class="text-xs font-weight-bold mb-0">{{$noticia->no_autor}}</p>
                                     </td>
                                     <td class="text-center">
                                         <a href="" class="text-xs font-weight-bold mb-0" data-bs-toggle="modal" data-bs-target="#corpoNoticia{{$noticia->id}}">Clique aqui para visualizar o corpo da notícia</a>

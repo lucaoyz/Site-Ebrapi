@@ -45,7 +45,8 @@
 
                         <div class="meta d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                            <i class="bi bi-folder2"></i> <span class="ps-2">{{$noticia->ca_nome}}</span>
+                            <i class="bi bi-folder2"></i><span class="ps-2">{{$noticia->ca_nome}}</span>&nbsp;
+                            <i class="bi bi-person"></i><span class="ps-2">{{$noticia->no_autor}}</span>
                             </div>
                         </div>
 
