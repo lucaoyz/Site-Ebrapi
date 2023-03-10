@@ -681,6 +681,15 @@
     background-size: cover;
 }
 
+.page-header-servicos {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    background: url(../img/banner-3.jpg) top right no-repeat;
+    background-position: center 55%;
+    background-size: cover;
+}
+
 .page-header-produtos {
     padding-top: 12rem;
     padding-bottom: 6rem;

@@ -61,7 +61,7 @@
                 @endforeach
             </div><br>
             <div style="display:flex; justify-content:center;">
-            <a href="" class="btn btn-primary">Ver outras notícias</a>
+            <a href="{{route('site.noticias')}}" class="btn btn-primary">Ver outras notícias</a>
             </div>
         </div>
     </section>
