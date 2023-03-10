@@ -256,10 +256,14 @@ class NoticiaController extends Controller
     {
             $contato = Contato::all()->first();
 
+            $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
+            ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(3);
+
             //dd($contato);
 
             return view('site.noticias',[
                 'contato' => $contato,
+                'noticias' => $noticias,
             ]);
 
     }

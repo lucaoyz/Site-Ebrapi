@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Contato;
 
 /*
 |--------------------------------------------------------------------------
@@ -131,5 +132,13 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/quemsomoseziquiel', function () {
 		return view('qrcode.index');
 	})->name('site.qrcode');
+
+    Route::fallback(function(){
+        $contato = Contato::all()->first();
+
+        return view('site.404',[
+            'contato' => $contato,
+        ]);
+    });
 
 require __DIR__.'/auth.php';

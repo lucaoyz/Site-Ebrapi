@@ -42,8 +42,11 @@ class IndexController extends Controller
      */
     public function erroSite()
     {
+        $contato = Contato::all()->first();
 
-            return view('site.404');
-    }
+        return view('site.404',[
+            'contato' => $contato,
+        ]);
+}
 
 }
