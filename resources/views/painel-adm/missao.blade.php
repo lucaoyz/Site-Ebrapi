@@ -50,7 +50,19 @@
                                         <label for="user-name" class="form-control-label">{{ __('Sobre nós') }}</label>
                                         <div class="@error('user.name')border border-danger rounded-3 @enderror">
                                             <textarea class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_sobre }}@endif"
-                                            type="text" placeholder="Digite o sobre aqui..." id="user-name" name="sob_sobre">{{ $sobre->sob_sobre }}</textarea>
+                                            type="text" placeholder="Digite o sobre aqui..." id="user-name" name="sob_sobre">@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_sobre }}@endif</textarea>
+                                                @error('name')
+                                                    <p class="text-danger text-xs mt-2">{{ $message }}</p>
+                                                @enderror
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user-name" class="form-control-label">{{ __('O que fazemos') }}</label>
+                                        <div class="@error('user.name')border border-danger rounded-3 @enderror">
+                                            <textarea class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_fazemos }}@endif"
+                                            type="text" placeholder="Digite o que fazemos aqui..." id="user-name" name="sob_fazemos">@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_fazemos }}@endif</textarea>
                                                 @error('name')
                                                     <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                                 @enderror
@@ -62,7 +74,7 @@
                                         <label for="user-name" class="form-control-label">{{ __('Missão') }}</label>
                                         <div class="@error('user.name')border border-danger rounded-3 @enderror">
                                             <textarea class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_missao }}@endif"
-                                            type="text" placeholder="Digite a missão aqui..." id="user-name" name="sob_missao">{{ $sobre->sob_missao }}</textarea>
+                                            type="text" placeholder="Digite a missão aqui..." id="user-name" name="sob_missao">@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_missao }}@endif</textarea>
                                                 @error('name')
                                                     <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                                 @enderror

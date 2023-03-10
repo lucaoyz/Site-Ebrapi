@@ -11,6 +11,7 @@ class sobre extends Model
 
     protected $fillable = [
         'sob_sobre',
+        'sob_fazemos',
         'sob_missao',
     ];
 

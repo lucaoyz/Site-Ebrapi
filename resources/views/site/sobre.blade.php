@@ -51,7 +51,7 @@
                             <h5 class="mb-3">O que fazemos</h5>
                             <p class="mb-4">@if ($sobre === null)
                                 @elseif ($sobre->count() === 1)
-                                {{ $sobre->sob_missao }}
+                                {{ $sobre->sob_fazemos }}
                                 @endif
                             </p>
                         </div>

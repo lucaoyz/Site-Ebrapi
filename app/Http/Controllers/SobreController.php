@@ -57,6 +57,7 @@ class SobreController extends Controller
         $request->validate([
             'id' => 'nullable',
             'sob_sobre' => 'nullable',
+            'sob_fazemos' => 'nullable',
             'sob_missao' => 'nullable',
         ]);
 
@@ -70,6 +71,7 @@ class SobreController extends Controller
             $sobre = Sobre::all()->first();
             $sobre->id = $sobre->id;
             $sobre->sob_sobre = $request->sob_sobre;
+            $sobre->sob_fazemos = $request->sob_fazemos;
             $sobre->sob_missao = $request->sob_missao;
 
             $sobre->update($request->all());
