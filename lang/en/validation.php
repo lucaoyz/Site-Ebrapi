@@ -43,7 +43,7 @@ return [
     'different' => 'The :attribute and :other must be different.',
     'digits' => 'The :attribute must be :digits digits.',
     'digits_between' => 'The :attribute must be between :min and :max digits.',
-    'dimensions' => 'The :attribute has invalid image dimensions.',
+    'dimensions' => 'A imagem precisa conter :min_width px de largura e :min_height px de altura',
     'distinct' => 'The :attribute field has a duplicate value.',
     'doesnt_end_with' => 'The :attribute may not end with one of the following: :values.',
     'doesnt_start_with' => 'The :attribute may not start with one of the following: :values.',
@@ -146,6 +146,8 @@ return [
     'url' => 'The :attribute must be a valid URL.',
     'ulid' => 'The :attribute must be a valid ULID.',
     'uuid' => 'The :attribute must be a valid UUID.',
+    'min_width' => 'O campo :attribute precisa conter :min_width px de largura',
+    'min_height' => 'O campo :attribute precisa conter :min_width px de altura',
 
     /*
     |--------------------------------------------------------------------------

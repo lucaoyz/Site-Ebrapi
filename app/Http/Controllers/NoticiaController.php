@@ -22,7 +22,7 @@ class NoticiaController extends Controller
     public function indexPainelAdm( )
     {
         $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
-        ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(5);
+        ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(4);
 
         $categorias = Categoria::latest()->paginate(5);
             return view('painel-adm.noticias.noticias',[
@@ -74,7 +74,7 @@ class NoticiaController extends Controller
 
         $this->validate($request, [
             'fn_imagem' => 'required',
-            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768'
         ]);
 
         if($request->hasfile('fn_imagem'))
@@ -103,7 +103,7 @@ class NoticiaController extends Controller
         $request->validate([
             'no_titulo' => 'required',
             'no_corpo' => 'required',
-            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
@@ -132,7 +132,7 @@ class NoticiaController extends Controller
         $request->validate([
             'no_titulo' => 'required',
             'no_corpo' => 'required',
-            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
@@ -165,7 +165,7 @@ class NoticiaController extends Controller
     public function atualizarFotoNoticias(Request $request, Noticia $noticia, FotoNoticia $FotoNoticia)
     {
         $request->validate([
-            'fn_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'fn_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
         ]);
 
         if($request->hasFile('fn_imagem')){
@@ -240,7 +240,7 @@ class NoticiaController extends Controller
             $fotoNoticias = FotoNoticia::join('noticias', 'noticias.id', '=', 'foto_noticias.no_id')
             ->select('noticias.*', 'foto_noticias.*')
             ->where('no_id', '=', $noticia->id)->orderBy('foto_noticias.id', 'asc')->paginate(5);
-            //dd($contato); 
+            //dd($contato);
 
             return view('site.noticia',[
                 'contato' => $contato,
