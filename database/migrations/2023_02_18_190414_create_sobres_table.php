@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('sobres', function (Blueprint $table) {
             $table->id();
-            $table->string('sob_sobre')->nullable();
-            $table->string('sob_missao')->nullable();
+            $table->text('sob_sobre', 1000000)->nullable();
+            $table->text('sob_missao', 1000000)->nullable();
             $table->timestamps();
         });
     }

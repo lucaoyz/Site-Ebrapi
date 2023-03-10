@@ -124,6 +124,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/time', [App\Http\Controllers\TimeController::class, 'timeSite'])->name('site.time');
 
+    Route::get('/noticia/{noticia}', [App\Http\Controllers\NoticiaController::class, 'noticiaSite'])->name('site.noticia');
+
     Route::get('/noticias', [App\Http\Controllers\NoticiaController::class, 'noticiasSite'])->name('site.noticias');
 
     Route::get('/quemsomoseziquiel', function () {

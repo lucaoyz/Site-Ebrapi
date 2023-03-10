@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('contatos', function (Blueprint $table) {
             $table->id()->nullable();
-            $table->string('con_endereco')->nullable();
+            $table->string('con_endereco', 500)->nullable();
             $table->string('con_telefone')->nullable();
             $table->string('con_email')->nullable();
             $table->timestamps();

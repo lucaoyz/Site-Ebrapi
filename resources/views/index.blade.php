@@ -51,7 +51,7 @@
 
                         <hr>
 
-                        <a href="{{route('site.noticias')}}" class="readmore stretched-link"><span>Saiba mais</span></a>
+                        <a href="{{route('site.noticia', $noticia->id)}}" class="readmore stretched-link"><span>Saiba mais</span></a>
 
                         </div>
 

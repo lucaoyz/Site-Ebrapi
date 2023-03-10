@@ -49,8 +49,8 @@
                                     <div class="form-group">
                                         <label for="user-name" class="form-control-label">{{ __('Sobre nós') }}</label>
                                         <div class="@error('user.name')border border-danger rounded-3 @enderror">
-                                            <input class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_sobre }}@endif"
-                                            type="text" placeholder="Digite o sobre aqui..." id="user-name" name="sob_sobre">
+                                            <textarea class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_sobre }}@endif"
+                                            type="text" placeholder="Digite o sobre aqui..." id="user-name" name="sob_sobre">{{ $sobre->sob_sobre }}</textarea>
                                                 @error('name')
                                                     <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                                 @enderror
@@ -61,8 +61,8 @@
                                     <div class="form-group">
                                         <label for="user-name" class="form-control-label">{{ __('Missão') }}</label>
                                         <div class="@error('user.name')border border-danger rounded-3 @enderror">
-                                            <input class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_missao }}@endif"
-                                            type="text" placeholder="Digite a missão aqui..." id="user-name" name="sob_missao">
+                                            <textarea class="form-control" value="@if ($sobre === null)@elseif($sobre->count() === 1){{ $sobre->sob_missao }}@endif"
+                                            type="text" placeholder="Digite a missão aqui..." id="user-name" name="sob_missao">{{ $sobre->sob_missao }}</textarea>
                                                 @error('name')
                                                     <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                                 @enderror

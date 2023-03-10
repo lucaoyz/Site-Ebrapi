@@ -85,9 +85,9 @@
                         <label for="no_corpo" class="col-md-4 col-form-label text-md-end">{{ __('Corpo da notícia') }}</label>
 
                         <div class="col-md-6">
-                            <input id="no_corpo" type="text"
+                            <textarea id="no_corpo" type="text"
                              class="form-control @error('no_corpo') is-invalid @enderror"
-                              name="no_corpo" value="{{ $noticia->no_corpo }}" required autocomplete="no_corpo" autofocus>
+                              name="no_corpo" value="{{ $noticia->no_corpo }}" required autocomplete="no_corpo" autofocus>{{$noticia->no_corpo}}</textarea>
 
                             @error('no_corpo')
                                 <span class="invalid-feedback" role="alert">

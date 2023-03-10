@@ -233,6 +233,23 @@ class NoticiaController extends Controller
 
     }
 
+    public function noticiaSite(Contato $contato, Noticia $noticia)
+    {
+            $contato = Contato::all()->first();
+
+            $fotoNoticias = FotoNoticia::join('noticias', 'noticias.id', '=', 'foto_noticias.no_id')
+            ->select('noticias.*', 'foto_noticias.*')
+            ->where('no_id', '=', $noticia->id)->orderBy('foto_noticias.id', 'asc')->paginate(5);
+            //dd($contato); 
+
+            return view('site.noticia',[
+                'contato' => $contato,
+                'noticia' => $noticia,
+                'fotoNoticias' => $fotoNoticias,
+            ]);
+
+    }
+
     public function noticiasSite(Contato $contato)
     {
             $contato = Contato::all()->first();
