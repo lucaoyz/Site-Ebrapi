@@ -3,14 +3,14 @@
 @section('content')
 
     <!-- ======= Home Section ======= -->
-    <section id="home">
+    <section class="home">
 
         <div class="carousel-caption">
             <div class="container">
                 <div class="row justify-content-start">
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
-                        <img style="width: 740px;" src="{{asset('img/Logo-Agroinsumos.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
+                        <img class="logo" src="{{asset('img/Logo-Agroinsumos.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
                         <a class="btn btn-contact py-2 px-4" href="#recent-news-posts">Saiba mais</a>
                     </div>
                 </div>

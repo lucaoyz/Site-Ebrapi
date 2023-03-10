@@ -25,7 +25,7 @@
                     <h1 class="display-1">404</h1>
                     <h1 class="mb-4">Página não encontrada</h1>
                     <p class="mb-4">Me desculpe, a página em que você estava tentando acessar não existe!</p>
-                    <a class="btn btn-secondary rounded-pill py-3 px-5" href="{{route('site.index')}}">Voltar para página inicial</a>
+                    <a class="btn btn-secondary py-2 px-4 mt-3" href="{{route('site.index')}}">Voltar para página inicial</a>
                 </div>
             </div>
         </div>

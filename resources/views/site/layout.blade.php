@@ -163,11 +163,13 @@
     <div class="container-fluid bg-secondary text-white copyright py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     © <script>
                         document.write(new Date().getFullYear())
-                      </script>, <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold text-white" target="_blank">
-                      Feito por <i class="fa fa-bolt"></i> EAZY</a>
+                    </script> <a>Ebrapi Agroinsumos</a>. Todos os direitos reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://lucaoyz.github.io/Site-Eazy/" class="font-weight-bold text-white" target="_blank">Feito por <i class="fa fa-bolt"></i> EAZY</a>
                 </div>
             </div>
         </div>
