@@ -74,7 +74,7 @@ class NoticiaController extends Controller
 
         $this->validate($request, [
             'fn_imagem' => 'required',
-            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768'
+            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768'
         ]);
 
         if($request->hasfile('fn_imagem'))
@@ -104,7 +104,7 @@ class NoticiaController extends Controller
             'no_titulo' => 'required',
             'no_autor' => 'required',
             'no_corpo' => 'required',
-            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
@@ -133,7 +133,7 @@ class NoticiaController extends Controller
         $request->validate([
             'no_titulo' => 'required',
             'no_corpo' => 'required',
-            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
@@ -167,7 +167,7 @@ class NoticiaController extends Controller
     public function atualizarFotoNoticias(Request $request, Noticia $noticia, FotoNoticia $FotoNoticia)
     {
         $request->validate([
-            'fn_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=1024,min_height=768',
+            'fn_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
         ]);
 
         if($request->hasFile('fn_imagem')){
@@ -257,7 +257,7 @@ class NoticiaController extends Controller
             $contato = Contato::all()->first();
 
             $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
-            ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(3);
+            ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(6);
 
             //dd($contato);
 

@@ -54,6 +54,12 @@
                 </div>
             </div>
             @endforeach
+                <!-- Paginação com e sem filtros -->
+    @if (isset($filters))
+    {{ $noticias->appends($filters)->links() }}
+    @else
+        {{ $noticias->links() }}
+    @endif
         </div><br>
     </div>
     <!-- End News Posts Section -->
