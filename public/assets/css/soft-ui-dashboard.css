@@ -40,3 +40,9 @@
 .hide{
     display:none!important
 }
+.fotoNoticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+}

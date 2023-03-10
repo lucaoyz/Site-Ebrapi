@@ -67,7 +67,6 @@ Route::group(['middleware' => 'auth'], function () {
             Route::get('/', [App\Http\Controllers\NoticiaController::class, 'indexPainelAdm'])->name('noticias');
             Route::get('/create', [App\Http\Controllers\NoticiaController::class, 'createNoticias'])->name('noticias.createNoticias');
             Route::post('/store', [App\Http\Controllers\NoticiaController::class, 'storeNoticias'])->name('noticias.storeNoticias');
-            Route::get('/editar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'editarNoticias'])->name('noticias.editarNoticias');
             Route::put('/atualizar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarNoticias'])->name('noticias.atualizarNoticias');
             Route::delete('/delete/{noticia}', [App\Http\Controllers\NoticiaController::class, 'deleteNoticias'])->name('noticias.deleteNoticias');
             Route::delete('/limpar/{noticia}', [App\Http\Controllers\NoticiaController::class, 'limparFotoNoticias'])->name('noticias.limparFotoNoticias');
@@ -75,9 +74,8 @@ Route::group(['middleware' => 'auth'], function () {
             Route::get('/{noticia}/imagens/', [App\Http\Controllers\NoticiaController::class, 'fotoNoticiaIndex'])->name('noticias.fotoNoticia');
             Route::get('/{noticia}/imagens/create/', [App\Http\Controllers\NoticiaController::class, 'createFotoNoticias'])->name('noticias.create.fotoNoticias');
             Route::post('/{noticia}/imagens/store/', [App\Http\Controllers\NoticiaController::class, 'storeFotoNoticias'])->name('noticias.store.fotoNoticias');
-            Route::get('/{noticia}/imagens/editar/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'editarFotoNoticias'])->name('noticias.editar.fotoNoticias');
-            Route::put('/{noticia}/imagens/atualizar/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarFotoNoticias'])->name('noticias.atualizar.fotoNoticias');
-            Route::delete('/{noticia}/imagens/delete/{foto_noticia}', [App\Http\Controllers\NoticiaController::class, 'deleteFotoNoticias'])->name('noticias.delete.fotoNoticias');
+            Route::put('/{noticia}/imagens/atualizar/{FotoNoticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarFotoNoticias'])->name('noticias.atualizar.fotoNoticias');
+            Route::delete('/{noticia}/imagens/delete/{FotoNoticia}', [App\Http\Controllers\NoticiaController::class, 'deleteFotoNoticias'])->name('noticias.delete.fotoNoticias');
 
             Route::get('/categoria', [App\Http\Controllers\CategoriaController::class, 'indexPainelAdm'])->name('categoria');
             Route::post('/categoria/store', [App\Http\Controllers\CategoriaController::class, 'storeCategoria'])->name('categoria.storeCategoria');

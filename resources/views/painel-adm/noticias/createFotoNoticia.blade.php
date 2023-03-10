@@ -33,10 +33,7 @@
 
         <div class="mb-3">
 
-            <label for="fn_imagem" class="form-label">Imagem principal da notícia {{$noticia->no_titulo}}</label>
             <input type="file" name="fn_imagem[]" class="form-control" id="fn_imagem" accept=".jpeg,.png,.jpg,.gif,.svg"><br>
-
-            <label for="fn_imagem" class="form-label">Imagens adicionais da notícia {{$noticia->no_titulo}}</label>
             <div class="increment">
               <div class="clone hide">
                 <div class="control-group input-group" style="margin-top:10px; align-items: flex-start">

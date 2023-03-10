@@ -22,7 +22,7 @@
   </div>
 @endforeach
 
-<!-- editar categoria -->
+<!-- editar notícia -->
 @foreach($noticias as $noticia)
 @if ($errors->any())
 <div class="alert alert-danger">
@@ -152,7 +152,7 @@
   </div>
   @endforeach
 
-   <!-- Modal de excluir categoria -->
+   <!-- Modal de excluir/limpar notícia -->
    @foreach($noticias as $noticia)
    <div class="modal fade" id="excluirNoticiaModal{{$noticia->id}}" tabindex="-1" role="dialog" aria-labelledby="excluirNoticiaModal{{$noticia->id}}" aria-hidden="true">
        <div class="modal-dialog modal-dialog-centered" role="document">
@@ -186,3 +186,4 @@
        </div>
      </div>
    @endforeach
+

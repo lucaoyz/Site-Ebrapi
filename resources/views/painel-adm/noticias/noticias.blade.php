@@ -20,7 +20,7 @@
                         <div>
                             <h5 class="mb-0">Todas as notícias</h5>
                         </div>
-                        <a href="{{route('noticias.createNoticias')}}" class="btn bg-gradient-primary btn-sm mb-0" type="button">+&nbsp; adicionar notícia</a>
+                        <a href="{{route('noticias.createNoticias')}}" class="btn bg-gradient-primary btn-sm mb-0" type="button">+&nbsp; Adicionar notícia</a>
                     </div><br>
                     <a href="{{route('categoria')}}" class="btn bg-gradient-secondary btn-sm mb-0" type="button">Visualizar categorias</a>
                 </div>
@@ -60,7 +60,9 @@
                                     </td>
                                     <td>
                                         <div>
-                                            <i class="fa fa-picture-o" style="margin-left: 0.5rem;" aria-hidden="true"></i>
+                                            <a href="{{route('noticias.fotoNoticia', $noticia->id)}}">
+                                                <i class="fa fa-picture-o" style="margin-left: 0.5rem;" aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                     </td>
                                     <td class="text-center">

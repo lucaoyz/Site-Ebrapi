@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Models\Contato;
 use App\Models\Noticia;
 use App\Models\Categoria;
 use App\Models\FotoNoticia;
+use Illuminate\Support\Facades\File;
 
 use function PHPSTORM_META\map;
 
@@ -29,6 +31,21 @@ class NoticiaController extends Controller
             ]);
 
     }
+
+    public function fotoNoticiaIndex(Noticia $noticia)
+    {
+        $fotoNoticias = FotoNoticia::join('noticias', 'noticias.id', '=', 'foto_noticias.no_id')
+        ->select('noticias.*', 'foto_noticias.*')
+        ->where('no_id', '=', $noticia->id)->orderBy('foto_noticias.id', 'asc')->paginate(5);
+        //dd($fotoNoticias);
+
+            return view('painel-adm.noticias.fotoNoticias',[
+                'noticia' => $noticia,
+                'fotoNoticias' => $fotoNoticias,
+            ]);
+
+    }
+
 
     public function createNoticias()
     {
@@ -121,6 +138,33 @@ class NoticiaController extends Controller
 
     }
 
+    public function atualizarFotoNoticias(Request $request, Noticia $noticia, FotoNoticia $FotoNoticia)
+    {
+        $request->validate([
+            'fn_imagem' => 'required',
+            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        ]);
+
+            $image = $request->file('fn_imagem');
+
+                $name=$image->getClientOriginalName();
+                $image->move(public_path().'/assets/img/fotosNoticias/', $name);
+                $path = public_path('assets/img/fotosNoticias/' . $FotoNoticia->fn_imagem);
+                //dd($path);
+                File::delete($path);
+
+                $FotoNoticia->id = $request->id;
+                $FotoNoticia->fn_imagem = $name;
+                $FotoNoticia->no_id = $noticia->id;
+
+               $FotoNoticia->save();
+
+
+            return redirect()->route('noticias.fotoNoticia', $noticia->id)
+                        ->with('success', 'Imagem da notícia atualizada com sucesso!');
+
+    }
+
     public function deleteNoticias(Noticia $noticia)
     {
         $existeFotoNoticia = FotoNoticia::where('no_id', '=', $noticia->id)->first();
@@ -135,6 +179,21 @@ class NoticiaController extends Controller
         }
 
     }
+
+    public function deleteFotoNoticias(Noticia $noticia, FotoNoticia $FotoNoticia)
+    {
+
+        $path = public_path('assets/img/fotosNoticias/' . $FotoNoticia->fn_imagem);
+//dd($path);
+            File::delete($path);
+
+            $FotoNoticia->delete();
+
+            return redirect()->route('noticias.fotoNoticia', $noticia->id)
+            ->with('success','Imagem da notícia excluida com sucesso!');
+
+    }
+
 
     public function limparFotoNoticias(Noticia $noticia)
     {
