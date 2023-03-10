@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreignId('ca_id')->nullable()->constrained('categorias');
             $table->string('no_titulo')->nullable();
             $table->string('no_corpo')->nullable();
+            $table->string('no_img')->nullable();
             $table->date('no_data');
             $table->timestamps();
         });

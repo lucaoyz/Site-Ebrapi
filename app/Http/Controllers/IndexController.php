@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Contato;
 use App\Models\Sobre;
 use App\Models\Noticia;
+use App\Models\FotoNoticia;
 
 
 class IndexController extends Controller

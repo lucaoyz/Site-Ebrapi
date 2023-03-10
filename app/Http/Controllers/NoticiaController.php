@@ -82,7 +82,7 @@ class NoticiaController extends Controller
 
             foreach($request->file('fn_imagem') as $image)
             {
-                $name=$image->getClientOriginalName();
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
                 $image->move(public_path().'/assets/img/fotosNoticias/', $name);
 
                 $fotoNoticia= new FotoNoticia();
@@ -103,12 +103,23 @@ class NoticiaController extends Controller
         $request->validate([
             'no_titulo' => 'required',
             'no_corpo' => 'required',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
         //dd($request);
-        $noticia = Noticia::create($request->all());
-        //dd($result);
+        $input = $request->all();
+        // Upload de imagem
+        if ($image = $request->file('no_img')) {
+            $destinationPath = public_path('/assets/img/fotosNoticias/principal/');
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosNoticias/principal/', $name);
+            $input['no_img'] = "$name";
+        }
+
+        $noticia = Noticia::create($input);
+
+            //dd($input);
 
             return redirect()->route('noticias.create.fotoNoticias', $noticia->id)
                             ->with('success','Noticia criada com sucesso!');
@@ -121,9 +132,22 @@ class NoticiaController extends Controller
         $request->validate([
             'no_titulo' => 'required',
             'no_corpo' => 'required',
+            'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
+
+        if($request->hasFile('no_img')){
+        $image = $request->file('no_img');
+
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
+                $image->move(public_path().'/assets/img/fotosNoticias/principal/', $name);
+                $path = public_path('assets/img/fotosNoticias/principal/' . $noticia->no_img);
+                //dd($path);
+                File::delete($path);
+
+                $noticia->no_img = $name;
+        }
 
         $noticia->id = $request->id;
         $noticia->no_titulo = $request->no_titulo;
@@ -141,20 +165,20 @@ class NoticiaController extends Controller
     public function atualizarFotoNoticias(Request $request, Noticia $noticia, FotoNoticia $FotoNoticia)
     {
         $request->validate([
-            'fn_imagem' => 'required',
-            'fn_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'fn_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
+        if($request->hasFile('fn_imagem')){
             $image = $request->file('fn_imagem');
 
-                $name=$image->getClientOriginalName();
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
                 $image->move(public_path().'/assets/img/fotosNoticias/', $name);
                 $path = public_path('assets/img/fotosNoticias/' . $FotoNoticia->fn_imagem);
                 //dd($path);
                 File::delete($path);
-
-                $FotoNoticia->id = $request->id;
                 $FotoNoticia->fn_imagem = $name;
+            }
+                $FotoNoticia->id = $request->id;
                 $FotoNoticia->no_id = $noticia->id;
 
                $FotoNoticia->save();
@@ -170,6 +194,9 @@ class NoticiaController extends Controller
         $existeFotoNoticia = FotoNoticia::where('no_id', '=', $noticia->id)->first();
         //dd($existeFotoNoticia);
         if(empty($existeFotoNoticia)){
+            $path = public_path('assets/img/fotosNoticias/principal/' . $noticia->no_img);
+//dd($path);
+            File::delete($path);
             $noticia->delete();
             return redirect()->route('noticias')
             ->with('success','Noticia excluida com sucesso!');

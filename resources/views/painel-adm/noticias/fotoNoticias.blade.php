@@ -18,8 +18,7 @@
                 <div class="card-header pb-0">
                     <div class="d-flex flex-row justify-content-between">
                         <div>
-                            <h5 class="mb-0">Todas as imagens da notícia</h5>
-                            <h6 class="text-secondary">A primeira imagem listada sempre será a principal!</h6>
+                            <h5 class="mb-0">Todas as imagens adicionais da notícia</h5>
                         </div>
                         <a href="{{route('noticias.create.fotoNoticias', $noticia->id)}}" class="btn bg-gradient-primary" type="button">+&nbsp; Adicionar imagem</a>
                     </div>

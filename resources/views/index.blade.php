@@ -35,7 +35,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                        <img src="{{asset('img/news/news-1.jpg')}}" class="img-fluid" alt="">
+                        <img src="/assets/img/fotosNoticias/principal/{{$noticia->no_img}}" class="img-fluid" alt="">
                         <span class="post-date">{{$noticia->no_data->format('d/M')}}</span>
                         </div>
 

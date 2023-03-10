@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form action="{{ route('noticias.storeNoticias') }}" method="POST">
+<form action="{{ route('noticias.storeNoticias') }}" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="card-body">
         @if (session('status'))
@@ -40,6 +40,19 @@
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                 </span>
+                @enderror
+        </div>
+
+        <div class="mb-3">
+            <label for="no_img" class="form-label">Imagem principal da notícia</label>
+            <input type="file" name="no_img" id="no_img" class="form-control @error('no_corpo') is-invalid @enderror"
+            accept=".jpeg,.png,.jpg,.gif,.svg">
+
+                @error('no_img')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+
                 @enderror
         </div>
 

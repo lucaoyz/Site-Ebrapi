@@ -59,9 +59,10 @@
                                         <p class="text-xs font-weight-bold mb-0">{{$noticia->id}}</p>
                                     </td>
                                     <td>
+                                        <a href="{{route('noticias.fotoNoticia', $noticia->id)}}">
                                         <div>
-                                            <a href="{{route('noticias.fotoNoticia', $noticia->id)}}">
-                                                <i class="fa fa-picture-o" style="margin-left: 0.5rem;" aria-hidden="true"></i>
+                                            <img src="/assets/img/fotosNoticias/principal/{{$noticia->no_img}}" width="100rem;"><br>
+                                                +&nbsp; Acrescentar
                                             </a>
                                         </div>
                                     </td>

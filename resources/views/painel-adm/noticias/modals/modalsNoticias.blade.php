@@ -44,7 +44,7 @@
           </button>
         </div>
         <div class="modal-body">
-            <form action="{{ route('noticias.atualizarNoticias',$noticia->id) }}" method="POST">
+            <form action="{{ route('noticias.atualizarNoticias',$noticia->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
@@ -98,10 +98,27 @@
                     </div>
 
                     <div class="row mb-3">
+                      <label for="no_img" class="col-md-4 col-form-label text-md-end">{{ __('Imagem principal da notícia') }}</label>
+
+                      <div class="col-md-6">
+                          <input id="no_img" type="file"
+                           class="form-control-sm @error('no_img') is-invalid @enderror"
+                            name="no_img" value="{{ old('no_img') }}" autocomplete="no_img"
+                            accept=".jpeg, .png, .jpg, .gif, .svg">
+                          <img src="/assets/img/fotosNoticias/principal/{{$noticia->no_img}}" width="100rem;"><br>
+                          @error('no_img')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+                      </div>
+                  </div>
+
+                    <div class="row mb-3">
                         <label for="ca_id" class="col-md-4 col-form-label text-md-end">{{ __('Categoria da notícia') }}</label>
 
                         <div class="col-md-6">
-                            <select name="ca_id" id="per_id"
+                            <select name="ca_id" id="ca_id"
                             class="form-select @error('ca_id') is-invalid @enderror"
                             value="{{ old('ca_id') }}" required autocomplete="ca_id">
 

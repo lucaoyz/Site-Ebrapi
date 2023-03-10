@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="row mb-3">
-                        <label for="fn_imagem" class="col-md-4 col-form-label text-md-end">{{ __('Imagem da notícia') }}</label>
+                        <label for="fn_imagem" class="col-md-4 col-form-label text-md-end">{{ __('Imagem adicional da notícia') }}</label>
 
                         <div class="col-md-6">
                             <input id="fn_imagem" type="file"
@@ -78,7 +78,7 @@
      <div class="modal-dialog modal-dialog-centered" role="document">
        <div class="modal-content">
          <div class="modal-header">
-           <h5 class="modal-title font-weight-normal" id="excluirFotoNoticiaModal{{$noticia->id}}{{$fotoNoticia->id}}">Excluir imagem da notícia</h5>
+           <h5 class="modal-title font-weight-normal" id="excluirFotoNoticiaModal{{$noticia->id}}{{$fotoNoticia->id}}">Excluir imagem adicional da notícia</h5>
            <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
              <span aria-hidden="true">&times;</span>
            </button>

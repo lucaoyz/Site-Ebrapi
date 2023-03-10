@@ -13,6 +13,7 @@ class Noticia extends Model
         'ca_id',
         'no_titulo',
         'no_corpo',
+        'no_img',
         'no_data',
     ];
 
