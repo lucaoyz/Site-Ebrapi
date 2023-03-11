@@ -71,6 +71,7 @@
     </a>
       </div>
       <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <a href="{{route('parceiros')}}">
         <div class="card">
           <div class="card-body p-3">
             <div class="row">
@@ -90,6 +91,7 @@
             </div>
           </div>
         </div>
+        </a>
       </div>
     </div>
     <br>

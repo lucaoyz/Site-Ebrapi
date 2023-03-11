@@ -56,12 +56,14 @@ Route::group(['middleware' => 'auth'], function () {
         /*Painel adm Parceiros*/
         Route::prefix('parceiros')->group(function(){
 
-            Route::get('/', function () {
-                return view('parceiros');
-            })->name('parceiros');
+            Route::get('/', [App\Http\Controllers\ParceiroController::class, 'indexPainelAdm'])->name('parceiros');
+            Route::get('/create', [App\Http\Controllers\ParceiroController::class, 'createParceiros'])->name('parceiros.create');
+            Route::post('/store', [App\Http\Controllers\ParceiroController::class, 'storeParceiros'])->name('parceiros.store');
+            Route::put('/atualizar/{parceiro}', [App\Http\Controllers\ParceiroController::class, 'atualizarParceiros'])->name('parceiros.atualizar');
+            Route::delete('/delete/{parceiro}', [App\Http\Controllers\ParceiroController::class, 'deleteParceiros'])->name('parceiros.delete');
 
         });
-
+        
         /*Painel adm Noticias*/
         Route::prefix('noticias')->group(function(){
 

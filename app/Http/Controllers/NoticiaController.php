@@ -112,7 +112,6 @@ class NoticiaController extends Controller
         $input = $request->all();
         // Upload de imagem
         if ($image = $request->file('no_img')) {
-            $destinationPath = public_path('/assets/img/fotosNoticias/principal/');
             $name=date('dmY') . "-" . $image->getClientOriginalName();
             $image->move(public_path().'/assets/img/fotosNoticias/principal/', $name);
             $input['no_img'] = "$name";

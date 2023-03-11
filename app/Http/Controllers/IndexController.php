@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Contato;
 use App\Models\Sobre;
 use App\Models\Noticia;
+use App\Models\Parceiro;
 use App\Models\FotoNoticia;
 
 
@@ -21,6 +22,7 @@ class IndexController extends Controller
     {
             $contato = Contato::all()->first();
             $sobre = Sobre::all()->first();
+            $parceiros = Parceiro::latest()->paginate(5);
 
             $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
             ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(3);
@@ -29,6 +31,7 @@ class IndexController extends Controller
 
             return view('index',[
                 'contato' => $contato,
+                'parceiros' => $parceiros,
                 'sobre' => $sobre,
                 'noticias' => $noticias,
             ]);
