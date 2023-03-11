@@ -16,6 +16,7 @@
       </div>
       <hr class="horizontal dark my-1">
       <div class="card-body pt-sm-3 pt-0">
+        <a class="btn btn-outline-primary w-100" href="{{route('site.index')}}">Voltar para o site</a>
         <a class="btn btn-outline-dark w-100" href="https://wa.me/5519991415811?text=Ol%C3%A1%2C+vim+pelo+sistema+feito+pela+Eazy+e+gostaria+de+tirar+uma+d%C3%BAvida%21" target="_blank">Entrar em contato com o suporte</a>
         <div class="w-100 text-center">
             <a class="github-button" href="https://github.com/lucaoyz/Site-Ebrapi" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>

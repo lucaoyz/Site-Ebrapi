@@ -17,7 +17,7 @@
             </div>
             <div class="col-4 text-end">
               <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                <i class="fa fa-server text-lg opacity-10" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
               </div>
               <div class="col-4 text-end">
                 <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                  <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                  <i class="fa fa-vcard-o text-lg opacity-10" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@
               </div>
               <div class="col-4 text-end">
                 <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                  <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                  <i class="fa fa-building text-lg opacity-10" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@
               </div>
               <div class="col-4 text-end">
                 <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                  <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                  <i class="fa fa-users text-lg opacity-10" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@
               </div>
               <div class="col-4 text-end">
                 <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                  <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                  <i class="fa fa-newspaper-o text-lg opacity-10" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -133,12 +133,35 @@
               </div>
               <div class="col-4 text-end">
                 <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                  <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                  <i class="fa fa-shopping-bag text-lg opacity-10" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <a href="{{route('site.index')}}">
+        <div class="card">
+          <div class="card-body p-3">
+            <div class="row">
+              <div class="col-8">
+                <div class="numbers">
+                  <p class="text-sm mb-0 text-capitalize font-weight-bold">Site</p>
+                  <h5 class="font-weight-bolder mb-0">
+                    Voltar para o site
+                  </h5>
+                </div>
+              </div>
+              <div class="col-4 text-end">
+                <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                  <i class="fa fa-globe text-lg opacity-10" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </a>
       </div>
     </div>
 
