@@ -1053,29 +1053,23 @@
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
-.owl-partners {
-    padding: 0 45px;
-    height: 95px;
-    text-align: center;
+.clients {
+  padding: 15px 0;
+  text-align: center;
 }
 
-.owl-partners .logo-partners {
-    height: 95px;
-    display: table;
-    width: 100%;
+.clients img {
+  max-width: 50%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
 }
 
-.owl-partners .item {
-    display: table-cell;
-    vertical-align: middle;
+.clients img:hover {
+    transform: scale(1.15);
 }
 
-.area-partners {
-    background-color: #FFF;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
