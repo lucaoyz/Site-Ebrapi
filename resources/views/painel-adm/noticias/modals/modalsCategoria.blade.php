@@ -40,6 +40,25 @@
                         </div>
                     </div>
 
+                    <div class="row mb-3">
+                        <label for="ca_tipo" class="col-md-4 col-form-label text-md-end">{{ __('*Tipo da categoria') }}</label>
+
+                        <div class="col-md-6">
+                            <select name="ca_tipo" id="ca_tipo"
+                            class="form-select @error('ca_tipo') is-invalid @enderror"
+                            value="{{ old('ca_tipo') }}" required autocomplete="ca_tipo">
+                                <option value="noticias">Notícias</option>
+                                <option value="produtos">Produtos</option>
+                            </select>
+
+                            @error('ca_tipo')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
         </div>
         <div class="modal-footer">
             <div class="row mb-0">
@@ -105,6 +124,28 @@
                               name="ca_nome" value="{{ $categoria->ca_nome }}" required autocomplete="ca_nome" autofocus>
 
                             @error('ca_nome')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="ca_tipo" class="col-md-4 col-form-label text-md-end">{{ __('Tipo da categoria') }}</label>
+
+                        <div class="col-md-6">
+
+                            <select name="ca_tipo" id="ca_tipo"
+                            class="form-select @error('ca_tipo') is-invalid @enderror"
+                            required autocomplete="ca_tipo">
+
+                                <option value="noticias" @if($categoria->ca_tipo == 'noticias') selected @endif>Noticias</option>
+                                <option value="produtos" @if($categoria->ca_tipo == 'produtos') selected @endif>Produtos</option>
+
+                            </select>
+
+                            @error('exe_membro')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>

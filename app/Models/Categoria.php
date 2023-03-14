@@ -11,6 +11,7 @@ class Categoria extends Model
 
     protected $fillable = [
         'ca_nome',
+        'ca_tipo',
     ];
 
     public function CategoriaParaNoticia() {
