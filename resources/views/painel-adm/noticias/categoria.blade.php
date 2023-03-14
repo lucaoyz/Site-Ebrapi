@@ -43,6 +43,8 @@
                         </div>
                         <a class="btn bg-gradient-primary btn-sm mb-0" type="button" data-bs-toggle="modal" data-bs-target="#criarCategoriaModal">+&nbsp; adicionar categoria</a>
                     </div><br>
+                    <a href="{{route('noticias')}}" class="btn bg-gradient-info btn-sm mb-0" type="button">Ir para notícias</a>
+                    <a href="{{route('produtos')}}" class="btn bg-gradient-dark btn-sm mb-0" type="button">Ir para produtos</a>
                 </div>
                 <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">

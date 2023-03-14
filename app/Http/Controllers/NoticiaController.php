@@ -24,7 +24,7 @@ class NoticiaController extends Controller
         $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
         ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(4);
 
-        $categorias = Categoria::latest()->paginate(5);
+        $categorias = Categoria::latest()->where('ca_tipo', '=', 'noticias')->paginate(5);
             return view('painel-adm.noticias.noticias',[
                 'noticias' => $noticias,
                 'categorias' => $categorias,
@@ -50,7 +50,7 @@ class NoticiaController extends Controller
     public function createNoticias()
     {
         $categoriaExiste = Categoria::all()->first();
-            $categorias = Categoria::orderBy('ca_nome', 'asc')->get();
+            $categorias = Categoria::orderBy('ca_nome', 'asc')->where('ca_tipo', '=', 'noticias')->get();
 
             //dd($categoriaExiste);
             return view('painel-adm.noticias.createNoticia',[
