@@ -1053,21 +1053,21 @@
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
+
 .clients {
-  padding: 15px 0;
-  text-align: center;
-}
+    padding: 0 0 60px 0;
+  }
 
-.clients img {
-  max-width: 50%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-}
+  .clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
 
-.clients img:hover {
-    transform: scale(1.15);
-}
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }
 
 
 /*--------------------------------------------------------------

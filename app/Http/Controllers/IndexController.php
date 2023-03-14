@@ -22,7 +22,7 @@ class IndexController extends Controller
     {
             $contato = Contato::all()->first();
             $sobre = Sobre::all()->first();
-            $parceiros = Parceiro::latest()->paginate(5);
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
             ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(3);

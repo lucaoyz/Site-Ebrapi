@@ -18,4 +18,9 @@ class Categoria extends Model
         return $this->hasOne(Noticia::class, 'ca_id', 'id');
     }
 
+    public function CategoriaParaSubCategoria() {
+        return $this->hasOne(SubCategoria::class, 'ca_id', 'id');
+    }
+
+
 }
