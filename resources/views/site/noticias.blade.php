@@ -5,7 +5,7 @@
     <!-- ======= Page Header Start ======= -->
     <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-3 mb-3 text-white animated slideInDown">Nome da noticia</h1>
+            <h1 class="display-3 mb-3 text-white animated slideInDown">News</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
@@ -18,13 +18,56 @@
 
 
     <!-- ======= News Posts ======= -->
-    <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
+    <div id="recent-news-posts" class="container-xxl py-5-5 blog" data-aos="fade-up"">
 
         <div class="section-header">
                 <h1>News</h1>
         </div>
 
-        <div class="row gy-5">
+        <div class="row">
+            <div class="col-lg-8 entries">
+                <article class="entry">
+
+                    <div class="entry-img overflow-hidden">
+                        <img src="{{asset('img/news/news-1.jpg')}}" alt="" class="img-fluid">
+                    </div>
+
+                    <h2 class="entry-title">
+                        <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                    </h2>
+
+                    <div class="entry-meta">
+                        <ul>
+                        <li class="d-flex align-items-center"> <i class="bi bi-folder2"></i> <a href="">John Doe</a></li>
+                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="">Jan 1, 2020</a></li>
+                        </ul>
+                    </div>
+
+                    <hr>
+
+                    <div class="post-item">
+                        <a href="" class="readmore stretched-link"><span>Saiba mais</span></a>
+                    </div>
+
+                </article>
+            </div>
+            <div class="col-lg-4">
+
+                <div class="sidebar">
+
+                  <h3 class="sidebar-title">Categorias</h3>
+                  <div class="sidebar-item search-form">
+                        <form action="">
+                        <input type="text">
+                        <button type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--<div class="row gy-5">
             @foreach ($noticias as $noticia)
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="post-item position-relative h-100">
@@ -53,8 +96,9 @@
 
                 </div>
             </div>
-            @endforeach
-                <!-- Paginação com e sem filtros -->
+            @endforeach-->
+
+    <!-- Paginação com e sem filtros -->
     @if (isset($filters))
     {{ $noticias->appends($filters)->links() }}
     @else
