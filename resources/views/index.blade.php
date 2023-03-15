@@ -68,8 +68,92 @@
     <!-- End Recent news Posts Section -->
 
 
+    <!-- ======= Products Start ======= -->
+    <div class="container-xxl py-5-5">
+        <div class="container">
+            <div class="section-header">
+                <h1>Nossos Produtos</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.fertilizantes')}}"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.defensivos')}}"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container">
+
+            <div class="row" data-aos="zoom-out">
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h3>COMPRE AGORA</h3>
+                    <p style="font-size: 19px;">Converse conosco via whatsapp e adquira seu produto diretamente com nossa equipe.</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="btn btn-secondary align-middle py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Cta Section -->
+
+
     <!-- ======= Services Start ======= -->
-    <div id="services" class="container-xxl py-5-5">
+    <div class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
                 <h1>Serviços Prestados</h1>
@@ -110,7 +194,7 @@
 
 
     <!-- ======= Historic Start ======= -->
-    <section class="historic">
+    <div class="historic">
         <div class="container-xxl py-5-5">
             <div class="container">
                 <div class="section-header">
@@ -214,112 +298,29 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Historic End -->
 
 
-    <!-- ======= Products Start ======= -->
-    <div class="container-xxl py-5-5">
-        <div class="container">
-            <div class="section-header">
-                <h1>Nossos Produtos</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.fertilizantes')}}"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.defensivos')}}"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Product End -->
-
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container">
-
-            <div class="row" data-aos="zoom-out">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>COMPRE AGORA</h3>
-                    <p style="font-size: 19px;">Converse conosco via whatsapp e adquira seu produto diretamente com nossa equipe.</p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="btn btn-secondary align-middle py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End Cta Section -->
-
-
     <!-- ======= Partners ======= -->
-    <section id="clients" class="clients">
+    <section class="clients">
 
         <div class="container py-5-5" data-aos="zoom-out">
             <div class="section-header">
                 <h1>Nossos Parceiros</h1>
             </div>
 
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-                @foreach ($parceiros as $parceiro)
-              <div class="swiper-slide"><img src="assets/img/parceiros/{{$parceiro->pa_logo}}" class="img-fluid" alt=""></div>
-              @endforeach
+            <div class="clients-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    @foreach ($parceiros as $parceiro)
+                <div class="swiper-slide"><img src="assets/img/parceiros/{{$parceiro->pa_logo}}" class="img-fluid" alt=""></div>
+                @endforeach
+                </div>
             </div>
-          </div>
 
         </div>
-      </section>
+
+    </section>
     <!-- End Partners -->
 
 
