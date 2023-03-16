@@ -50,6 +50,15 @@ class IndexController extends Controller
         return view('site.404',[
             'contato' => $contato,
         ]);
-}
+    }
+
+    public function politicaprivSite()
+    {
+        $contato = Contato::all()->first();
+
+        return view('site.politicapriv',[
+            'contato' => $contato,
+        ]);
+    }
 
 }

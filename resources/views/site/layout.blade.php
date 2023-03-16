@@ -133,11 +133,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Links Rápidos</h5>
-                    <a class="btn btn-link" href="">Sobre</a>
-                    <a class="btn btn-link" href="">Contato</a>
-                    <a class="btn btn-link" href="">Serviços</a>
-                    <a class="btn btn-link" href="">Parceiros</a>
-                    <a class="btn btn-link" href="">Politica de Privacidade</a>
+                    <a class="btn btn-link" href="{{route('site.produtos')}}">Produtos</a>
+                    <a class="btn btn-link" href="{{route('site.servicos')}}">Serviços Prestados</a>
+                    <a class="btn btn-link" href="{{route('site.contato')}}">Contato</a>
+                    <a class="btn btn-link" href="{{route('site.sobre')}}">Sobre</a>
+                    <a class="btn btn-link" href="{{route('site.politicapriv')}}">Politica de Privacidade</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Horários</h5>

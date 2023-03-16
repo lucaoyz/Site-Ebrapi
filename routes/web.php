@@ -63,7 +63,7 @@ Route::group(['middleware' => 'auth'], function () {
             Route::delete('/delete/{parceiro}', [App\Http\Controllers\ParceiroController::class, 'deleteParceiros'])->name('parceiros.delete');
 
         });
-        
+
         /*Painel adm Noticias*/
         Route::prefix('noticias')->group(function(){
 
@@ -127,6 +127,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/time', [App\Http\Controllers\TimeController::class, 'timeSite'])->name('site.time');
 
+    Route::get('/politicapriv', [App\Http\Controllers\IndexController::class, 'politicaprivSite'])->name('site.politicapriv');
+
     Route::get('/noticia/{noticia}', [App\Http\Controllers\NoticiaController::class, 'noticiaSite'])->name('site.noticia');
 
     Route::get('/noticias', [App\Http\Controllers\NoticiaController::class, 'noticiasSite'])->name('site.noticias');
@@ -142,5 +144,7 @@ Route::group(['middleware' => 'auth'], function () {
             'contato' => $contato,
         ]);
     });
+
+
 
 require __DIR__.'/auth.php';

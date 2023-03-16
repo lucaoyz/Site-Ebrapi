@@ -1063,6 +1063,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    background: #fff;
 }
 
 .product-item .product-overlay {

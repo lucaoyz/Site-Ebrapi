@@ -9,7 +9,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item text-body active" aria-current="page">Serviços</li>
+                    <li class="breadcrumb-item text-body active" aria-current="page">Serviços Prestados</li>
                 </ol>
             </nav>
         </div>
