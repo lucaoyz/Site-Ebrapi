@@ -722,11 +722,8 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 3rem;
+    width: 2rem;
     height: 3rem;
-    border-radius: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
 }
 
 @media (max-width: 768px) {
@@ -780,8 +777,8 @@
     padding-top: 12rem;
     padding-bottom: 6rem;
     background-color: #B1C900;
-    background: url(../img/banner-3.jpg) top right no-repeat;
-    background-position: center 40%;
+    background: url(../img/banner-5.jpg) top right no-repeat;
+    background-position: center 50%;
     background-size: cover;
 }
 

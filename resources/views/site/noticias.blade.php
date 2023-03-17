@@ -18,7 +18,7 @@
 
 
     <!-- ======= News Posts ======= -->
-    <div id="recent-news-posts" class="container-xxl py-5-5 blog" data-aos="fade-up"">
+    <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
 
         <div class="section-header">
                 <h1>News</h1>
