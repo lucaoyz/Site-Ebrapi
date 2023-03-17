@@ -80,37 +80,6 @@
         </div>
 
         <div class="mb-3">
-            <label for="ca_id" class="form-label">Categoria</label>
-            @empty($categoriaExiste)
-            <a href="{{route('categoria')}}" class="text-primary">
-                Não há nenhuma categoria, clique aqui para adicionar a primeira..
-                </a>
-            @endempty
-                <select name="ca_id" id="ca_id"
-                class="form-select @error('ca_id') is-invalid @enderror"
-                value="{{ old('ca_id') }}" required autocomplete="ca_id">
-
-                        <option
-                            value=""> Selecione uma categoria..
-                        </option>
-
-                        <optgroup label="Categorias">
-                    @foreach ($categorias as $categoria)
-                        <option
-                            value="{{ $categoria['id'] }}"> {{ $categoria['ca_nome'] }}
-                        </option>
-                    @endforeach
-                        </optgroup>
-                </select>
-
-                @error('ca_id')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                </span>
-                @enderror
-        </div>
-
-        <div class="mb-3">
             <label for="no_data" class="form-label">Data da notícia</label>
             <input id="no_data" type="date"
                 class="form-control @error('no_data') is-invalid @enderror"

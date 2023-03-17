@@ -11,12 +11,7 @@ class Categoria extends Model
 
     protected $fillable = [
         'ca_nome',
-        'ca_tipo',
     ];
-
-    public function CategoriaParaNoticia() {
-        return $this->hasOne(Noticia::class, 'ca_id', 'id');
-    }
 
     public function CategoriaParaSubCategoria() {
         return $this->hasOne(SubCategoria::class, 'ca_id', 'id');

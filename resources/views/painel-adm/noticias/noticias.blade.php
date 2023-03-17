@@ -22,7 +22,6 @@
                         </div>
                         <a href="{{route('noticias.createNoticias')}}" class="btn bg-gradient-primary btn-sm mb-0" type="button">+&nbsp; Adicionar notícia</a>
                     </div><br>
-                    <a href="{{route('categoria')}}" class="btn bg-gradient-secondary btn-sm mb-0" type="button">Visualizar categorias</a>
                 </div>
                 <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">
@@ -43,9 +42,6 @@
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                         Corpo
-                                    </th>
-                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                        Categoria
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                         Data
@@ -77,9 +73,6 @@
                                     </td>
                                     <td class="text-center">
                                         <a href="" class="text-xs font-weight-bold mb-0" data-bs-toggle="modal" data-bs-target="#corpoNoticia{{$noticia->id}}">Clique aqui para visualizar o corpo da notícia</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{$noticia->ca_nome}}</p>
                                     </td>
                                     <td class="text-center">
                                         <span class="text-secondary text-xs font-weight-bold">{{$noticia->no_data->format('d/m/Y')}}</span>

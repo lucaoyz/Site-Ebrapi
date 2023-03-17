@@ -43,7 +43,7 @@
 
                     <div class="entry-content">
                         <p>
-                            {{$noticia->no_corpo}}
+                            @nl2br($noticia->no_corpo)
                         </p>
 
                         <div class="row">

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Categoria;
-use App\Models\Noticia;
 
 class CategoriaController extends Controller
 {
@@ -16,7 +15,7 @@ class CategoriaController extends Controller
     public function indexPainelAdm( )
     {
         $categorias = Categoria::latest()->paginate(5);
-            return view('painel-adm.noticias.categoria',[
+            return view('painel-adm.categorias.categoria',[
                 'categorias' => $categorias,
             ]);
 
@@ -24,16 +23,15 @@ class CategoriaController extends Controller
 
     public function storeCategoria(Request $request)
     {
-        $categoriaNomeTipo = Categoria::where('ca_nome', '=', $request->input('ca_nome'))->where('ca_tipo', '=', $request->input('ca_tipo'))->first();
-        //dd($categoriaNomeTipo);
 
-        if($categoriaNomeTipo){
+        $categoriaNome = Categoria::where('ca_nome', '=', $request->input('ca_nome'))->first();
+
+        if($categoriaNome){
             return redirect()->route('categoria')
             ->with('error', 'Essa categoria já existe!');
         } else {
             $request->validate([
                 'ca_nome' => 'required',
-                'ca_tipo' => 'required',
             ]);
 
             Categoria::create($request->all());
@@ -52,88 +50,30 @@ class CategoriaController extends Controller
      */
     public function atualizarCategoria(Request $request, Categoria $categoria)
     {
-        $request->validate([
-            'ca_nome' => 'required',
-            'ca_tipo' => 'required',
-        ]);
-
-        $inputTipo = $request->ca_tipo;
         $nomeCategoria = Categoria::where('ca_nome', '=', $request->input('ca_nome'))->first();
         $categoriaId = Categoria::where('id', '=', $request->input('id'))->first();
 
-        $existeNomeNoticia = Categoria::where('ca_nome', '=', $request->input('ca_nome'))
-        ->where('ca_tipo', '=', 'noticias')->first();
-
-        $existeNomeProdutos = Categoria::where('ca_nome', '=', $request->input('ca_nome'))
-        ->where('ca_tipo', '=', 'produtos')->first();
-        //dd($inputTipo);
         if($nomeCategoria){
-            if($inputTipo == 'noticias'){
-                if($existeNomeNoticia){
-                    if($existeNomeNoticia->id != $categoriaId->id){
-                        return redirect()->route('categoria')
-                        ->with('error', 'Essa categoria já está cadastrada!');
-                    } else {
-                        $categoria->id = $request->id;
-                        $categoria->ca_nome = $request->ca_nome;
-                        $categoria->ca_tipo = $request->ca_tipo;
-
-                        $categoria->save();
-
-                            return redirect()->route('categoria')
-                                        ->with('success', 'Categoria atualizada!');
-                    }
-                } else {
-                    $categoria->id = $request->id;
-                    $categoria->ca_nome = $request->ca_nome;
-                    $categoria->ca_tipo = $request->ca_tipo;
-
-                    $categoria->save();
-
-                        return redirect()->route('categoria')
-                                    ->with('success', 'Categoria atualizada!');
-                }
-            } elseif($inputTipo == 'produtos'){
-                if($existeNomeProdutos){
-                    if($existeNomeProdutos->id != $categoriaId->id){
-                        return redirect()->route('categoria')
-                        ->with('error', 'Essa categoria já está cadastrada!');
-                    } else {
-                        $categoria->id = $request->id;
-                        $categoria->ca_nome = $request->ca_nome;
-                        $categoria->ca_tipo = $request->ca_tipo;
-
-                        $categoria->save();
-
-                            return redirect()->route('categoria')
-                                        ->with('success', 'Categoria atualizada!');
-                    }
-                } else {
-                    $categoria->id = $request->id;
-                    $categoria->ca_nome = $request->ca_nome;
-                    $categoria->ca_tipo = $request->ca_tipo;
-
-                    $categoria->save();
-
-                        return redirect()->route('categoria')
-                                    ->with('success', 'Categoria atualizada!');
-                }
-            }
-            /* if($nomeCategoria->ca_nome != $categoriaId->ca_nome){
+            if($nomeCategoria->ca_nome != $categoriaId->ca_nome){
                 return redirect()->route('categoria')
                                     ->with('error', 'Essa categoria já está cadastrada!');
             } else {
+                $request->validate([
+                    'ca_nome' => 'required',
+                ]);
 
                 $categoria->id = $request->id;
                 $categoria->ca_nome = $request->ca_nome;
-                $categoria->ca_tipo = $request->ca_tipo;
 
                 $categoria->save();
 
                     return redirect()->route('categoria')
                                 ->with('success', 'Categoria atualizada!');
-            } */
+            }
         } else {
+            $request->validate([
+                'ca_nome' => 'required',
+            ]);
 
             $categoria->update($request->all());
 
@@ -150,28 +90,26 @@ class CategoriaController extends Controller
      */
     public function deleteCategoria(Categoria $categoria)
     {
-        $noticiaUsa = Noticia::where('ca_id' , '=', $categoria->id)->first();
-        // Fazer a verificação se produtos está utilizando $produtoUsa = Produto::where('' , '=', $categoria->id)->first();
-
+        //$noticiaUsa = Noticia::where('ca_id' , '=', $categoria->id)->first();
         //dd($noticiaUsa);
-        if(empty($noticiaUsa)){
+        //if(empty($noticiaUsa)){
         $categoria->delete();
         return redirect()->route('categoria')
         ->with('success','Categoria excluida com sucesso!');
-        } else {
-            return redirect()->route('categoria')
-            ->with('error','Categoria sendo usada por outras notícias, remova as notícias para exclui-la!');
-        }
+        //} else {
+        //    return redirect()->route('categoria')
+        //    ->with('error','Categoria sendo usada por outras notícias, remova as notícias para exclui-la!');
+        //}
     }
 
     public function searchCategoria(Request $request)
     {
 
         $filters = $request->except('_token');
-        $categorias = Categoria::where('ca_tipo', 'LIKE', "%{$request->search}%")
+        $categorias = Categoria::where('ca_nome', 'LIKE', "%{$request->search}%")
             ->paginate(5);
 
-            return view('painel-adm.noticias.categoria', [
+            return view('painel-adm.categorias.categoria', [
                 'categorias' => $categorias,
                 ]);
     }

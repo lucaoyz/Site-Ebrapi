@@ -11,7 +11,7 @@
         </div>
         <div class="modal-body">
 
-            <p>{{$noticia->no_corpo}}</p>
+            <p>@nl2br($noticia->no_corpo)</p>
 
         </div>
         <div class="modal-footer">
@@ -129,30 +129,6 @@
                           @enderror
                       </div>
                   </div>
-
-                    <div class="row mb-3">
-                        <label for="ca_id" class="col-md-4 col-form-label text-md-end">{{ __('Categoria da notícia') }}</label>
-
-                        <div class="col-md-6">
-                            <select name="ca_id" id="ca_id"
-                            class="form-select @error('ca_id') is-invalid @enderror"
-                            value="{{ old('ca_id') }}" required autocomplete="ca_id">
-
-                                @foreach ($categorias as $categoria)
-                                    <option
-                                        value="{{ $categoria['id'] }}"" @if($categoria->id == $noticia->ca_id) selected @endif"> {{ $categoria['ca_nome'] }}
-                                    </option>
-                                @endforeach
-
-                            </select>
-
-                            @error('ca_id')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                        </div>
-                    </div>
 
                     <div class="row mb-3">
                         <label for="no_data" class="col-md-4 col-form-label text-md-end">{{ __('Data da notícia') }}</label>

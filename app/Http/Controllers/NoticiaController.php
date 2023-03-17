@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Contato;
 use App\Models\Noticia;
-use App\Models\Categoria;
 use App\Models\FotoNoticia;
 use Illuminate\Support\Facades\File;
 
@@ -24,10 +23,8 @@ class NoticiaController extends Controller
         $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
         ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(4);
 
-        $categorias = Categoria::latest()->where('ca_tipo', '=', 'noticias')->paginate(5);
             return view('painel-adm.noticias.noticias',[
                 'noticias' => $noticias,
-                'categorias' => $categorias,
             ]);
 
     }
@@ -49,13 +46,9 @@ class NoticiaController extends Controller
 
     public function createNoticias()
     {
-        $categoriaExiste = Categoria::all()->first();
-            $categorias = Categoria::orderBy('ca_nome', 'asc')->where('ca_tipo', '=', 'noticias')->get();
 
             //dd($categoriaExiste);
             return view('painel-adm.noticias.createNoticia',[
-                'categorias' => $categorias,
-                'categoriaExiste' => $categoriaExiste,
             ]);
 
     }
@@ -105,7 +98,6 @@ class NoticiaController extends Controller
             'no_autor' => 'required',
             'no_corpo' => 'required',
             'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
         //dd($request);
@@ -133,7 +125,6 @@ class NoticiaController extends Controller
             'no_titulo' => 'required',
             'no_corpo' => 'required',
             'no_img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'ca_id' => 'required',
             'no_data' => 'required|date',
         ]);
 
@@ -153,7 +144,6 @@ class NoticiaController extends Controller
         $noticia->no_titulo = $request->no_titulo;
         $noticia->no_autor = $request->no_autor;
         $noticia->no_corpo = $request->no_corpo;
-        $noticia->ca_id = $request->ca_id;
         $noticia->no_data = $request->no_data;
 
         $noticia->save();
