@@ -24,8 +24,7 @@ class IndexController extends Controller
             $sobre = Sobre::all()->first();
             $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
-            $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
-            ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(3);
+            $noticias = Noticia::orderBy('no_data', 'desc')->paginate(6);
 
             //dd($sobre);
 

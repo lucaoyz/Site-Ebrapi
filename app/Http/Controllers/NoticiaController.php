@@ -20,8 +20,7 @@ class NoticiaController extends Controller
      */
     public function indexPainelAdm( )
     {
-        $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
-        ->select('categorias.*', 'noticias.*')->orderBy('noticias.created_at', 'desc')->paginate(4);
+        $noticias = Noticia::latest()->paginate(4);
 
             return view('painel-adm.noticias.noticias',[
                 'noticias' => $noticias,
@@ -245,8 +244,7 @@ class NoticiaController extends Controller
     {
             $contato = Contato::all()->first();
 
-            $noticias = Noticia::join('categorias', 'categorias.id', '=', 'noticias.ca_id')
-            ->select('categorias.*', 'noticias.*')->orderBy('noticias.no_data', 'desc')->paginate(6);
+            $noticias = Noticia::orderBy('no_data', 'desc')->paginate(6);
 
             //dd($contato);
 
