@@ -101,5 +101,65 @@ section {
     width: 740px;
 }
 
+/* -------------------------------------------------------------------
+ * responsive:
+ * home logo
+ * ------------------------------------------------------------------- */
+@media screen and (max-width:1400px) {
+    .home .logo{
+        width: 740px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .home .logo{
+        width: 740px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .home .logo{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .home .logo{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .home .logo{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home .logo{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .home .logo{
+        width: 370px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .home .logo{
+        width: 240px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
