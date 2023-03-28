@@ -155,7 +155,7 @@
     <div class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
-                <h1>Serviços Prestados</h1>
+                <h1>Outros Serviços</h1>
             </div>
             <div class="row gy-5 gx-4" style="justify-content: center;">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -198,7 +198,7 @@
             <div class="container-xxl py-5-5">
                 <div class="container">
                     <div class="section-header">
-                        <h1>Explore o nosso Histórico</h1>
+                        <h1>Explore a nossa Galeria</h1>
                     </div>
                     <div class="portfolio-isotope">
 

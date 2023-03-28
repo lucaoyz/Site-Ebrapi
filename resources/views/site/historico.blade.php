@@ -5,11 +5,11 @@
     <!-- ======= Page Header Start ======= -->
     <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-3 mb-3 text-white animated slideInDown">Histórico</h1>
+            <h1 class="display-3 mb-3 text-white animated slideInDown">Galeria</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item text-body active" aria-current="page">Histórico</li>
+                    <li class="breadcrumb-item text-body active" aria-current="page">Galeria</li>
                 </ol>
             </nav>
         </div>
@@ -22,7 +22,7 @@
         <div class="container-xxl py-5-5">
             <div class="container">
                 <div class="section-header">
-                    <h1>Explore o nosso Histórico</h1>
+                    <h1>Explore a nossa Galeria</h1>
                 </div>
                 <div class="portfolio-isotope">
 

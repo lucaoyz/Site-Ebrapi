@@ -9,7 +9,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item text-body active" aria-current="page">Serviços Prestados</li>
+                    <li class="breadcrumb-item text-body active" aria-current="page">Outros Serviços</li>
                 </ol>
             </nav>
         </div>
@@ -21,7 +21,7 @@
     <div id="services" class="container-xxl py-5-5">
         <div class="container">
             <div class="section-header">
-                <h1>Serviços Prestados</h1>
+                <h1>Outros Serviços</h1>
             </div>
             <div class="row gy-5 gx-4" style="justify-content: center;">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
