@@ -132,6 +132,24 @@
     <!-- Product End -->
 
 
+    <!-- ======= Partners ======= -->
+    <div class="container py-5-5" data-aos="zoom-out">
+        <div class="section-header">
+            <h1>Nossos Parceiros</h1>
+        </div>
+
+        <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+                @foreach ($parceiros as $parceiro)
+            <div class="swiper-slide"><img src="assets/img/parceiros/{{$parceiro->pa_logo}}" class="img-fluid" alt=""></div>
+            @endforeach
+            </div>
+        </div>
+
+    </div>
+    <!-- End Partners -->
+
+
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
         <div class="container">
@@ -294,22 +312,7 @@
     <!-- Historic End -->
 
 
-    <!-- ======= Partners ======= -->
-    <div class="container py-5-5" data-aos="zoom-out">
-        <div class="section-header">
-            <h1>Nossos Parceiros</h1>
-        </div>
 
-        <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-                @foreach ($parceiros as $parceiro)
-            <div class="swiper-slide"><img src="assets/img/parceiros/{{$parceiro->pa_logo}}" class="img-fluid" alt=""></div>
-            @endforeach
-            </div>
-        </div>
-
-    </div>
-    <!-- End Partners -->
 
 
 @endsection
