@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="email mt-4">
-                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:ebacchin@agroinsumos.com.br"><i class="bi bi-envelope"></i></a>
                             <h5>E-mail</h5>
                             <p>
                                 @if ($contato === null)
