@@ -11,7 +11,7 @@
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
                         <img class="logo" src="{{asset('img/Logo-Agroinsumos-Dropshadow.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
-                        <a href="#recent-news-posts" class="btn btn-secondary align-middle py-2 px-4 mt-3">Saiba Mais</a>
+                        <a href="#recent-news-posts" class="btn btn-home align-middle py-2 px-4 mt-3" style="font-family: 'Gotham-Ultra', sans-serif;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
             @endforeach
         </div><br>
         <div style="display:flex; justify-content:center;">
-        <a href="{{route('site.noticias')}}" class="btn btn-primary">Ver outras notícias</a>
+        <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3">Ver outras notícias</a>
         </div>
     </div>
     <!-- End Recent news Posts Section -->
