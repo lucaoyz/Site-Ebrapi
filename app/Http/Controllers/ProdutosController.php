@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Parceiro;
 use App\Models\Contato;
 
 class ProdutosController extends Controller
@@ -15,11 +16,13 @@ class ProdutosController extends Controller
     public function indexSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             //dd($contato);
 
             return view('site.produtos',[
-                'contato' => $contato
+                'contato' => $contato,
+                'parceiros' => $parceiros
             ]);
 
     }
@@ -27,11 +30,13 @@ class ProdutosController extends Controller
     public function defensivosSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             //dd($contato);
 
             return view('site.defensivos',[
-                'contato' => $contato
+                'contato' => $contato,
+                'parceiros' => $parceiros
             ]);
 
     }
@@ -39,11 +44,13 @@ class ProdutosController extends Controller
     public function fertilizantesSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             //dd($contato);
 
             return view('site.fertilizantes',[
-                'contato' => $contato
+                'contato' => $contato,
+                'parceiros' => $parceiros
             ]);
 
     }
@@ -51,11 +58,13 @@ class ProdutosController extends Controller
     public function biologicosSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             //dd($contato);
 
             return view('site.biologicos',[
-                'contato' => $contato
+                'contato' => $contato,
+                'parceiros' => $parceiros
             ]);
 
     }
@@ -63,11 +72,13 @@ class ProdutosController extends Controller
     public function sementesSite(Contato $contato)
     {
             $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             //dd($contato);
 
             return view('site.sementes',[
-                'contato' => $contato
+                'contato' => $contato,
+                'parceiros' => $parceiros
             ]);
 
     }

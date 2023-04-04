@@ -11,11 +11,7 @@
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
                         <img class="logo" src="{{asset('img/Logo-Agroinsumos-Dropshadow.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
-                        <div class="fs-4 home-scroll">
-                            <a href="#recent-news-posts" class="home-scroll-link smoothscroll">
-                                Saiba Mais
-                            </a>
-                        </div>
+                        <a href="#recent-news-posts" class="btn btn-secondary align-middle py-2 px-4 mt-3">Saiba Mais</a>
                     </div>
                 </div>
             </div>
