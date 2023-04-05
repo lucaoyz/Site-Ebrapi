@@ -34,19 +34,20 @@
     });
 
 
-    /*// Back to top button
-    let backtotop = select('.back-to-top')
-    if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add('active')
-      } else {
-        backtotop.classList.remove('active')
+    // Back to top button
+    const scrollTop = document.querySelector('.scroll-top');
+    if (scrollTop) {
+      const togglescrollTop = function() {
+        window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
       }
+      window.addEventListener('load', togglescrollTop);
+      document.addEventListener('scroll', togglescrollTop);
+      scrollTop.addEventListener('click', window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      }));
     }
-    window.addEventListener('load', toggleBacktotop)
-    onscroll(document, toggleBacktotop)
-    }*/
+
 
 
     // Facts counter

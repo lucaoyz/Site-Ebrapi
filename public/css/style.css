@@ -7,38 +7,44 @@
 }
 
 
+/********** Smooth scroll behavior **********/
+:root {
+    scroll-behavior: smooth;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+.scroll-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
-  z-index: 996;
+  bottom: -15px;
+  z-index: 99999;
   background: #000;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
   transition: all 0.4s;
 }
 
-.back-to-top i {
-  font-size: 28px;
+.scroll-top i {
+  font-size: 24px;
   color: #fff;
   line-height: 0;
 }
 
-.back-to-top:hover {
+.scroll-top:hover {
   background: #000;
   color: #fff;
 }
 
-.back-to-top.active {
+.scroll-top.active {
   visibility: visible;
   opacity: 1;
+  bottom: 15px;
 }
+
 
 .fw-bold {
     font-weight: 700 !important;

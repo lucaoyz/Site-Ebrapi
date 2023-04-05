@@ -312,7 +312,4 @@
     <!-- Historic End -->
 
 
-
-
-
 @endsection
