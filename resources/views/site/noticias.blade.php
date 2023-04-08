@@ -52,10 +52,18 @@
 
                 </div>
             </div>
+            @endforeach
+           <!-- <div class="recent-news-posts-pagination">
+                <ul class="justify-content-center">
+                  <li><a href="#">1</a></li>
+                  <li class="active"><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+            </div> -->
         </div>
-        @endforeach
-
+    </div>
     <!-- Paginação com e sem filtros -->
+
     @if (isset($filters))
     {{ $noticias->appends($filters)->links() }}
     @else
