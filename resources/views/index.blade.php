@@ -11,7 +11,7 @@
                     <div class="col-lg-8 text-start">
                         <p class="fs-4 text-white">Bem-vindo</p>
                         <img class="logo" src="{{asset('img/Logo-Agroinsumos-Dropshadow.png')}}" class="display-1 mb-5 animated slideInRight" alt="Menu">
-                        <a href="#recent-news-posts" class="btn btn-home align-middle py-2 px-4 mt-3" style="font-family: 'Gotham-Ultra', sans-serif;">Saiba Mais</a>
+                        <a href="#posts" class="btn btn-home align-middle py-2 px-4 mt-3" style="font-family: 'Gotham-Ultra', sans-serif;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -22,13 +22,15 @@
 
 
     <!-- ======= Recent News Posts ======= -->
-    <div id="recent-news-posts" class="container-xxl py-5-5 recent-news-posts" data-aos="fade-up"">
+    <div id="posts" class="container py-5-5" data-aos="fade-up"">
 
         <div class="section-header">
                 <h1>News</h1>
         </div>
 
-        <div class="row gy-5">
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d19f20e37d825a0da0c2128c74cf34c1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+        <!--<div class="row gy-5">
             @foreach ($noticias as $noticia)
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="post-item position-relative h-100">
@@ -60,7 +62,8 @@
         </div><br>
         <div style="display:flex; justify-content:center;">
         <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3">Ver outras notícias</a>
-        </div>
+        </div>-->
+
     </div>
     <!-- End Recent news Posts Section -->
 
@@ -210,7 +213,7 @@
     <!-- End Services -->
 
 
-    <!-- ======= Historic Start ======= -->
+    <!-- ======= Historic Start =======
     <section>
         <div class="historic">
             <div class="container-xxl py-5-5">
@@ -309,7 +312,7 @@
             </div>
         </div>
     </section>
-    <!-- Historic End -->
+    Historic End -->
 
 
 @endsection
