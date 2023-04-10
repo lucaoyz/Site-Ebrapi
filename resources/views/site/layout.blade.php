@@ -87,7 +87,7 @@
                     </div>
                     <a href="{{route('site.servicos')}}" class="nav-item nav-link">Outros Serviços</a>
                     <a href="{{route('site.contato')}}" class="nav-item nav-link">Contato</a>
-                    <a href="{{route('site.historico')}}" class="nav-item nav-link">Galeria</a>
+                    <a href="{{route('site.historico')}}" class="nav-item nav-link">News</a>
                     <a href="{{route('site.sobre')}}" class="nav-item nav-link">Sobre</a>
                     @auth
                     <a href="{{route('dashboard')}}" class="nav-item nav-link">Painel</a>
