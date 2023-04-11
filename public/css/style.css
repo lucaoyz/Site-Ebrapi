@@ -223,64 +223,6 @@
   }
 }
 
-.recent-news-posts .sidebar {
-  padding: 30px;
-  margin: 0 0 60px 20px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.recent-news-posts .sidebar .sidebar-title {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0 0 0 0;
-  margin: 0 0 15px 0;
-  color: #111111;
-  position: relative;
-}
-
-.recent-news-posts .sidebar .sidebar-item {
-  margin-bottom: 30px;
-}
-
-.recent-news-posts .sidebar .search-form form {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 3px 10px;
-  position: relative;
-}
-
-.recent-news-posts .sidebar .search-form form input[type=text] {
-  border: 0;
-  padding: 4px;
-  border-radius: 4px;
-  width: calc(100% - 40px);
-}
-
-.recent-news-posts .sidebar .search-form form button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 15px;
-  margin: -1px;
-  background: #e03a3c;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-  line-height: 0;
-}
-
-.recent-news-posts .sidebar .search-form form button i {
-  line-height: 0;
-}
-
-.recent-news-posts .sidebar .search-form form button:hover {
-  background: #e34c4d;
-}
-
 
 /*--------------------------------------------------------------
 # News
@@ -754,6 +696,14 @@
     background-size: cover;
 }
 
+.page-header-produtos {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    background: url(../img/banner.jpg) top right no-repeat;
+    background-size: cover;
+}
+
 .page-header-contato {
     padding-top: 12rem;
     padding-bottom: 6rem;
@@ -763,20 +713,21 @@
     background-size: cover;
 }
 
+.page-header-priv {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    background: url(../img/banner-3.jpg) top right no-repeat;
+    background-position: center 45%;
+    background-size: cover;
+}
+
 .page-header-servicos {
     padding-top: 12rem;
     padding-bottom: 6rem;
     background-color: #B1C900;
-    /*background: url(../img/banner-3.jpg) top right no-repeat;*/
+    background: url(../img/banner-4.jpg) top right no-repeat;
     background-position: center 65%;
-    background-size: cover;
-}
-
-.page-header-produtos {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
-    background-color: #B1C900;
-    background: url(../img/banner.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -788,6 +739,16 @@
     background-position: center 50%;
     background-size: cover;
 }
+
+.page-header-404 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    /*background: url(../img/) top right no-repeat;*/
+    background-position: center 32%;
+    background-size: cover;
+}
+
 
 
 /*--------------------------------------------------------------

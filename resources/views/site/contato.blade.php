@@ -65,7 +65,7 @@
 
                 </div>
                 <div class="col-lg-5 d-flex align-items-stretch">
-                    <iframe style="border:0; width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.049415417272!2d-47.395585584481424!3d-22.763547338499617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89c23a6761e5f%3A0xd85a9afc433edade!2sR.%20dos%20Tupis%2C%201158%20-%20Jardim%20S%C3%A3o%20Francisco%2C%20Santa%20B%C3%A1rbara%20d&#39;Oeste%20-%20SP%2C%2013456-032!5e0!3m2!1spt-BR!2sbr!4v1678045601188!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.049415417272!2d-47.395585584481424!3d-22.763547338499617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89c23a6761e5f%3A0xd85a9afc433edade!2sR.%20dos%20Tupis%2C%201158%20-%20Jardim%20S%C3%A3o%20Francisco%2C%20Santa%20B%C3%A1rbara%20d&#39;Oeste%20-%20SP%2C%2013456-032!5e0!3m2!1spt-BR!2sbr!4v1681232799155!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

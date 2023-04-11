@@ -28,7 +28,11 @@
                 <h1>News</h1>
         </div>
 
-        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d19f20e37d825a0da0c2128c74cf34c1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/991a7017bd4f5d25817439c26c59c335.html" target="_blank" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        <div style="display:flex; justify-content:center;">
+            <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3">Ver outras notícias</a>
+        </div>
+
 
         <!--<div class="row gy-5">
             @foreach ($noticias as $noticia)
@@ -59,10 +63,7 @@
                 </div>
             </div>
             @endforeach
-        </div><br>
-        <div style="display:flex; justify-content:center;">
-        <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3">Ver outras notícias</a>
-        </div>-->
+        </div><br>-->
 
     </div>
     <!-- End Recent news Posts Section -->

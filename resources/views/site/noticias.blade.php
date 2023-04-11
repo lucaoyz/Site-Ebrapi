@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- ======= Page Header Start ======= -->
-    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header-news wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
             <h1 class="display-3 mb-3 text-white animated slideInDown">News</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -24,7 +24,9 @@
                 <h1>News</h1>
         </div>
 
-        <div class="row gy-5">
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d0888aaac0525b839c8a6756ae48faa4.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+        <!--<div class="row gy-5">
             @foreach ($noticias as $noticia)
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="post-item position-relative h-100">
@@ -53,7 +55,7 @@
                 </div>
             </div>
             @endforeach
-            <!-- Paginação com e sem filtros -->
+            <!-- Paginação com e sem filtros
             @if (isset($filters))
             {{ $noticias->appends($filters)->links() }}
             @else
@@ -61,7 +63,7 @@
             @endif
                 </div><br>
             </div>
-            <!-- End News Posts Section -->
+            End News Posts Section -->
         </div>
     </div>
 
