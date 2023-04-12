@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header-404 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
             <h1 class="display-3 mb-3 text-white animated slideInDown">Página não encontrada</h1>
             <nav aria-label="breadcrumb animated slideInDown">

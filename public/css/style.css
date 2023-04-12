@@ -744,8 +744,8 @@
     padding-top: 12rem;
     padding-bottom: 6rem;
     background-color: #B1C900;
-    /*background: url(../img/) top right no-repeat;*/
-    background-position: center 32%;
+    background: url(../img/404.jpg) top right no-repeat;
+    background-position: center 85%;
     background-size: cover;
 }
 
