@@ -38,10 +38,10 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="mb-5">Nossos produtos</h1>
+            <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1>Nossos Produtos</h1>
             </div>
-            <div class="col-lg-6 text-start wow slideInRight" data-wow-delay="0.1s">
+            <!--<div class="col-lg-6 text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                     <li class="nav-item me-2">
                         <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Principais</a>
@@ -50,7 +50,7 @@
                         <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Outros</a>
                     </li>
                 </ul>
-            </div>
+            </div>-->
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
@@ -59,11 +59,11 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
+                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
                                 </div>
                             </div>
                         </div>
@@ -98,17 +98,17 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
+                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
+                                    <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab-2" class="tab-pane fade show p-0">
+                <!--<div id="tab-2" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
@@ -395,7 +395,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

@@ -79,10 +79,10 @@
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{route('site.produtos')}}" class="dropdown-item">Produtos</a>
-                            <a href="{{route('site.biologicos')}}" class="dropdown-item">Biológicos</a>
+                            <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
                             <a href="{{route('site.fertilizantes')}}" class="dropdown-item">Fertilizantes</a>
                             <a href="{{route('site.defensivos')}}" class="dropdown-item">Defensivos Agrícolas</a>
-                            <a href="{{route('site.sementes')}}" class="dropdown-item">Sementes</a>
+                            <a href="{{route('site.biologicos')}}" class="dropdown-item">Biológicos</a>
                         </div>
                     </div>
                     <a href="{{route('site.servicos')}}" class="nav-item nav-link">Outros Serviços</a>

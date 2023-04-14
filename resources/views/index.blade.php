@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
+                                <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
+                                <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
                             </div>
                         </div>
                     </div>
