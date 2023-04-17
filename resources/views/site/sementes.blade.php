@@ -61,14 +61,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <img class="img-fluid" src="{{asset('img/products/arroz.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
+                                    <a class="d-block h5">Arroz</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -76,13 +74,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
+                                    <a class="d-block h5">Milho</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -90,27 +86,71 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
+                                    <a class="d-block h5">Feijão</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <img class="img-fluid" src="{{asset('img/products/soja.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
+                                    <a class="d-block h5">Soja</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sorgo.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Sorgo</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/trigo.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Trigo</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/al-bandeirante.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Al Bandeirante</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/al-avare.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Al Avaré</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
                                 </div>
                             </div>
                         </div>
@@ -118,13 +158,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
+                                    <a class="d-block h5">Cativerde</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
                                 </div>
                             </div>
                         </div>
@@ -132,13 +170,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
+                                    <a class="d-block h5">XB 8018</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
                                 </div>
                             </div>
                         </div>
@@ -146,13 +182,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
+                                    <a class="d-block h5">XB 6055 Pro2</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
                                 </div>
                             </div>
                         </div>
@@ -160,31 +194,40 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
+                                    <a class="d-block h5">SX 8555 Pro3</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">XB 6016 Vip3</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div id="tab-2" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
+                                    <a class="d-block h5">Gramíneas</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -192,13 +235,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
+                                    <a class="d-block h5">Leguminosas</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -206,13 +247,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
+                                    <a class="d-block h5">Brachiárias</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -220,13 +259,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
+                                    <a class="d-block h5">Panicum</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -234,13 +271,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
+                                    <a class="d-block h5">Aveia Preta</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -248,13 +283,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
+                                    <a class="d-block h5">Milheto</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -262,13 +295,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
+                                    <a class="d-block h5">Crotalárias</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -276,31 +307,52 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
+                                    <a class="d-block h5">Feijão de Porco</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Guandu</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Mucuna</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div id="tab-3" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
+                                    <a class="d-block h5">Linha Envelopes</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
@@ -308,97 +360,11 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Pure Milk</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Fresh Meat</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Dairy Products</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="">Organic Food</a>
+                                    <a class="d-block h5">Fresh Meat</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>

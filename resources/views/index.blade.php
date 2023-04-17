@@ -82,7 +82,7 @@
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
                                 <div class="product-overlay">
-                                    <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
+                                    <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4">
@@ -121,7 +121,7 @@
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                                 <div class="product-overlay">
-                                    <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
+                                    <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4">
