@@ -61,7 +61,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/arroz.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/arroz.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -73,7 +73,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/milho.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -85,7 +85,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/feijao.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -97,7 +97,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/soja.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/soja.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -121,7 +121,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/trigo.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/trigo.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -134,7 +134,9 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/al-bandeirante.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Al Bandeirante</a>
@@ -145,8 +147,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/al-avare.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/al-avare.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Al Avaré</a>
@@ -157,8 +161,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/cativerde.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Cativerde</a>
@@ -169,8 +175,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/xb8010.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">XB 8018</a>
@@ -182,7 +190,9 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">XB 6055 Pro2</a>
@@ -193,11 +203,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/sx8555vip3.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">SX 8555 Pro3</a>
+                                    <a class="d-block h5">SX 8555 Vip3</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
                                 </div>
                             </div>
@@ -205,8 +217,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/xb6016vip3.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">XB 6016 Vip3</a>
@@ -222,7 +236,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/graminea.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -234,7 +248,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/leguminosas.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -246,8 +260,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/brachiaria.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 250px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Brachiárias</a>
@@ -258,8 +274,10 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/panicum.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 250px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Panicum</a>
@@ -270,7 +288,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/aveia-preta.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -282,7 +300,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/milheto.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -294,7 +312,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/crotalaria.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -306,7 +324,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/feijao-de-porco.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -318,7 +336,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/guandu.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -330,7 +348,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/mucuna.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -347,12 +365,14 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-1.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/feltrin-envelope.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Linha Envelopes</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">Cebolinha</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Linha Envelopes</span>
                                 </div>
                             </div>
                         </div>
@@ -360,11 +380,13 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Fresh Meat</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">Feltrin Sementes</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Profissional</span>
                                 </div>
                             </div>
                         </div>
