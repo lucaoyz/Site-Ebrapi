@@ -175,7 +175,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/xb8010.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/xb8018.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
                                     </div>
@@ -189,7 +189,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/xb6055pro2.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
                                     </div>
@@ -379,7 +379,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/semfoto.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
