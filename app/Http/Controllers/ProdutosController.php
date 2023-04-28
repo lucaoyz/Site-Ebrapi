@@ -82,4 +82,18 @@ class ProdutosController extends Controller
             ]);
 
     }
+
+    public function arrozSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.arroz',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
 }

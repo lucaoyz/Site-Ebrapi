@@ -181,7 +181,13 @@ section {
     }
 }
 
-
+.link {
+    color: #fff;
+    margin: 0 5px 0 0;
+    font-size: 24px;
+    display: inline-block;
+    transition: 0.3s;
+}
 
 
 

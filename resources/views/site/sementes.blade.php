@@ -62,22 +62,26 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/arroz.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.arroz')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Arroz</a>
+                                    <a class="d-block h5" href="{{route('site.arroz')}}">Arroz</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/milho.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Milho</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Milho</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -86,10 +90,12 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/feijao.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Feijão</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Feijão</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -98,10 +104,12 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/soja.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Soja</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Soja</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -110,10 +118,12 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sorgo.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Sorgo</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Sorgo</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -122,10 +132,12 @@
                             <div class="product-item">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/trigo.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Trigo</a>
+                                    <a class="d-block h5" href="{{route('site.sementes')}}">Trigo</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>

@@ -121,6 +121,8 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('/sementes', [App\Http\Controllers\ProdutosController::class, 'sementesSite'])->name('site.sementes');
 
+        Route::get('/arroz', [App\Http\Controllers\ProdutosController::class, 'arrozSite'])->name('site.arroz');
+
     });
 
     Route::get('/servicos', [App\Http\Controllers\ServicosController::class, 'servicosSite'])->name('site.servicos');

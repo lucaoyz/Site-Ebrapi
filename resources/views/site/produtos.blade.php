@@ -59,7 +59,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/sementes.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.sementes')}}"><i class="bi bi-link"></i></a>
+                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -72,7 +72,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.fertilizantes')}}"><i class="bi bi-link"></i></a>
+                                        <a class="link" href="{{route('site.fertilizantes')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -85,7 +85,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.defensivos')}}"><i class="bi bi-link"></i></a>
+                                        <a class="link" href="{{route('site.defensivos')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -98,7 +98,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="btn btn-square btn-secondary rounded-circle m-1" href="{{route('site.biologicos')}}"><i class="bi bi-link"></i></a>
+                                        <a class="link" href="{{route('site.biologicos')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
