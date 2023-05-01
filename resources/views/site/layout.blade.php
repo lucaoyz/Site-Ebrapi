@@ -83,6 +83,7 @@
                             <a href="{{route('site.fertilizantes')}}" class="dropdown-item">Fertilizantes</a>
                             <a href="{{route('site.defensivos')}}" class="dropdown-item">Defensivos Agrícolas</a>
                             <a href="{{route('site.biologicos')}}" class="dropdown-item">Biológicos</a>
+                            <a href="{{route('site.linhaorganica')}}" class="dropdown-item">Linha Orgânica</a>
                         </div>
                     </div>
                     <a href="{{route('site.servicos')}}" class="nav-item nav-link">Outros Serviços</a>

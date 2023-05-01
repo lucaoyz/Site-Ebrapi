@@ -121,7 +121,13 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('/sementes', [App\Http\Controllers\ProdutosController::class, 'sementesSite'])->name('site.sementes');
 
+        Route::get('/linhaorganica', [App\Http\Controllers\ProdutosController::class, 'linhaorganicaSite'])->name('site.linhaorganica');
+
         Route::get('/arroz', [App\Http\Controllers\ProdutosController::class, 'arrozSite'])->name('site.arroz');
+
+        Route::get('/milho', [App\Http\Controllers\ProdutosController::class, 'milhoSite'])->name('site.milho');
+
+        Route::get('/feijao', [App\Http\Controllers\ProdutosController::class, 'feijaoSite'])->name('site.feijao');
 
     });
 

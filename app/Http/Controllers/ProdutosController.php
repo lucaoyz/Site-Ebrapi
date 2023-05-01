@@ -83,6 +83,20 @@ class ProdutosController extends Controller
 
     }
 
+    public function linhaorganicaSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.linhaorganica',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
     public function arrozSite(Contato $contato)
     {
             $contato = Contato::all()->first();
@@ -91,6 +105,34 @@ class ProdutosController extends Controller
             //dd($contato);
 
             return view('site.arroz',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
+    public function milhoSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.milho',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
+    public function feijaoSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.feijao',[
                 'contato' => $contato,
                 'parceiros' => $parceiros
             ]);
