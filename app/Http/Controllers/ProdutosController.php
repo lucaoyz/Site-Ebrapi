@@ -138,4 +138,60 @@ class ProdutosController extends Controller
             ]);
 
     }
+
+    public function sojaSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.soja',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
+    public function sorgoSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.sorgo',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
+    public function trigoSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.trigo',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
+
+    public function gramineasSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.gramineas',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
 }

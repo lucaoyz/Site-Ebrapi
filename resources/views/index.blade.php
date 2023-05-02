@@ -80,7 +80,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/sementes.png')}}" alt="">
+                                <img class="img-fluid" src="{{asset('img/products/sementes.png')}}" alt="">
                                 <div class="product-overlay">
                                     <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
                                 </div>

@@ -105,11 +105,11 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/soja.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                        <a class="link" href="{{route('site.soja')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.sementes')}}">Soja</a>
+                                    <a class="d-block h5" href="{{route('site.soja')}}">Soja</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -119,11 +119,11 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/sorgo.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                        <a class="link" href="{{route('site.sorgo')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.sementes')}}">Sorgo</a>
+                                    <a class="d-block h5" href="{{route('site.sorgo')}}">Sorgo</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -133,11 +133,11 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/trigo.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
+                                        <a class="link" href="{{route('site.trigo')}}"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.sementes')}}">Trigo</a>
+                                    <a class="d-block h5" href="{{route('site.trigo')}}">Trigo</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -150,11 +150,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/graminea.png')}}" alt="">
-                                    <div class="product-overlay"></div>
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/graminea.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <a class="link" href="{{route('site.gramineas')}}"><i class="fa fa-link"></i></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Gramíneas</a>
+                                    <a class="d-block h5" href="{{route('site.gramineas')}}">Gramíneas</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -162,7 +164,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/leguminosas.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/leguminosas.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -171,24 +173,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/brachiaria.png')}}" alt="">
-                                    <div class="product-overlay">
-                                        <img class="img-fluid" style="width: 250px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Brachiárias</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/panicum.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" style="width: 250px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
                                     </div>
@@ -202,7 +190,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/aveia-preta.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/aveia-preta.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -214,7 +202,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/milheto.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/milheto.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -226,7 +214,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/crotalaria.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/crotalaria.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -238,7 +226,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/feijao-de-porco.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-de-porco.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -250,7 +238,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/guandu.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/guandu.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -262,7 +250,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/mucuna.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/mucuna.png')}}" alt="">
                                     <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
@@ -279,7 +267,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/feltrin-envelope.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feltrin-envelope.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
@@ -293,7 +281,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/feltrin.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feltrin.jpg')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
