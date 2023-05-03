@@ -137,6 +137,8 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('/gramineas', [App\Http\Controllers\ProdutosController::class, 'gramineasSite'])->name('site.gramineas');
 
+        Route::get('/leguminosas', [App\Http\Controllers\ProdutosController::class, 'leguminosasSite'])->name('site.leguminosas');
+
     });
 
     Route::get('/servicos', [App\Http\Controllers\ServicosController::class, 'servicosSite'])->name('site.servicos');

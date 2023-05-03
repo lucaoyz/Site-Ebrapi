@@ -194,4 +194,18 @@ class ProdutosController extends Controller
             ]);
 
     }
+
+    public function leguminosasSite(Contato $contato)
+    {
+            $contato = Contato::all()->first();
+            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+            //dd($contato);
+
+            return view('site.leguminosas',[
+                'contato' => $contato,
+                'parceiros' => $parceiros
+            ]);
+
+    }
 }

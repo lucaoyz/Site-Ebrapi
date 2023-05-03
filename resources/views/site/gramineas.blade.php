@@ -185,6 +185,142 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-quenia.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Quênia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-tamania.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Tamania</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-zuri.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Zuri</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-aruana.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Aruana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-massai.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Massai</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-tanzania.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Tanzânia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-mombaca.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Mombaça</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-miyagui.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Miyagui</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/aveia-preta.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Aveia Preta</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/plantacao-milheto.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Milheto</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
