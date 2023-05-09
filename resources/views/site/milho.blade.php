@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a href="{{asset('img/products/sementes/al-bandeirante.png')}}" class="d-block h5" data-lightbox="gallery">Al Bandeirante</a>
+                                    <a href="" class="d-block h5" data-bs-toggle="modal" data-bs-target="#albandeirante">Al Bandeirante</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
                                 </div>
                             </div>
@@ -198,5 +198,7 @@
         </div>
     </div>
     <!-- Product End -->
+
+    @include('site.modals.modalsProduto')
 
 @endsection
