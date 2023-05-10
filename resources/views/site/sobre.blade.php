@@ -84,7 +84,7 @@
                     <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <img src="{{asset('img/banner.jpg')}}" alt="" class="img-fluid">
+                    <img src="{{asset('img/primeiro-produto.png')}}" alt="" style="width: 700px">
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                         <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">PDF</a>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{asset('img/logo-rodape-inpev.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('img/logo-rodape-inpev.png')}}" alt="" style="width: 380px">
                     </div>
                 </div>
             </div>

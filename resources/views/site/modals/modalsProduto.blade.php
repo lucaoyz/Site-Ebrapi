@@ -6,9 +6,7 @@
             <h5 class="modal-title font-weight-normal" id="albandeirante">Al Bandeirante</h5>
             &nbsp; - &nbsp;
             <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
-          <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
 
@@ -39,7 +37,7 @@
 
             <p>asdasdsadasdasdasdas<br>
             dasdasdasdasdasdas teste 123<br>
-        brbrbrbrbrbrrbrbr papapapapapapapap brbrbrbrbrbr</p>
+            brbrbrbrbrbrrbrbr papapapapapapapap brbrbrbrbrbr</p>
 
         </div>
       </div>
