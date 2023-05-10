@@ -133,12 +133,12 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/trigo.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.trigo')}}"><i class="fa fa-link"></i></a>
+                                        <a class="link"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.trigo')}}">Trigo</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">Trigo</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Sob Consulta</span>
                                 </div>
                             </div>
                         </div>
@@ -197,14 +197,84 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/feltrin.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimentao-amarelo-sf.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Feltrin Sementes</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Profissional</span>
+                                    <a class="d-block h5">Amarelo SF</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimentão Cônico</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/rucula-apreciatta.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Apreciatta</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Rúcula Folha Larga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-betania.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Betânia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Roxa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimenta-bico-vermelho.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bico Vermelho</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimenta Bico</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/cebola-baia-herval.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Baia Herval</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Amarela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/cenoura-brasilia-irece.jpg')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Brasília Irecê</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cenoura Verão</span>
                                 </div>
                             </div>
                         </div>
@@ -514,20 +584,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-betania.png')}}" alt="">
-                                    <div class="product-overlay">
-                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Betânia</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Roxa</span>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
