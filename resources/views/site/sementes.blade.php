@@ -281,6 +281,174 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/tomate-barto.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bartô</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Tomate Determinado Saladete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/abobrinha-caserta.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Caserta Italiana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abobrinha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-crocantela.jpg')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crocantela</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/berinjela-classic.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Classic</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Berinjela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brocolis-coliseu.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Coliseu</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brócolis Verão</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/jilo-comprido-grande-rio.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Comprido Grande Rio</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Jiló Comprido</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/melancia-crimson-select-plus.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crimson Select Plus</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Melancia Crimson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/melancia-crimson-sweet.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crimson Sweet</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Melancia Crimson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimentao-casca-dura-ikeda.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Casca Dura Ikeda</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimentão Cônico</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/tomate-cascade.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Cascade</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Tomate Indeterminado Cereja</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/maxixe-do-norte.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Do Norte</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Maxixe</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimentao-derick.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Derick</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimentão Lamuyo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/alface-mauren.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
@@ -394,20 +562,6 @@
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5">Cinderela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-crocantela.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Crocantela</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
                                 </div>
                             </div>
