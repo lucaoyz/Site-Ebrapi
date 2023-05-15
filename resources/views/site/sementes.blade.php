@@ -449,6 +449,160 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-elisabeth.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Elisabeth</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Lisa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/chicoria-encantada.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Encantada</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Chicória Lisa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pepino-esmeralda.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Esmeralda Caipira</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pepino Caipira Verde Claro</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/mamao-formosa.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Formosa</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Mamão Formosa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/tomate-fascinio.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Fascínio</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Tomate Determinado Saladete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-giovana.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Giovana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Verde</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/abobora-hiroko.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Hiroko</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abóbora Tetsukabuto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/beterraba-katrina.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Katrina</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Beterraba</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/salsa-lisa.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Lisa</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Salsa Lisa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/abobora-isabella.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Mini Paulista Isabella</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Abóbora Butternut Tropical</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/berinjela-marjorie.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Marjorie</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Berinjela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('img/products/sementes/alface-mauren.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
@@ -463,194 +617,84 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-tarsila.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/menina-brasileira-precoce.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Tarsila</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Megan</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Andriely</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Grandes Lagos</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Greicy</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Icebela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Lidiane</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Rafaela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Yasmin</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
+                                    <a class="d-block h5">Menina Brasileira Precoce</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abobrinha Menina Brasileira</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-ariana.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimenta-malagueta.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Ariana</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                    <a class="d-block h5">Malagueta</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimenta Malagueta</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-cinderela.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/couve-manteiga.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Cinderela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                    <a class="d-block h5">Manteiga</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Couve-Folha</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-veneranda.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/cenoura-nantes-milena.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Veneranda</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Greenmary</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Loreane</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Luzia</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Mônica</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                    <a class="d-block h5">Nantes Milena</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cenoura Outono/Inverno</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-soraia.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/mamao-ouro.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Soraia</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                    <a class="d-block h5">Ouro</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Mamão Solo</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-gabriela.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/abobora-rajada-seca.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Gabriela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Roxa</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-natasha.png')}}" alt="">
-                                    <div class="product-overlay">
-                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Natasha</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Roxa</span>
+                                    <a class="d-block h5">Rajada Seca</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abóbora Seca/Pescoço</span>
                                 </div>
                             </div>
                         </div>
@@ -671,147 +715,84 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-agnes.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/pimentao-rubi.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Agnes</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Friseé Crocante</span>
+                                    <a class="d-block h5">Rubi</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Pimentão Cônico</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-brunela.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/quiabo-santa-cruz.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Brunela</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Friseé Crocante</span>
+                                    <a class="d-block h5">Santa Cruz47</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Quiabo</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-elisabeth.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/tomate-santa-cruz-kada.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Elisabeth</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Lisa</span>
+                                    <a class="d-block h5">Santa Cruz Kada</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Tomate Indeterminado Santa Cruz</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-regina.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-veneranda.jpg')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Regina</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Lisa</span>
+                                    <a class="d-block h5">Veneranda</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-stella.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/rabanete-vip-crimson.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Stella</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Lisa</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-ceci.jpg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Ceci</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Roxa</span>
+                                    <a class="d-block h5">Vip Crimson</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Rabanete Redondo</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/alface-giovana.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/abobora-xingo.png')}}" alt="">
                                     <div class="product-overlay">
                                         <img class="img-fluid" src="{{asset('img/partners/logo-feltrin-white.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Giovana</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Nataly</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Verde</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Ariadne</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Romana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Bicolor</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Biofortificada</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Lisa Verde</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Biofortificada</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Analu</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Alface</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="text-center p-4">
-                                    <a class="d-block h5">Guria</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Alface</span>
+                                    <a class="d-block h5">Xingó</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abóbora</span>
                                 </div>
                             </div>
                         </div>
@@ -826,7 +807,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Luiza</a>
+                                    <a class="d-block h5">Analu</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Mini Alface</span>
                                 </div>
                             </div>
@@ -834,8 +815,240 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Purpurita</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Alface</span>
+                                    <a class="d-block h5">Andriely</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Americana</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ariana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Agnes</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Friseé Crocante</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ariadne</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Romana</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Antillana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Berinjela Japonesa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ariela</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Amarela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Arielli</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Couve-Folha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ayla</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Couve-Rábano</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Atsui</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Couve-Chinesa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ametista</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Couve-Chinesa Roxa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Brunela</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Friseé Crocante</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bicolor</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Biofortificada</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">B8A</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abóbora Tetsukabuto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Brigitte</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Moranga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Branca de Lyon</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Acelga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bibiana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Mini Berinjela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Betana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Beterraba</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Branca Conserva</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Branca</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bermuda</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Grama</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Cinderela</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Crespa Verde</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ceci</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Mimosa Roxa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Coroa</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Moranga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crioula Pataka</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Moranga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Cigana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Abobrinha Menina Brasileira</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crespa</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Alface Biofortificada</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crioula Conesul</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Amarela</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Clover</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Roxa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crioula Roxa</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cebola Roxa</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Cátia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Cenoura Inverno</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Catarina</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Ervilha Vagem</span>
                                 </div>
                             </div>
                         </div>

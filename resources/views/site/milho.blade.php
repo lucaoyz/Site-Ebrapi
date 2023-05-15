@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a href="{{asset('img/products/sementes/al-avare.png')}}" class="d-block h5" data-lightbox="milho">Al Avaré</a>
+                                    <a class="d-block h5">Al Avaré</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
                                 </div>
                             </div>
@@ -124,28 +124,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a href="{{asset('img/products/sementes/xb8018.png')}}" class="d-block h5" data-lightbox="xb8018"
-                                    data-title="
-                                    Perfil
-
-                                    Híbrido de visual moderno, com arquitetura foliar semi-ereta, alto potencial produtivo e ótimas respostas ao uso da tecnologia.
-
-                                    Indicado para grãos em áreas de média / alta fertilidade no solo.
-
-                                    População recomendada para plantios de verão entre 55 – 60 mil / ha e para plantios de safrinha entre 50 – 45 mil plantas  / ha.
-
-                                    Híbrido Precoce com excelente sanidade foliar.
-
-                                    Pontos Fortes
-
-                                    Sabugo Fino e Grãos profundos.
-
-                                    Híbrido rústico com excelente responsividade ao uso de maiores adubações.
-
-                                    Excelente sanidade foliar para as principais doenças.
-
-                                    Excelente empalhamento na espiga diminuindo a incidência de grãos ardidos.">
-                                    XB 8018</a>
+                                    <a class="d-block h5">XB 8018</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
                                 </div>
                             </div>

@@ -10,7 +10,7 @@
         </div>
         <div class="modal-body">
 
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-md-8 mx-auto">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
@@ -35,9 +35,22 @@
                 </div>
             </div>
 
-            <p>asdasdsadasdasdasdas<br>
-            dasdasdasdasdasdas teste 123<br>
-            brbrbrbrbrbrrbrbr papapapapapapapap brbrbrbrbrbr</p>
+            <p class="mb-4">Características Agronômicas:<br>
+            - Tipo: Variedade<br>
+            - Ciclo: Médio (130 dias)<br>
+            - Altura média da planta: 2,30m<br>
+            - Altura média da Espiga: 1,25m<br>
+            - Cor de grãos: Amarelo alaranjado<br>
+            - Tipo de grãos: Semi duro<br>
+            - Uso: Grãos e silagem<br>
+            - Resistência ao acamamento: Ótima<br>
+            - Resistência às principais doenças: Boa<br>
+            - População: Safra normal: 65 mil plantas/hectare;<br>
+                Safrinha: 45 mil plantas/hectare<br>
+            - Produtividade média: Safra normal: 7.500/kg/hectare;<br>
+                Safrinha: 3.500 Kg/hectare<br>
+            - Recomendação: 15 – 23 Kg de semente/hectare<br>
+            - Regiões indicadas para o plantio: Todo o Brasil, sem restrições.</p>
 
         </div>
       </div>
