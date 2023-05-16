@@ -9,7 +9,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item text-body active" aria-current="page">Produtos</li>
+                    <li class="breadcrumb-item"><a class="text-body" href="{{route('site.produtos')}}">Produtos</a></li>
                     <li class="breadcrumb-item"><a class="text-body" href="{{route('site.sementes')}}">Sementes</a></li>
                     <li class="breadcrumb-item text-body active" aria-current="page">Leguminosas</li>
                 </ol>
