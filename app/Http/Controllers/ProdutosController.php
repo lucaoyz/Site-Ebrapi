@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Parceiro;
+use App\Models\Categoria;
+use App\Models\SubCategoria;
 use App\Models\Contato;
 
 class ProdutosController extends Controller

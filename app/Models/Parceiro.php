@@ -10,9 +10,21 @@ class Parceiro extends Model
     use HasFactory;
 
     protected $fillable = [
+        'ca_id',
+        'sub_id',
         'pa_nome',
         'pa_logo',
         'pa_link',
     ];
-    
+
+    public function categoriaId()
+    {
+        return $this->belongsTo(Categoria::class, 'ca_id', 'id');
+    }
+
+    public function SubCategoriaId()
+    {
+        return $this->belongsTo(SubCategoria::class, 'sub_id', 'id');
+    }
+
 }

@@ -28,11 +28,11 @@
         </a>
       </li>
       <li class="nav-item pb-2">
-        <a class="nav-link {{ (Request::is('gerenciador-paginas') ? 'active' : '') }}" href="{{ route('gerenciador-paginas') }}">
+        <a class="nav-link {{ (Request::is('categoria') ? 'active' : '') }}" href="{{ route('categoria') }}">
             <div class="icon icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="fa fa-server text-lg opacity-10" aria-hidden="true"></i>
               </div>
-            <span class="nav-link-text ms-1">Gerenciador de páginas</span>
+            <span class="nav-link-text ms-1">Categorias</span>
         </a>
       </li>
       <li class="nav-item mt-2">

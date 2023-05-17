@@ -31,6 +31,70 @@
         @endif
 
         <div class="mb-3">
+            <label for="ca_id" class="form-label">Categoria</label>
+            @empty($categoriaExiste)
+            <a href="{{route('categoria')}}" class="text-primary">
+                Não há nenhuma categoria, clique aqui para adicionar a primeira..
+                </a>
+            @endempty
+                <select name="ca_id" id="ca_id"
+                class="form-select @error('ca_id') is-invalid @enderror"
+                value="{{ old('ca_id') }}" required autocomplete="ca_id">
+
+                        <option
+                            value=""> Selecione uma categoria..
+                        </option>
+
+                        <optgroup label="Categorias">
+                    @foreach ($categorias as $categoria)
+                        <option
+                            value="{{ $categoria['id'] }}"> {{ $categoria['ca_nome'] }}
+                        </option>
+                    @endforeach
+                        </optgroup>
+                </select>
+
+                @error('ca_id')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+        </div>
+
+        <div class="mb-3">
+            <label for="ca_id" class="form-label">Sub-Categoria</label>
+                <select name="sub_id" id="ca_id"
+                class="form-select @error('sub_id') is-invalid @enderror"
+                value="{{ old('sub_id') }}" required autocomplete="sub_id">
+
+                        <option
+                            value=""> Selecione uma sub-categoria..
+                        </option>
+
+
+                <optgroup label="Subcategorias">
+
+                    @foreach ($subcategorias as $subcategoria)
+                    <option
+                        value="{{ $subcategoria->id }}"> {{ $subcategoria->sub_nome }}
+                    </option>
+
+                    @endforeach
+                </optgroup>
+
+
+
+
+                </select>
+
+                @error('ca_id')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+        </div>
+
+        <div class="mb-3">
             <label for="pa_nome" class="form-label">Nome do parceiro</label>
             <input name="pa_nome" type="text" class="form-control @error('pa_nome') is-invalid @enderror" id="pa_nome"
                 placeholder="Digite o nome do parceiro..">

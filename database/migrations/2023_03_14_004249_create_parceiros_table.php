@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('parceiros', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('ca_id')->nullable()->constrained('categorias');
+            $table->foreignId('sub_id')->nullable()->constrained('sub_categorias');
             $table->string('pa_nome');
             $table->string('pa_logo')->nullable();
             $table->string('pa_link')->nullable();

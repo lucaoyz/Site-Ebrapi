@@ -80,11 +80,19 @@ Route::group(['middleware' => 'auth'], function () {
             Route::put('/{noticia}/imagens/atualizar/{FotoNoticia}', [App\Http\Controllers\NoticiaController::class, 'atualizarFotoNoticias'])->name('noticias.atualizar.fotoNoticias');
             Route::delete('/{noticia}/imagens/delete/{FotoNoticia}', [App\Http\Controllers\NoticiaController::class, 'deleteFotoNoticias'])->name('noticias.delete.fotoNoticias');
 
-            Route::get('/categoria', [App\Http\Controllers\CategoriaController::class, 'indexPainelAdm'])->name('categoria');
-            Route::post('/categoria/store', [App\Http\Controllers\CategoriaController::class, 'storeCategoria'])->name('categoria.storeCategoria');
-            Route::put('/categoria/atualizar/{categoria}', [App\Http\Controllers\CategoriaController::class, 'atualizarCategoria'])->name('categoria.atualizarCategoria');
-            Route::delete('/categoria/delete/{categoria}', [App\Http\Controllers\CategoriaController::class, 'deleteCategoria'])->name('categoria.deleteCategoria');
-            Route::any('/categoria/search', [App\Http\Controllers\CategoriaController::class, 'searchCategoria'])->name('categoria.searchCategoria');
+        });
+
+        Route::prefix('categoria')->group(function(){
+
+            Route::get('/', [App\Http\Controllers\CategoriaController::class, 'indexPainelAdm'])->name('categoria');
+            Route::post('/store', [App\Http\Controllers\CategoriaController::class, 'storeCategoria'])->name('categoria.storeCategoria');
+            Route::put('/atualizar/{categoria}', [App\Http\Controllers\CategoriaController::class, 'atualizarCategoria'])->name('categoria.atualizarCategoria');
+            Route::delete('/delete/{categoria}', [App\Http\Controllers\CategoriaController::class, 'deleteCategoria'])->name('categoria.deleteCategoria');
+
+            Route::get('/{categoria}/subcategoria/', [App\Http\Controllers\CategoriaController::class, 'SubCategoria'])->name('subcategoria');
+            Route::post('/{categoria}/subcategoria/store', [App\Http\Controllers\CategoriaController::class, 'storeSubCategoria'])->name('SubCategoria.storeSubCategoria');
+            Route::put('/{categoria}/subcategoria/atualizar/{subcategoria}', [App\Http\Controllers\CategoriaController::class, 'atualizarSubCategoria'])->name('SubCategoria.atualizarSubCategoria');
+            Route::delete('/{categoria}/subcategoria/delete/{subcategoria}', [App\Http\Controllers\CategoriaController::class, 'deleteSubCategoria'])->name('SubCategoria.deleteSubCategoria');
 
         });
 

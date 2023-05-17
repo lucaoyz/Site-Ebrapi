@@ -20,26 +20,74 @@
           </button>
         </div>
         <div class="modal-body">
-            <form action="{{ route('parceiros.atualizar',$parceiro->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('parceiros.atualizar', $parceiro->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
+                <div class="row mb-3">
+                    <label for="id" class="col-md-4 col-form-label text-md-end">{{ __('ID') }}</label>
 
-                    <div class="row mb-3">
-                        <label for="id" class="col-md-4 col-form-label text-md-end">{{ __('ID') }}</label>
+                    <div class="col-md-6">
+                        <input id="id" type="text" {{ $parceiro->id ? 'readonly' : '' }}
+                        class="form-control @error('id') is-invalid @enderror"
+                        name="id" value="{{ $parceiro->id }}" required autocomplete="id" autofocus>
 
-                        <div class="col-md-6">
-                            <input id="id" type="text" {{ $parceiro->id ? 'readonly' : '' }}
-                            class="form-control @error('id') is-invalid @enderror"
-                            name="id" value="{{ $parceiro->id }}" required autocomplete="id" autofocus>
-
-                            @error('id')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                        </div>
+                        @error('id')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                     </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="ca_id" class="col-md-4 col-form-label text-md-end">{{ __('Categoria principal') }}</label>
+
+                    <div class="col-md-6">
+                        <select name="ca_id" id="ca_id"
+                        class="form-select @error('ca_id') is-invalid @enderror"
+                        value="{{ old('ca_id') }}" required autocomplete="ca_id">
+
+                            @foreach ($categorias as $categoria)
+                                <option
+                                    value="{{ $categoria['id'] }}"" @if($categoria->id == $parceiro->ca_id) selected @endif"> {{ $categoria['ca_nome'] }}
+                                </option>
+                            @endforeach
+
+                        </select>
+
+                        @error('ca_id')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="sub_id" class="col-md-4 col-form-label text-md-end">{{ __('Sub-categoria') }}</label>
+
+                    <div class="col-md-6">
+                        <select name="sub_id" id="sub_id"
+                        class="form-select @error('sub_id') is-invalid @enderror"
+                        value="{{ old('sub_id') }}" required autocomplete="sub_id">
+
+                            @foreach ($subcategorias as $subcategoria)
+                                <option
+                                    value="{{ $subcategoria['id'] }}"" @if($subcategoria->id == $parceiro->sub_id) selected @endif"> {{ $subcategoria['sub_nome'] }}
+                                </option>
+                            @endforeach
+
+                        </select>
+
+                        @error('ca_id')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                </div>
+
 
                     <div class="row mb-3">
                         <label for="pa_nome" class="col-md-4 col-form-label text-md-end">{{ __('Nome do parceiro') }}</label>

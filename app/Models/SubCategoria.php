@@ -23,4 +23,8 @@ class SubCategoria extends Model
         return $this->hasOne(Produto::class, 'sub_id', 'id');
     }
 
+    public function SubCategoriaParaParceiro() {
+        return $this->hasOne(Parceiro::class, 'sub_id', 'id');
+    }
+
 }
