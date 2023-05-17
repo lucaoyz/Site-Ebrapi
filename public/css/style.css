@@ -696,6 +696,15 @@
     background-size: cover;
 }
 
+.page-header-sobre {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-color: #B1C900;
+    background: url(../img/) top right no-repeat;
+    background-position: center 55%;
+    background-size: cover;
+}
+
 .page-header-produtos {
     padding-top: 12rem;
     padding-bottom: 6rem;
@@ -726,8 +735,8 @@
     padding-top: 12rem;
     padding-bottom: 6rem;
     background-color: #B1C900;
-    background: url(../img/banner-4.png) top right no-repeat;
-    background-position: center 45%;
+    background: url(../img/banner-4.jpg) top right no-repeat;
+    background-position: center 34.9%;
     background-size: cover;
 }
 
