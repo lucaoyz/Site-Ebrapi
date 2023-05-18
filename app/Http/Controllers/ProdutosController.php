@@ -34,6 +34,12 @@ class ProdutosController extends Controller
             $contato = Contato::all()->first();
             $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('categorias.ca_nome', 'Defensivos Agricolas')
+            ->get(5);
+
             //dd($contato);
 
             return view('site.defensivos',[
@@ -46,8 +52,11 @@ class ProdutosController extends Controller
     public function fertilizantesSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('categorias.ca_nome', 'Fertilizantes')
+            ->get(5);
             //dd($contato);
 
             return view('site.fertilizantes',[
@@ -74,8 +83,11 @@ class ProdutosController extends Controller
     public function sementesSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('categorias.ca_nome', 'sementes')
+            ->get(5);
             //dd($contato);
 
             return view('site.sementes',[
@@ -88,8 +100,11 @@ class ProdutosController extends Controller
     public function linhaorganicaSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('categorias.ca_nome', 'Linha Orgânica')
+            ->get(5);
             //dd($contato);
 
             return view('site.linhaorganica',[
@@ -102,8 +117,11 @@ class ProdutosController extends Controller
     public function arrozSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'arroz')
+            ->get(5);
             //dd($contato);
 
             return view('site.arroz',[
@@ -116,8 +134,11 @@ class ProdutosController extends Controller
     public function milhoSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'milho')
+            ->get(5);
             //dd($contato);
 
             return view('site.milho',[
@@ -130,8 +151,11 @@ class ProdutosController extends Controller
     public function feijaoSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'feijao')
+            ->get(5);
             //dd($contato);
 
             return view('site.feijao',[
@@ -144,8 +168,11 @@ class ProdutosController extends Controller
     public function sojaSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'soja')
+            ->get(5);
             //dd($contato);
 
             return view('site.soja',[
@@ -158,8 +185,11 @@ class ProdutosController extends Controller
     public function sorgoSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'sorgo')
+            ->get(5);
             //dd($contato);
 
             return view('site.sorgo',[
@@ -172,8 +202,11 @@ class ProdutosController extends Controller
     public function trigoSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'trigo')
+            ->get(5);
             //dd($contato);
 
             return view('site.trigo',[
@@ -186,8 +219,11 @@ class ProdutosController extends Controller
     public function gramineasSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'gramineas')
+            ->get(5);
             //dd($contato);
 
             return view('site.gramineas',[
@@ -200,8 +236,11 @@ class ProdutosController extends Controller
     public function leguminosasSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('sub_categorias.sub_nome', 'leguminosas')
+            ->get(5);
             //dd($contato);
 
             return view('site.leguminosas',[

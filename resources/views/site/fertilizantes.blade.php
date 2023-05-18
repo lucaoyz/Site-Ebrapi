@@ -27,7 +27,7 @@
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
-            <div class="swiper-slide"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
             @endforeach
             </div>
         </div>
