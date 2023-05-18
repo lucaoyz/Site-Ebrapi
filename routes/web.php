@@ -82,6 +82,7 @@ Route::group(['middleware' => 'auth'], function () {
 
         });
 
+        /*Painel adm categoria*/
         Route::prefix('categoria')->group(function(){
 
             Route::get('/', [App\Http\Controllers\CategoriaController::class, 'indexPainelAdm'])->name('categoria');

@@ -20,10 +20,10 @@
           </button>
         </div>
         <div class="modal-body">
-            <form action="{{ route('parceiros.atualizar', $parceiro->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('parceiros.atualizar',$parceiro->id) }}" method="POST" enctype="multipart/form-data">
+
                 @csrf
                 @method('PUT')
-
                 <div class="row mb-3">
                     <label for="id" class="col-md-4 col-form-label text-md-end">{{ __('ID') }}</label>
 

@@ -20,10 +20,10 @@ class ParceiroController extends Controller
 
         $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
         ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-        ->orderBy('parceiros.created_at', 'desc')->paginate(5);
+        ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')->paginate(5);
         $categorias = Categoria::latest()->paginate(5);
         $subcategorias = SubCategoria::latest()->paginate(5);
-
+        //dd($parceiros);
             return view('painel-adm.parceiros.parceiros',[
                 'parceiros' => $parceiros,
                 'categorias' => $categorias,
