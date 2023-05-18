@@ -42,25 +42,20 @@
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <!--<h1 class="mb-5">Nossos produtos para uma vida saudável</h1>-->
             </div>
-            <!--<div class="text-start wow slideInRight" data-wow-delay="0.1s">
+            <div class="text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Bioinseticidas</a>
+                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Microbiológicos</a>
                     </li>
-                    <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Moluscidas</a>
-                    </li>
+
                     <li class="nav-item me-2">
                         <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Feromônios</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-4">Armadilhas</a>
                     </li>
-                    <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-5">Fertilizantes Biológicos</a>
-                    </li>
                 </ul>
-            </div>-->
+            </div>
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">

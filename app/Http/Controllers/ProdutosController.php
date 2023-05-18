@@ -69,8 +69,11 @@ class ProdutosController extends Controller
     public function biologicosSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->where('categorias.ca_nome', 'biologicos')
+            ->get(5);
             //dd($contato);
 
             return view('site.biologicos',[

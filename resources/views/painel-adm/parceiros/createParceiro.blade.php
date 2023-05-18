@@ -65,7 +65,7 @@
             <label for="ca_id" class="form-label">Sub-Categoria</label>
                 <select name="sub_id" id="ca_id"
                 class="form-select @error('sub_id') is-invalid @enderror"
-                value="{{ old('sub_id') }}" required autocomplete="sub_id">
+                value="{{ old('sub_id') }}" autocomplete="sub_id">
 
                         <option
                             value=""> Selecione uma sub-categoria..

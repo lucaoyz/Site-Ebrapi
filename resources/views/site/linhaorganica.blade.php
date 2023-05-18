@@ -37,7 +37,56 @@
 
 
     <!-- Product Start -->
-
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/linhaorganica/bio-extra-verde.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Bio Extra Verde</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Fertilizante</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/linhaorganica/k-forte.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">K Forte</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Potássio Brasileiro livre de Cloro </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Termofosfato</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Óleo de Neen</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Product End -->
 
 @endsection
