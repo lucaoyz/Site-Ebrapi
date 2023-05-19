@@ -35,8 +35,7 @@ class ProdutosController extends Controller
             $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
 
             $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'Defensivos Agricolas')
             ->get(5);
 
@@ -53,8 +52,7 @@ class ProdutosController extends Controller
     {
             $contato = Contato::all()->first();
             $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'Fertilizantes')
             ->get(5);
             //dd($contato);
@@ -70,8 +68,7 @@ class ProdutosController extends Controller
     {
             $contato = Contato::all()->first();
             $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'biologicos')
             ->get(5);
             //dd($contato);
@@ -87,8 +84,7 @@ class ProdutosController extends Controller
     {
             $contato = Contato::all()->first();
             $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'sementes')
             ->get(5);
             //dd($contato);
@@ -104,8 +100,7 @@ class ProdutosController extends Controller
     {
             $contato = Contato::all()->first();
             $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
+            ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'Linha Orgânica')
             ->get(5);
             //dd($contato);

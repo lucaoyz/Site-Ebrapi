@@ -34,9 +34,6 @@
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                         Categoria Principal
                                     </th>
-                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                        Sub-categoria
-                                    </th>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
                                         Logo
                                     </th>
@@ -59,9 +56,6 @@
                                     </td>
                                     <td class="ps-4">
                                         <p class="text-xs font-weight-bold mb-0">{{$parceiro->ca_nome}}</p>
-                                    </td>
-                                    <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{$parceiro->sub_nome}}</p>
                                     </td>
                                     <td>
                                         <div>
