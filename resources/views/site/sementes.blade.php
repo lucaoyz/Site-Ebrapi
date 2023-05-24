@@ -21,7 +21,7 @@
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
         <div class="section-header">
-            <h1>Nossos Parceiros</h1>
+            <h1>Parceiros</h1>
         </div>
 
         <div class="clients-slider swiper">
@@ -39,9 +39,9 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <!--<h1 class="mb-5">Nossos produtos para uma vida saudável</h1>-->
-            </div>
+            <!--<div class="text-center section-header mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="mb-5">Produtos</h1>
+            </div>-->
             <div class="text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">
                     <li class="nav-item me-2">
@@ -58,73 +58,297 @@
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/arroz.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brs-sertaneja.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.arroz')}}"><i class="fa fa-link"></i></a>
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.arroz')}}">Arroz</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/milho.png')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="link" href="{{route('site.milho')}}"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.milho')}}">Milho</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao.png')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="link" href="{{route('site.feijao')}}"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.feijao')}}">Feijão</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">BRS Sertaneja</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Arroz</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/lavoura-soja.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brs-esmeralda.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.soja')}}"><i class="fa fa-link"></i></a>
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.soja')}}">Soja</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">BRS Esmeralda</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Arroz</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brs-a502.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS A502</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Arroz</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-brs-perola.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Pérola</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Grupo Carioca</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-brs-estilo.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Estilo</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Grupo Carioca</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/sorgo.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-brs-guariba.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.sorgo')}}"><i class="fa fa-link"></i></a>
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.sorgo')}}">Sorgo</a>
-                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                    <a class="d-block h5">BRS Guariba</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Grupo Vigna Caupi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-brs-tumucumaque.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Tumucumaque</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Grupo Vigna Caupi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/xb8018.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">XB 8018</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/xb6055pro2.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">XB 6055 Pro2</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/sx8555vip3.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">SX 8555 Vip3</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/xb6016vip3.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-semeali.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">XB 6016 Vip3</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Híbridos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/al-bandeirante.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a href="" class="d-block h5" data-bs-toggle="modal" data-bs-target="#albandeirante">Al Bandeirante</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/al-avare.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Al Avaré</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/cativerde.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-cati.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Cativerde</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/br106.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BR 106</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Milho Variedade</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/soja-brs-284.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS 284</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Soja</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/lavoura-soja.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/embrapa.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS 525</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Soja</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/m-6410-ipro.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">M 6410 IPRO</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Soja</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/sorgo-forrageiro-podium.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Forrageiro Podium</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Sorgo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/sorgo-ponta-negra.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Ponta Negra</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Sorgo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/sorgo.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 220px;" src="{{asset('img/partners/')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Semeali</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Sorgo</span>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +368,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div id="tab-2" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">

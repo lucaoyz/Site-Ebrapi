@@ -22,7 +22,7 @@
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
         <div class="section-header">
-            <h1>Nossos Parceiros</h1>
+            <h1>Parceiros</h1>
         </div>
 
         <div class="clients-slider swiper">

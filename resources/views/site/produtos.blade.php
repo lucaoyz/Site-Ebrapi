@@ -20,7 +20,7 @@
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
         <div class="section-header">
-            <h1>Nossos Parceiros</h1>
+            <h1>Parceiros</h1>
         </div>
 
         <div class="clients-slider swiper">
@@ -39,7 +39,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1>Nossos Produtos</h1>
+                <h1>Produtos</h1>
             </div>
             <!--<div class="col-lg-6 text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
