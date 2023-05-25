@@ -370,16 +370,252 @@
                 </div>
                 <div id="tab-2" class="tab-pane fade show p-0">
                     <div class="row g-4">
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/graminea.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-BRS-PAIAGUAS.png')}}" alt="">
                                     <div class="product-overlay">
-                                        <a class="link" href="{{route('site.gramineas')}}"><i class="fa fa-link"></i></a>
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5" href="{{route('site.gramineas')}}">Gramíneas</a>
+                                    <a class="d-block h5">BRS Paiaguás</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Brizantha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-BRS-PIATA.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Piatã</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Brizantha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-cv-marandu.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Marandú</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Brizantha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-Xaraes-MG-5.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Xaraés MG-5</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Brizantha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-cv-basilisk.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">CV Basilisk</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Decumbens</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-brs-ipypora.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Ipyporã</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Híbrida</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-cv-ruziziensis.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Ruziziensis</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Ruziziensis</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-cv-humidicola.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Humidícola</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Humidícola</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/brachiaria-cv-llanero.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv LLANERO</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Brachiaria Humidícola</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-quenia.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Quênia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-tamania.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Tamania</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-brs-zuri.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">BRS Zuri</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-aruana.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Aruana</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-massai.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Massai</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-tanzania.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Tanzânia</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-mombaca.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Mombaça</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/panicum-cv-miyagui.png')}}" alt="">
+                                    <div class="product-overlay">
+                                        <img class="img-fluid" style="width: 200px;" src="{{asset('img/partners/logo-sementesbonamigo.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">cv Miyagui</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Panicum Maximum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/aveia-preta.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Aveia Preta</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
@@ -387,20 +623,65 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('img/products/sementes/leguminosas.jpeg')}}" alt="">
-                                    <div class="product-overlay">
-                                        <a class="link" href="{{route('site.leguminosas')}}"><i class="fa fa-link"></i></a>
-                                    </div>
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/plantacao-milheto.png')}}" alt="">
+                                    <div class="product-overlay"></div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">Leguminosas</a>
+                                    <a class="d-block h5">Milheto</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/crotalaria.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Crotalárias</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/feijao-de-porco.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Feijão de Porco</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/guandu.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Guandu</a>
+                                    <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('img/products/sementes/mucuna.png')}}" alt="">
+                                    <div class="product-overlay"></div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5">Mucuna</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">Descrição</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div id="tab-3" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -1019,7 +1300,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <!--<div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="text-center p-4">
                                     <a class="d-block h5">B8A</a>
@@ -1434,6 +1715,13 @@
                                     <span class="text-primary me-1" style="font-size: 17px;">Alface Biofortificada</span>
                                 </div>
                             </div>
+                        </div>-->
+                    </div>
+                    <div class="container-xxl py-5">
+                        <div class="container">
+                            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                                <h1 class="mb-5">Mais hortaliças sob consulta</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1441,5 +1729,7 @@
         </div>
     </div>
     <!-- Product End -->
+
+
 
 @endsection
