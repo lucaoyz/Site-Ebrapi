@@ -74,7 +74,7 @@
         <div class="container-xxl py-5-5">
             <div class="container">
                 <div class="section-header">
-                    <h1>Nossos Produtos</h1>
+                    <h1>Produtos</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -152,7 +152,7 @@
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
         <div class="section-header">
-            <h1>Nossos Parceiros</h1>
+            <h1>Parceiros</h1>
         </div>
 
         <div class="clients-slider swiper">
@@ -203,7 +203,7 @@
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
                             <h5 class="mb-3" style="font-size: 22px;">Reflorestamento: Recomposição de mata-ciliar</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <p class="mb-4">Plantação de mata nativa nas margens de rios e lagos com o intuito de evitar erosão e assoreamento.</p>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                                 <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
                             <h5 class="mb-3" style="font-size: 22px;">Acompanhamento Agronômico</h5>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <p class="mb-4">Análise do desenvolvimento de sua plantação com agrônomos profissionais e capacitados.</p>
                         </div>
                     </div>
                 </div>

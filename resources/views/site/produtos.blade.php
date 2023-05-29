@@ -19,10 +19,6 @@
 
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
-        <div class="section-header">
-            <h1>Parceiros</h1>
-        </div>
-
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
