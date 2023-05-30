@@ -35,16 +35,16 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="mb-5">Produtos</h1>
+            <div class="section-header">
+                <h1>Produtos</h1>
             </div>
             <div class="col-lg-6 text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Herbicidas</a>
+                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Inseticidas</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Inseticidas</a>
+                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Herbicidas</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Fungicidas</a>

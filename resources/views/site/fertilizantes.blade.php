@@ -20,10 +20,6 @@
 
     <!-- ======= Partners ======= -->
     <div class="container py-5-5" data-aos="zoom-out">
-        <div class="section-header">
-            <h1>Parceiros</h1>
-        </div>
-
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
@@ -39,19 +35,19 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <!--<h1 class="mb-5">Nossos produtos para uma vida saudável</h1>-->
+            <div class="section-header">
+                <h1>Produtos</h1>
             </div>
             <div class="text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">NPK - Mineral</a>
+                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Orgânico</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Foliares</a>
+                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Organo-Mineral</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Biológicos</a>
+                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Mineral</a>
                     </li>
                 </ul>
             </div>

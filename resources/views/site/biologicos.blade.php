@@ -35,8 +35,8 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <!--<h1 class="mb-5">Nossos produtos para uma vida saudável</h1>-->
+            <div class="section-header">
+                <h1>Produtos</h1>
             </div>
             <div class="text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">

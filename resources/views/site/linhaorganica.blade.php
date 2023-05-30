@@ -35,6 +35,9 @@
     <!-- Product Start -->
     <div class="container-xxl py-5">
         <div class="container">
+            <div class="section-header">
+                <h1>Produtos</h1>
+            </div>
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
