@@ -770,7 +770,7 @@
 
 .cta h3 {
   color: #fff;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -778,8 +778,15 @@
   color: #fff;
 }
 
-.cta .primeiroproduto {
-    width: 700px;
+.primeiroproduto {
+    width: 800px;
+}
+
+@media screen and (max-width:400px) {
+    .primeiroproduto{
+        height: auto;
+        max-width: 100%;
+    }
 }
 
 .cta .cta-btn {
@@ -1104,8 +1111,6 @@
 .team-item {
     position: relative;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
 .team-item .btn {
@@ -1113,6 +1118,17 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .2);
 }
 
+.logosdvd {
+    width: 800px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:400px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
 
 /*--------------------------------------------------------------
 # Partners

@@ -79,7 +79,7 @@
 
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3>Nosso Primeiro Produto</h3>
+                    <h3>Nosso primeiro produto</h3>
                     <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
                     <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
                 </div>
@@ -116,59 +116,17 @@
 
     <!-- Team Start -->
     <div class="container-xxl py-5-5">
-        <div class="container">
-            <div class="section-header">
+        <div class="container" style="justify-content: center;">
+            <!--<div class="section-header">
                 <h1>Equipe Ebrapi Agroinsumos</h1>
+            </div>-->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <img class="logosdvd" src="{{asset('img/about/logos-DVD.png')}}" alt="">
+                </div>
             </div>
         </div>
     </div>
-    <!--<section>
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
-                    <h1 class="mb-5">Experienced Team Members</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item rounded p-4">
-                            <img class="img-fluid rounded mb-4" src="img/team-1.jpg" alt="">
-                            <h5>Adam Crew</h5>
-                            <p class="text-primary">Founder</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item rounded p-4">
-                            <img class="img-fluid rounded mb-4" src="img/team-2.jpg" alt="">
-                            <h5>Doris Jordan</h5>
-                            <p class="text-primary">Veterinarian</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded p-4">
-                            <img class="img-fluid rounded mb-4" src="img/team-3.jpg" alt="">
-                            <h5>Jack Dawson</h5>
-                            <p class="text-primary">Farmer</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
+    <!-- Team End -->
 
 @endsection

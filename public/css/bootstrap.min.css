@@ -72,11 +72,26 @@ section {
   bottom: 0;
 }
 
+@media screen and (max-width:400px) {
+    .alt-services h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .alt-services h1{
+        font-size: 24px;
+    }
+}
+
+
 /*** about us ***/
 .img-fluid-49{
     max-width: 80%;
     height: auto;
 }
+
+
 
 
 /* ===================================================================
