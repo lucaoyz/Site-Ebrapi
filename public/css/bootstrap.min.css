@@ -204,8 +204,15 @@ section {
     transition: 0.3s;
 }
 
+.inpev {
+    width: 380px;
+}
 
-
+@media screen and (max-width: 400px) {
+    .inpev {
+        width: 300px;
+    }
+}
 
 
 
