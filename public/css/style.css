@@ -789,6 +789,13 @@
     }
 }
 
+@media screen and (max-width:640px) {
+    .primeiroproduto{
+        height: auto;
+        width: 500px;
+    }
+}
+
 .cta .cta-btn {
   font-family: "Gotham-Medium", sans-serif;
   text-transform: uppercase;
@@ -1130,6 +1137,75 @@
     }
 }
 
+@media screen and (max-width:440px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .logosdvd{
+        height: auto;
+        max-width: 100%;
+    }
+}
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/

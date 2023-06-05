@@ -78,7 +78,13 @@ section {
     }
 }
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:340px) {
+    .alt-services h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:380px) {
     .alt-services h1{
         font-size: 24px;
     }
@@ -204,6 +210,10 @@ section {
     transition: 0.3s;
 }
 
+/* -------------------------------------------------------------------
+ * responsive:
+ * inpev
+ * ------------------------------------------------------------------- */
 .inpev {
     width: 380px;
 }
@@ -214,6 +224,32 @@ section {
     }
 }
 
+@media screen and (max-width: 330px) {
+    .inpev {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .inpev {
+        width: 240px;
+    }
+}
+
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * navbar logo
+ * ------------------------------------------------------------------- */
+.navlogo{
+    width: 185px;
+}
+
+@media screen and (max-width: 300px) {
+    .navlogo {
+        width: 150px;
+    }
+}
 
 
 
