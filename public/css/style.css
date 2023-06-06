@@ -830,13 +830,6 @@
   }
 }
 
-@media (min-width: 769px) {
-    .cta .primeiroproduto {
-      width: 370;
-      align-items: center;
-    }
-  }
-
 
 /*--------------------------------------------------------------
 # Section Title
@@ -1127,7 +1120,7 @@
 
 .logosdvd {
     width: 800px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width:400px) {

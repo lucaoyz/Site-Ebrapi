@@ -120,7 +120,7 @@
             <!--<div class="section-header">
                 <h1>Equipe Ebrapi Agroinsumos</h1>
             </div>-->
-            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <div class="text-center">
                     <img class="logosdvd" src="{{asset('img/about/logos-DVD.png')}}" alt="">
                 </div>
