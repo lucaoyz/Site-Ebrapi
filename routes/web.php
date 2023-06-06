@@ -100,9 +100,11 @@ Route::group(['middleware' => 'auth'], function () {
         /*Painel adm produtos*/
         Route::prefix('produtos')->group(function(){
 
-            Route::get('/', function () {
-                return view('produtos');
-            })->name('produtos');
+            Route::get('/', [App\Http\Controllers\ProdutoController::class, 'indexPainelAdm'])->name('produtos');
+            Route::get('/create', [App\Http\Controllers\ProdutoController::class, 'createProdutos'])->name('produtos.create');
+            Route::post('/store', [App\Http\Controllers\ProdutoController::class, 'storeProdutos'])->name('produtos.store');
+            Route::put('/atualizar/{produto}', [App\Http\Controllers\ProdutoController::class, 'atualizarProdutos'])->name('produtos.atualizar');
+            Route::delete('/delete/{produto}', [App\Http\Controllers\ProdutoController::class, 'deleteProdutos'])->name('produtos.delete');
 
         });
     });

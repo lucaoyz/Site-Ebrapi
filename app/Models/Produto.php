@@ -13,6 +13,8 @@ class Produto extends Model
         'sub_id',
         'pa_id',
         'pro_nome',
+        'pro_subtitulo',
+        'pro_descricao',
         'pro_logo',
     ];
 

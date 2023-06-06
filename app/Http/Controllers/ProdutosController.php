@@ -15,6 +15,17 @@ class ProdutosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     public function indexPainelAdm(Contato $contato)
+     {
+             $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+             return view('painel-adm.produtos.produtos',[
+                 'parceiros' => $parceiros
+             ]);
+
+     }
+
     public function indexSite(Contato $contato)
     {
             $contato = Contato::all()->first();

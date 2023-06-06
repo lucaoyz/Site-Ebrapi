@@ -18,6 +18,8 @@ return new class extends Migration
             $table->foreignId('sub_id')->nullable()->constrained('sub_categorias');
             $table->foreignId('pa_id')->nullable()->constrained('parceiros');
             $table->string('pro_nome');
+            $table->string('pro_subtitulo')->nullable();
+            $table->text('pro_descricao', 1000000)->nullable();
             $table->string('pro_logo')->nullable();
             $table->timestamps();
         });
