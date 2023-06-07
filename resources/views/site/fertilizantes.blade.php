@@ -38,7 +38,7 @@
             <div class="section-header">
                 <h1>Produtos</h1>
             </div>
-            <div class="text-start wow slideInRight" data-wow-delay="0.1s">
+            <!--<div class="text-start wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex mb-5">
                     <li class="nav-item me-2">
                         <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Orgânico</a>
@@ -50,7 +50,7 @@
                         <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Mineral</a>
                     </li>
                 </ul>
-            </div>
+            </div>-->
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
