@@ -5,17 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class FotoNoticia extends Model
+class FotoProduto extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'no_id',
-        'fn_imagem',
+        'pro_id',
+        'fp_imagem',
     ];
 
-    public function NoticiaId() {
-        return $this->belongsTo(Noticia::class, 'no_id', 'id');
+    public function ProdutoId() {
+        return $this->belongsTo(Produto::class, 'pro_id', 'id');
     }
 
 }

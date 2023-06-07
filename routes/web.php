@@ -100,11 +100,19 @@ Route::group(['middleware' => 'auth'], function () {
         /*Painel adm produtos*/
         Route::prefix('produtos')->group(function(){
 
-            Route::get('/', [App\Http\Controllers\ProdutoController::class, 'indexPainelAdm'])->name('produtos');
-            Route::get('/create', [App\Http\Controllers\ProdutoController::class, 'createProdutos'])->name('produtos.create');
-            Route::post('/store', [App\Http\Controllers\ProdutoController::class, 'storeProdutos'])->name('produtos.store');
-            Route::put('/atualizar/{produto}', [App\Http\Controllers\ProdutoController::class, 'atualizarProdutos'])->name('produtos.atualizar');
-            Route::delete('/delete/{produto}', [App\Http\Controllers\ProdutoController::class, 'deleteProdutos'])->name('produtos.delete');
+            Route::get('/', [App\Http\Controllers\ProdutosController::class, 'indexPainelAdm'])->name('produtos');
+            Route::get('/create', [App\Http\Controllers\ProdutosController::class, 'createProdutos'])->name('produtos.create');
+            Route::post('/store', [App\Http\Controllers\ProdutosController::class, 'storeProdutos'])->name('produtos.store');
+            Route::put('/atualizar/{produto}', [App\Http\Controllers\ProdutosController::class, 'atualizarProdutos'])->name('produtos.atualizar');
+            Route::delete('/delete/{produto}', [App\Http\Controllers\ProdutosController::class, 'deleteProdutos'])->name('produtos.delete');
+
+            Route::delete('/limpar/{produto}', [App\Http\Controllers\ProdutosController::class, 'limparFotoProduto'])->name('produtos.limparFotoProduto');
+
+            Route::get('/{produto}/imagens/', [App\Http\Controllers\ProdutosController::class, 'fotoProdutoIndex'])->name('produtos.fotoProduto');
+            Route::get('/{produto}/imagens/create/', [App\Http\Controllers\ProdutosController::class, 'createFotoProduto'])->name('produtos.create.fotoProduto');
+            Route::post('/{produto}/imagens/store/', [App\Http\Controllers\ProdutosController::class, 'storeFotoProduto'])->name('produtos.store.fotoProduto');
+            Route::put('/{produto}/imagens/atualizar/{FotoProduto}', [App\Http\Controllers\ProdutosController::class, 'atualizarFotoProduto'])->name('produtos.atualizar.fotoProduto');
+            Route::delete('/{produto}/imagens/delete/{FotoProduto}', [App\Http\Controllers\ProdutosController::class, 'deleteFotoProduto'])->name('produtos.delete.fotoProduto');
 
         });
     });

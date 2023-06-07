@@ -68,7 +68,7 @@
 
         <div class="mb-3">
             <label for="no_img" class="form-label">Imagem principal da notícia</label>
-            <input type="file" name="no_img" id="no_img" class="form-control @error('no_corpo') is-invalid @enderror"
+            <input type="file" name="no_img" id="no_img" class="form-control @error('no_img') is-invalid @enderror"
             accept=".jpeg,.png,.jpg,.gif,.svg">
 
                 @error('no_img')

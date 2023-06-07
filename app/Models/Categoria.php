@@ -17,7 +17,12 @@ class Categoria extends Model
         return $this->hasOne(SubCategoria::class, 'ca_id', 'id');
     }
 
-    public function SubCategoriaParaParceiro() {
+    public function CategoriaParaParceiro() {
         return $this->hasOne(Parceiro::class, 'ca_id', 'id');
     }
+
+    public function CategoriaParaProdutos() {
+        return $this->hasOne(Produto::class, 'ca_id', 'id');
+    }
+
 }

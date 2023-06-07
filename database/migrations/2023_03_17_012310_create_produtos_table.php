@@ -15,13 +15,13 @@ return new class extends Migration
     {
         Schema::create('produtos', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('ca_id')->nullable()->constrained('categorias');
             $table->foreignId('sub_id')->nullable()->constrained('sub_categorias');
             $table->foreignId('pa_id')->nullable()->constrained('parceiros');
             $table->string('pro_foto')->nullable();
             $table->string('pro_nome');
             $table->string('pro_subtitulo')->nullable();
             $table->text('pro_descricao', 1000000)->nullable();
-            $table->string('pro_logo')->nullable();
             $table->timestamps();
         });
     }
