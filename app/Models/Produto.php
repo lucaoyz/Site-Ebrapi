@@ -12,6 +12,7 @@ class Produto extends Model
     protected $fillable = [
         'sub_id',
         'pa_id',
+        'pro_foto',
         'pro_nome',
         'pro_subtitulo',
         'pro_descricao',
