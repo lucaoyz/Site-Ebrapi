@@ -18,32 +18,17 @@ class SubCategoriaSeeder extends Seeder
     {
         DB::table('sub_categorias')->insert([
             'ca_id' => '1',
-            'sub_nome' => 'Arroz',
+            'sub_nome' => 'Grãos',
         ]);
 
         DB::table('sub_categorias')->insert([
             'ca_id' => '1',
-            'sub_nome' => 'Milho',
+            'sub_nome' => 'Forrageiras e Adubacao Verde',
         ]);
 
         DB::table('sub_categorias')->insert([
             'ca_id' => '1',
-            'sub_nome' => 'Feijao',
-        ]);
-
-        DB::table('sub_categorias')->insert([
-            'ca_id' => '1',
-            'sub_nome' => 'Soja',
-        ]);
-
-        DB::table('sub_categorias')->insert([
-            'ca_id' => '1',
-            'sub_nome' => 'Sorgo',
-        ]);
-
-        DB::table('sub_categorias')->insert([
-            'ca_id' => '1',
-            'sub_nome' => 'Trigo',
+            'sub_nome' => 'Hortalicas',
         ]);
     }
 }

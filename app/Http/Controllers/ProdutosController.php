@@ -275,11 +275,17 @@ class ProdutosController extends Controller
             ->where('categorias.ca_nome', 'Defensivos Agricolas')
             ->get(5);
 
-            //dd($contato);
+            $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('categorias.ca_nome', 'Defensivos Agricolas')
+            ->get();
 
             return view('site.defensivos',[
                 'contato' => $contato,
-                'parceiros' => $parceiros
+                'parceiros' => $parceiros,
+                'produtos' => $produtos,
             ]);
 
     }
@@ -323,11 +329,44 @@ class ProdutosController extends Controller
             ->select('categorias.*', 'parceiros.*')
             ->where('categorias.ca_nome', 'sementes')
             ->get(5);
+
+            $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('categorias.ca_nome', 'sementes')
+            ->get();
             //dd($contato);
 
+            $graos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Graos')
+            ->get();
+
+            $forrageiras = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Forrageiras e Adubacao Verde')
+            ->get();
+
+
+            $Hortalicas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Hortalicas')
+            ->get();
+            //dd($Hortalicas);
             return view('site.sementes',[
                 'contato' => $contato,
-                'parceiros' => $parceiros
+                'parceiros' => $parceiros,
+                'produtos' => $produtos,
+                'graos' => $graos,
+                'forrageiras' => $forrageiras,
+                'Hortalicas' => $Hortalicas,
             ]);
 
     }
@@ -342,142 +381,6 @@ class ProdutosController extends Controller
             //dd($contato);
 
             return view('site.linhaorganica',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function arrozSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'arroz')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.arroz',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function milhoSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'milho')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.milho',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function feijaoSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'feijao')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.feijao',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function sojaSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'soja')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.soja',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function sorgoSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'sorgo')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.sorgo',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function trigoSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'trigo')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.trigo',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function gramineasSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'gramineas')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.gramineas',[
-                'contato' => $contato,
-                'parceiros' => $parceiros
-            ]);
-
-    }
-
-    public function leguminosasSite(Contato $contato)
-    {
-            $contato = Contato::all()->first();
-            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'parceiros.sub_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*')
-            ->where('sub_categorias.sub_nome', 'leguminosas')
-            ->get(5);
-            //dd($contato);
-
-            return view('site.leguminosas',[
                 'contato' => $contato,
                 'parceiros' => $parceiros
             ]);
