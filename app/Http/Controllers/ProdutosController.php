@@ -21,7 +21,11 @@ class ProdutosController extends Controller
      public function indexPainelAdm()
      {
              $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-             $produtos = Produto::orderBy('created_at', 'desc')->get();
+             $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+             ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')->paginate(5);
+
              return view('painel-adm.produtos.produtos',[
                  'parceiros' => $parceiros,
                  'produtos' => $produtos,

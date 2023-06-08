@@ -61,16 +61,16 @@
                                 @foreach ($produtos as $produto)
                                 <tr>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->ca_nome}}</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->sub_nome}}</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->pa_id}}</p>
                                     </td>
                                     <td>
                                         <a href="{{route('produtos.fotoProduto', $produto->id)}}">
@@ -81,19 +81,19 @@
                                         </div>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->pro_nome}}</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->pro_subtitulo}}</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
+                                        <a href="" class="text-xs font-weight-bold mb-0" data-bs-toggle="modal" data-bs-target="#descricaoProduto{{$produto->id}}">Clique aqui para visualizar a descrição do produto</a>
                                     </td>
                                     <td class="text-center">
-                                        <a href="#" class="mx-3" data-bs-toggle="modal" data-bs-target="#editarProdutoModal{{--produto->id--}}">
+                                        <a href="#" class="mx-3" data-bs-toggle="modal" data-bs-target="#editarProdutoModal{{$produto->id}}">
                                             <i class="fa fa-pencil text-secondary"></i>
                                         </a>
-                                        <a data-bs-toggle="modal" data-bs-target="#excluirProdutoModal{{--produto->id--}}">
+                                        <a data-bs-toggle="modal" data-bs-target="#excluirProdutoModal{{$produto->id}}">
                                             <i class="cursor-pointer fas fa-trash text-secondary"></i>
                                         </a>
                                     </td>
