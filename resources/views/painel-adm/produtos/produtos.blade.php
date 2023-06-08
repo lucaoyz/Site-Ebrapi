@@ -58,33 +58,36 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                {{--@foreach--}}
+                                @foreach ($produtos as $produto)
                                 <tr>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o id --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o Categoria Principal --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o Sub-categoria --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="ps-4">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o Parceiro --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td>
+                                        <a href="{{route('produtos.fotoProduto', $produto->id)}}">
                                         <div>
-                                            <img src="/assets/img/produtos/{{-- Aqui vai as fotos --}}" width="100rem;"><br>
+                                            <img src="/assets/img/fotosProdutos/principal/{{$produto->pro_img}}" width="100rem;"><br>
+                                                +&nbsp; Acrescentar
+                                            </a>
                                         </div>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o Nome --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai o Subtitulo --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">{{-- Aqui vai a descrição --}}teste</p>
+                                        <p class="text-xs font-weight-bold mb-0">{{$produto->id}}teste</p>
                                     </td>
                                     <td class="text-center">
                                         <a href="#" class="mx-3" data-bs-toggle="modal" data-bs-target="#editarProdutoModal{{--produto->id--}}">
@@ -95,7 +98,7 @@
                                         </a>
                                     </td>
                                 </tr>
-                                {{--@endforeach--}}
+                                @endforeach
                             </tbody>
                         </table>
                     <!-- Paginação com e sem filtros -->

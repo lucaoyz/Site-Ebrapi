@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use App\Models\Parceiro;
 use App\Models\Categoria;
 use App\Models\SubCategoria;
+use App\Models\Produto;
 use App\Models\Contato;
+use App\Models\FotoProduto;
 
 class ProdutosController extends Controller
 {
@@ -19,12 +21,114 @@ class ProdutosController extends Controller
      public function indexPainelAdm()
      {
              $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-
+             $produtos = Produto::orderBy('created_at', 'desc')->get();
              return view('painel-adm.produtos.produtos',[
-                 'parceiros' => $parceiros
+                 'parceiros' => $parceiros,
+                 'produtos' => $produtos,
              ]);
 
      }
+
+     public function fotoProdutoIndex(Produto $produto)
+     {
+         $fotoProdutos = FotoProduto::join('produtos', 'produtos.id', '=', 'foto_produtos.no_id')
+         ->select('produtos.*', 'foto_produtos.*')
+         ->where('pro_id', '=', $produto->id)->orderBy('foto_produtos.id', 'asc')->paginate(5);
+         //dd($fotoProduto);
+
+             return view('painel-adm.produtos.fotoProduto',[
+                 'produto' => $produto,
+                 'fotoNoticias' => $fotoProdutos,
+             ]);
+
+     }
+
+
+     public function createProdutos()
+     {
+
+        $categoriaExiste = Categoria::all()->first();
+        $categorias = Categoria::orderBy('ca_nome', 'asc')->get();
+        $parceiros = Parceiro::orderBy('pa_nome', 'asc')->get();
+        $parceiroExiste = Categoria::all()->first();
+        $subcategorias = SubCategoria::orderBy('sub_nome', 'asc')->get();
+
+        return view('painel-adm.produtos.createProdutos',[
+            'categorias' => $categorias,
+            'categoriaExiste' => $categoriaExiste,
+            'parceiros' => $parceiros,
+            'parceiroExiste' => $parceiroExiste,
+            'subcategorias' => $subcategorias,
+        ]);
+
+     }
+
+     public function createFotoProduto(Produto $produto)
+     {
+
+             return view('painel-adm.produtos.createFotoProduto',[
+                 'produto' => $produto,
+             ]);
+
+     }
+
+     public function storeFotoProduto(Request $request, Produto $produto)
+    {
+
+        $this->validate($request, [
+            'fp_imagem' => 'required',
+            'fp_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768'
+        ]);
+
+        if($request->hasfile('fp_imagem'))
+         {
+
+            foreach($request->file('fp_imagem') as $image)
+            {
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
+                $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+
+                $fotoProduto= new FotoProduto();
+                $fotoProduto->fp_imagem = $name;
+                $fotoProduto->pro_id = $produto->id;
+
+               $fotoProduto->save();
+            }
+         }
+
+        return redirect()->route('produtos')
+        ->with('success', 'Suas imagens foram adicionadas com sucesso!');
+
+    }
+
+    public function storeProduto(Request $request)
+    {
+        $request->validate([
+            'ca_id' => 'nullable',
+            'sub_id' => 'nullable',
+            'pa_id' => 'nullable',
+            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_nome' => 'required',
+            'pro_subtitulo' => 'nullable',
+            'pro_descricao' => 'nullable',
+        ]);
+        //dd($request);
+        $input = $request->all();
+        // Upload de imagem
+        if ($image = $request->file('pro_foto')) {
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosProdutos/principal/', $name);
+            $input['pro_foto'] = "$name";
+        }
+
+        $produto = Produto::create($input);
+
+            //dd($input);
+
+            return redirect()->route('produtos.create.fotoProduto', $produto->id)
+                            ->with('success','Produto criada com sucesso!');
+
+    }
 
     public function indexSite(Contato $contato)
     {
