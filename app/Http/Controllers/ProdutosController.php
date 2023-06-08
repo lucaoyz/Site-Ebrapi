@@ -26,9 +26,14 @@ class ProdutosController extends Controller
              ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
              ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')->paginate(5);
 
+             $categorias = Categoria::latest()->paginate(5);
+             $subcategorias = SubCategoria::latest()->paginate(5);
+
              return view('painel-adm.produtos.produtos',[
                  'parceiros' => $parceiros,
                  'produtos' => $produtos,
+                 'categorias' => $categorias,
+                 'subcategorias' => $subcategorias,
              ]);
 
      }
