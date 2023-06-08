@@ -37,7 +37,7 @@
             <div class="increment">
               <div class="clone hide">
                 <div class="control-group input-group" style="margin-top:10px; align-items: flex-start">
-                  <input type="file" name="fn_imagem[]" class="form-control" accept=".jpeg,.png,.jpg,.gif,.svg" id="fn_imagem">
+                  <input type="file" name="fp_imagem[]" class="form-control" accept=".jpeg,.png,.jpg,.gif,.svg" id="fn_imagem">
                   <button class="btn btn-danger" type="button">Remover imagem</button>
                 </div>
               </div>

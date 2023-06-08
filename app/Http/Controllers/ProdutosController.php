@@ -31,14 +31,14 @@ class ProdutosController extends Controller
 
      public function fotoProdutoIndex(Produto $produto)
      {
-         $fotoProdutos = FotoProduto::join('produtos', 'produtos.id', '=', 'foto_produtos.no_id')
+         $fotoProdutos = FotoProduto::join('produtos', 'produtos.id', '=', 'foto_produtos.pro_id')
          ->select('produtos.*', 'foto_produtos.*')
          ->where('pro_id', '=', $produto->id)->orderBy('foto_produtos.id', 'asc')->paginate(5);
          //dd($fotoProduto);
 
              return view('painel-adm.produtos.fotoProduto',[
                  'produto' => $produto,
-                 'fotoNoticias' => $fotoProdutos,
+                 'fotoProdutos' => $fotoProdutos,
              ]);
 
      }
@@ -101,7 +101,7 @@ class ProdutosController extends Controller
 
     }
 
-    public function storeProduto(Request $request)
+    public function storeProdutos(Request $request)
     {
         $request->validate([
             'ca_id' => 'nullable',

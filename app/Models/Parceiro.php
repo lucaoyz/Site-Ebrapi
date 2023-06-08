@@ -17,6 +17,11 @@ class Parceiro extends Model
         'pa_link',
     ];
 
+
+    public function ParceiroParaProdutos() {
+        return $this->hasOne(Produto::class, 'pa', 'id');
+    }
+
     public function categoriaId()
     {
         return $this->belongsTo(Categoria::class, 'ca_id', 'id');

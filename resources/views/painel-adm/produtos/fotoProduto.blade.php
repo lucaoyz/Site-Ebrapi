@@ -79,6 +79,6 @@
 
 
 
-@include('painel-adm.produtos.modals.modalsFotoProdutos')
+@include('painel-adm.produtos.modalsFotoProdutos')
 
 @endsection

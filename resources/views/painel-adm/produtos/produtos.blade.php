@@ -75,7 +75,7 @@
                                     <td>
                                         <a href="{{route('produtos.fotoProduto', $produto->id)}}">
                                         <div>
-                                            <img src="/assets/img/fotosProdutos/principal/{{$produto->pro_img}}" width="100rem;"><br>
+                                            <img src="/assets/img/fotosProdutos/principal/{{$produto->pro_foto}}" width="100rem;"><br>
                                                 +&nbsp; Acrescentar
                                             </a>
                                         </div>
