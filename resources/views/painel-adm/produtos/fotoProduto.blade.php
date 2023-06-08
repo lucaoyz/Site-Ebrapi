@@ -48,7 +48,7 @@
                                     </td>
                                     <td>
                                         <div>
-                                            <img src="/assets/img/fotosNoticias/{{$fotoProduto->fp_imagem}}" width="100rem;"><br>
+                                            <img src="/assets/img/fotosProdutos/{{$fotoProduto->fp_imagem}}" width="100rem;"><br>
                                         </div>
                                     </td>
                                     <td class="text-center">

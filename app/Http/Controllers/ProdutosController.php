@@ -9,6 +9,7 @@ use App\Models\SubCategoria;
 use App\Models\Produto;
 use App\Models\Contato;
 use App\Models\FotoProduto;
+use Illuminate\Support\Facades\File;
 
 class ProdutosController extends Controller
 {
@@ -136,6 +137,117 @@ class ProdutosController extends Controller
 
             return redirect()->route('produtos.create.fotoProduto', $produto->id)
                             ->with('success','Produto criada com sucesso!');
+
+    }
+
+    public function atualizarProdutos(Request $request, Produto $produto)
+    {
+
+        $request->validate([
+            'ca_id' => 'nullable',
+            'sub_id' => 'nullable',
+            'pa_id' => 'nullable',
+            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_nome' => 'required',
+            'pro_subtitulo' => 'nullable',
+            'pro_descricao' => 'nullable',
+        ]);
+
+        if($request->hasFile('pro_foto')){
+        $image = $request->file('pro_foto');
+
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
+                $image->move(public_path().'/assets/img/fotosProdutos/principal/', $name);
+                $path = public_path('assets/img/fotosProdutos/principal/' . $produto->pro_foto);
+                //dd($path);
+                File::delete($path);
+
+                $produto->pro_foto = $name;
+        }
+
+        $produto->id = $request->id;
+        $produto->ca_id = $request->ca_id;
+        $produto->sub_id = $request->sub_id;
+        $produto->pa_id = $request->pa_id;
+        $produto->pro_nome = $request->pro_nome;
+        $produto->pro_subtitulo = $request->pro_subtitulo;
+        $produto->pro_descricao = $request->pro_descricao;
+
+        $produto->save();
+
+            return redirect()->route('produtos')
+                        ->with('success', 'Produto atualizada com sucesso!');
+
+    }
+
+    public function atualizarFotoProduto(Request $request, Produto $produto, FotoProduto $FotoProduto)
+    {
+        $request->validate([
+            'fp_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+        ]);
+
+        if($request->hasFile('fp_imagem')){
+            $image = $request->file('fp_imagem');
+
+                $name=date('dmY') . "-" . $image->getClientOriginalName();
+                $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                $path = public_path('assets/img/fotosProdutos/' . $FotoProduto->fp_imagem);
+                //dd($path);
+                File::delete($path);
+                $FotoProduto->fp_imagem = $name;
+            }
+                $FotoProduto->id = $request->id;
+                $FotoProduto->pro_id = $produto->id;
+
+               $FotoProduto->save();
+
+
+            return redirect()->route('produtos.fotoProduto', $produto->id)
+                        ->with('success', 'Imagem do produto atualizada com sucesso!');
+
+    }
+
+    public function deleteProdutos(Produto $produto)
+    {
+        $existeFotoProduto = FotoProduto::where('pro_id', '=', $produto->id)->first();
+        //dd($existeFotoNoticia);
+        if(empty($existeFotoProduto)){
+            $path = public_path('assets/img/fotosProdutos/principal/' . $produto->no_img);
+//dd($path);
+            File::delete($path);
+            $produto->delete();
+            return redirect()->route('produtos')
+            ->with('success','Produto excluido com sucesso!');
+        } else {
+            return redirect()->route('produtos')
+            ->with('error','Você precisa limpar as imagens do produto antes de exclui-la!');
+        }
+
+    }
+
+    public function deleteFotoProduto(Produto $produto, FotoProduto $FotoProduto)
+    {
+
+        $path = public_path('assets/img/fotosProdutos/' . $FotoProduto->fp_imagem);
+//dd($path);
+            File::delete($path);
+
+            $FotoProduto->delete();
+
+            return redirect()->route('produtos.fotoProduto', $produto->id)
+            ->with('success','Imagem do produto excluida com sucesso!');
+
+    }
+
+
+    public function limparFotoProduto(Produto $produto)
+    {
+        $FotoProduto = FotoProduto::where('pro_id', '=', $produto->id)->get();
+        //dd($existeFotoNoticia);
+
+            $FotoProduto->each->delete();
+            return redirect()->route('produtos')
+            ->with('success','Fotos limpas com sucesso!');
 
     }
 
