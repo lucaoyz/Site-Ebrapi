@@ -315,9 +315,33 @@ class ProdutosController extends Controller
             ->get(5);
             //dd($contato);
 
+            $microbiologicos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'microbiologicos')
+            ->get();
+
+            $feromonios = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'feromonios')
+            ->get();
+
+            $armadilhas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'armadilhas')
+            ->get();
+
             return view('site.biologicos',[
                 'contato' => $contato,
-                'parceiros' => $parceiros
+                'parceiros' => $parceiros,
+                'microbiologicos' => $microbiologicos,
+                'feromonios' => $feromonios,
+                'armadilhas' => $armadilhas,
             ]);
 
     }

@@ -30,5 +30,21 @@ class SubCategoriaSeeder extends Seeder
             'ca_id' => '1',
             'sub_nome' => 'Hortalicas',
         ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '4',
+            'sub_nome' => 'Microbiologicos',
+        ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '4',
+            'sub_nome' => 'Feromonios',
+        ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '4',
+            'sub_nome' => 'Armadilhas',
+        ]);
+
     }
 }
