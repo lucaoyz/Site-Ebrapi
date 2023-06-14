@@ -380,9 +380,17 @@ class ProdutosController extends Controller
             ->get(5);
             //dd($contato);
 
+            $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('categorias.ca_nome', 'Linha Orgânica')
+            ->get();
+
             return view('site.linhaorganica',[
                 'contato' => $contato,
-                'parceiros' => $parceiros
+                'parceiros' => $parceiros,
+                'produtos' => $produtos,
             ]);
 
     }
