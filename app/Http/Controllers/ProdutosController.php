@@ -27,9 +27,10 @@ class ProdutosController extends Controller
              ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
              ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')->paginate(5);
 
-             $categorias = Categoria::latest()->paginate(5);
-             $subcategorias = SubCategoria::latest()->paginate(5);
+             $categorias = Categoria::latest()->get();
+             $subcategorias = SubCategoria::orderBy('created_at', 'desc')->get();
 
+             //dd($subcategorias);
              return view('painel-adm.produtos.produtos',[
                  'parceiros' => $parceiros,
                  'produtos' => $produtos,
@@ -275,10 +276,41 @@ class ProdutosController extends Controller
             ->where('categorias.ca_nome', 'Defensivos Agricolas')
             ->get(5);
 
-            
+            $Inseticidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Inseticidas')
+            ->get();
+
+            $Herbicidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Herbicidas')
+            ->get();
+
+            $Fungicidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Fungicidas')
+            ->get();
+
+            $Acaricidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('sub_categorias.sub_nome', 'Acaricidas')
+            ->get();
+
             return view('site.defensivos',[
                 'contato' => $contato,
                 'parceiros' => $parceiros,
+                'Inseticidas' => $Inseticidas,
+                'Herbicidas' => $Herbicidas,
+                'Fungicidas' => $Fungicidas,
+                'Acaricidas' => $Acaricidas,
             ]);
 
     }

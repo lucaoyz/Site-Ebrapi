@@ -46,5 +46,25 @@ class SubCategoriaSeeder extends Seeder
             'sub_nome' => 'Armadilhas',
         ]);
 
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '3',
+            'sub_nome' => 'Inseticidas',
+        ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '3',
+            'sub_nome' => 'Herbicidas',
+        ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '3',
+            'sub_nome' => 'Fungicidas',
+        ]);
+
+        DB::table('sub_categorias')->insert([
+            'ca_id' => '3',
+            'sub_nome' => 'Acaricidas',
+        ]);
+
     }
 }
