@@ -64,7 +64,7 @@ class ProdutoSeeder extends Seeder
             'sub_id' => '1',
             'pa_id' => '1',
             'pro_foto' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
-            'pro_nome' => 'bruna dasdasdas deasgraçada',
+            'pro_nome' => 'produto teste',
             'pro_subtitulo' => 'produto subtitulo',
             'pro_descricao' => 'descricao',
         ]);
