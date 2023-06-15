@@ -275,17 +275,10 @@ class ProdutosController extends Controller
             ->where('categorias.ca_nome', 'Defensivos Agricolas')
             ->get(5);
 
-            $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
-            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
-            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
-            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
-            ->where('categorias.ca_nome', 'Defensivos Agricolas')
-            ->get();
-
+            
             return view('site.defensivos',[
                 'contato' => $contato,
                 'parceiros' => $parceiros,
-                'produtos' => $produtos,
             ]);
 
     }
@@ -299,9 +292,17 @@ class ProdutosController extends Controller
             ->get(5);
             //dd($contato);
 
+            $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+            ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+            ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+            ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+            ->where('categorias.ca_nome', 'Fertilizantes')
+            ->get();
+
             return view('site.fertilizantes',[
                 'contato' => $contato,
-                'parceiros' => $parceiros
+                'parceiros' => $parceiros,
+                'produtos' => $produtos,
             ]);
 
     }
