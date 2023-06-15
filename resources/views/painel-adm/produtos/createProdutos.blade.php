@@ -62,7 +62,7 @@
         </div>
 
         <div class="mb-3">
-            <label for="ca_id" class="form-label">Sub-Categoria</label>
+            <label for="ca_id" class="form-label">Sub-Categoria (Opcional)</label>
                 <select name="sub_id" id="ca_id"
                 class="form-select @error('sub_id') is-invalid @enderror"
                 value="{{ old('sub_id') }}" autocomplete="sub_id">
