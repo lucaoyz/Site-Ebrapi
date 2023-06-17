@@ -59,13 +59,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$microbiologico->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$microbiologico->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$microbiologico->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $microbiologico->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$microbiologico->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$microbiologico->id}}">{{$microbiologico->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$microbiologico->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -79,13 +79,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$feromonio->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$feromonio->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$feromonio->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $feromonio->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$feromonio->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$feromonio->id}}">{{$feromonio->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$feromonio->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -99,13 +99,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$armadilha->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$armadilha->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$armadilha->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $armadilha->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$armadilha->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$armadilha->id}}">{{$armadilha->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$armadilha->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -119,5 +119,7 @@
         </div>
     </div>
     <!-- Product End -->
+
+    @include('site.modals.modalsBiologicos')
 
 @endsection

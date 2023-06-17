@@ -62,12 +62,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$Inseticida->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Inseticida->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$Inseticida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Inseticida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$Inseticida->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Inseticida->id}}">{{$Inseticida->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$Inseticida->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -81,12 +81,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$Herbicida->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Herbicida->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$Herbicida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Herbicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$Herbicida->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Herbicida->id}}">{{$Herbicida->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$Herbicida->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -100,12 +100,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$Fungicida->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Fungicida->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$Fungicida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Fungicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$Fungicida->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Fungicida->id}}">{{$Fungicida->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$Fungicida->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -119,12 +119,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$Acaricida->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Acaricida->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$Acaricida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Acaricida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$Acaricida->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Acaricida->id}}">{{$Acaricida->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$Acaricida->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -138,6 +138,7 @@
     </div>
     <!-- Product End -->
 
+    @include('site.modals.modalsDefensivos')
 
 
 @endsection

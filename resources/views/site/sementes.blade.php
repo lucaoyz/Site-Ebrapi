@@ -58,12 +58,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$grao->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$grao->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$grao->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $grao->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$grao->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$grao->id}}">{{$grao->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$grao->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -77,12 +77,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$forrageira->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$forrageira->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$forrageira->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $forrageira->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$forrageira->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$forrageira->id}}">{{$forrageira->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$forrageira->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -96,12 +96,12 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$Hortalica->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Hortalica->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$Hortalica->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Hortalica->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$Hortalica->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Hortalica->id}}">{{$Hortalica->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$Hortalica->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -122,6 +122,7 @@
     </div>
     <!-- Product End -->
 
+    @include('site.modals.modalsProduto')
 
 
 @endsection

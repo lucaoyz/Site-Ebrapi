@@ -45,13 +45,13 @@
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="product-item">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="/assets/img/fotosProdutos/principal/{{$produto->pro_foto}}" alt="">
+                                    <img class="img-fluid" src="/assets/img/fotosProdutos/{{$produto->pro_foto}}" alt="">
                                     <div class="product-overlay">
                                         <a href="{{$produto->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $produto->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5">{{$produto->pro_nome}}</a>
+                                    <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$produto->id}}">{{$produto->pro_nome}}</a>
                                     <span class="text-primary me-1" style="font-size: 17px;">{{$produto->pro_subtitulo}}</span>
                                 </div>
                             </div>
@@ -63,5 +63,8 @@
         </div>
     </div>
     <!-- Product End -->
+
+    @include('site.modals.modalsProduto')
+
 
 @endsection
