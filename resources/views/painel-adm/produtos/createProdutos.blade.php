@@ -139,6 +139,58 @@
         </div>
 
         <div class="mb-3">
+            <label for="pro_foto2" class="form-label">Segunda foto do produto</label>
+            <input type="file" name="pro_foto2" id="pro_foto2" class="form-control @error('pro_foto2') is-invalid @enderror"
+            accept=".jpeg,.png,.jpg,.gif,.svg">
+
+                @error('pro_foto2')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+
+                @enderror
+        </div>
+
+        <div class="mb-3">
+            <label for="pro_foto3" class="form-label">Terceira foto do produto</label>
+            <input type="file" name="pro_foto3" id="pro_foto3" class="form-control @error('pro_foto3') is-invalid @enderror"
+            accept=".jpeg,.png,.jpg,.gif,.svg">
+
+                @error('pro_foto3')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+
+                @enderror
+        </div>
+
+        <div class="mb-3">
+            <label for="pro_foto4" class="form-label">Quarta foto do produto</label>
+            <input type="file" name="pro_foto4" id="pro_foto4" class="form-control @error('pro_foto4') is-invalid @enderror"
+            accept=".jpeg,.png,.jpg,.gif,.svg">
+
+                @error('pro_foto4')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+
+                @enderror
+        </div>
+
+        <div class="mb-3">
+            <label for="pro_foto5" class="form-label">Quinta foto do produto</label>
+            <input type="file" name="pro_foto5" id="pro_foto5" class="form-control @error('pro_foto5') is-invalid @enderror"
+            accept=".jpeg,.png,.jpg,.gif,.svg">
+
+                @error('pro_foto5')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+
+                @enderror
+        </div>
+
+        <div class="mb-3">
             <label for="pro_nome" class="form-label">Nome do produto</label>
             <input name="pro_nome" type="text" class="form-control @error('pro_nome') is-invalid @enderror" id="pro_nome"
                 placeholder="Digite o nome do produto..">
@@ -176,7 +228,7 @@
     </div>
 
     <div class="card-footer">
-        <button class="btn btn-primary" style="background-image: linear-gradient(310deg,#008352,#008352);" type="submit">Cadastrar e adicionar mais imagens</button>
+        <button class="btn btn-primary" style="background-image: linear-gradient(310deg,#008352,#008352);" type="submit">Cadastrar</button>
 
         <a href="{{route('parceiros')}}" class="btn btn-secondary">Voltar</a>
     </div>

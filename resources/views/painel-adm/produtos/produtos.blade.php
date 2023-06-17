@@ -73,10 +73,10 @@
                                         <p class="text-xs font-weight-bold mb-0">{{$produto->pa_id}}</p>
                                     </td>
                                     <td>
-                                        <a href="{{route('produtos.fotoProduto', $produto->id)}}">
+                                        <a href="" data-bs-toggle="modal" data-bs-target="#fotosProduto{{$produto->id}}">
                                         <div>
-                                            <img src="/assets/img/fotosProdutos/principal/{{$produto->pro_foto}}" width="100rem;"><br>
-                                                +&nbsp; Acrescentar
+                                            <img src="/assets/img/fotosProdutos/{{$produto->pro_foto}}" width="100rem;"><br>
+                                                Visualizar
                                             </a>
                                         </div>
                                     </td>

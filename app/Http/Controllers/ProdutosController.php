@@ -8,7 +8,6 @@ use App\Models\Categoria;
 use App\Models\SubCategoria;
 use App\Models\Produto;
 use App\Models\Contato;
-use App\Models\FotoProduto;
 use Illuminate\Support\Facades\File;
 
 class ProdutosController extends Controller
@@ -36,20 +35,6 @@ class ProdutosController extends Controller
                  'produtos' => $produtos,
                  'categorias' => $categorias,
                  'subcategorias' => $subcategorias,
-             ]);
-
-     }
-
-     public function fotoProdutoIndex(Produto $produto)
-     {
-         $fotoProdutos = FotoProduto::join('produtos', 'produtos.id', '=', 'foto_produtos.pro_id')
-         ->select('produtos.*', 'foto_produtos.*')
-         ->where('pro_id', '=', $produto->id)->orderBy('foto_produtos.id', 'asc')->paginate(5);
-         //dd($fotoProduto);
-
-             return view('painel-adm.produtos.fotoProduto',[
-                 'produto' => $produto,
-                 'fotoProdutos' => $fotoProdutos,
              ]);
 
      }
@@ -83,35 +68,6 @@ class ProdutosController extends Controller
 
      }
 
-     public function storeFotoProduto(Request $request, Produto $produto)
-    {
-
-        $this->validate($request, [
-            'fp_imagem' => 'required',
-            'fp_imagem.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768'
-        ]);
-
-        if($request->hasfile('fp_imagem'))
-         {
-
-            foreach($request->file('fp_imagem') as $image)
-            {
-                $name=date('dmY') . "-" . $image->getClientOriginalName();
-                $image->move(public_path().'/assets/img/fotosProdutos/', $name);
-
-                $fotoProduto= new FotoProduto();
-                $fotoProduto->fp_imagem = $name;
-                $fotoProduto->pro_id = $produto->id;
-
-               $fotoProduto->save();
-            }
-         }
-
-        return redirect()->route('produtos')
-        ->with('success', 'Suas imagens foram adicionadas com sucesso!');
-
-    }
-
     public function storeProdutos(Request $request)
     {
         $request->validate([
@@ -119,6 +75,10 @@ class ProdutosController extends Controller
             'sub_id' => 'nullable',
             'pa_id' => 'nullable',
             'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
             'pro_nome' => 'required',
             'pro_subtitulo' => 'nullable',
             'pro_descricao' => 'nullable',
@@ -128,16 +88,40 @@ class ProdutosController extends Controller
         // Upload de imagem
         if ($image = $request->file('pro_foto')) {
             $name=date('dmY') . "-" . $image->getClientOriginalName();
-            $image->move(public_path().'/assets/img/fotosProdutos/principal/', $name);
+            $image->move(public_path().'/assets/img/fotosProdutos/', $name);
             $input['pro_foto'] = "$name";
+        }
+
+        if ($image = $request->file('pro_foto2')) {
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+            $input['pro_foto2'] = "$name";
+        }
+
+        if ($image = $request->file('pro_foto3')) {
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+            $input['pro_foto3'] = "$name";
+        }
+
+        if ($image = $request->file('pro_foto4')) {
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+            $input['pro_foto4'] = "$name";
+        }
+
+        if ($image = $request->file('pro_foto5')) {
+            $name=date('dmY') . "-" . $image->getClientOriginalName();
+            $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+            $input['pro_foto5'] = "$name";
         }
 
         $produto = Produto::create($input);
 
             //dd($input);
 
-            return redirect()->route('produtos.create.fotoProduto', $produto->id)
-                            ->with('success','Produto criada com sucesso!');
+            return redirect()->route('produtos')
+                            ->with('success','Produto criado com sucesso!');
 
     }
 
@@ -149,6 +133,10 @@ class ProdutosController extends Controller
             'sub_id' => 'nullable',
             'pa_id' => 'nullable',
             'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
             'pro_nome' => 'required',
             'pro_subtitulo' => 'nullable',
             'pro_descricao' => 'nullable',
@@ -158,13 +146,61 @@ class ProdutosController extends Controller
         $image = $request->file('pro_foto');
 
                 $name=date('dmY') . "-" . $image->getClientOriginalName();
-                $image->move(public_path().'/assets/img/fotosProdutos/principal/', $name);
-                $path = public_path('assets/img/fotosProdutos/principal/' . $produto->pro_foto);
+                $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto);
                 //dd($path);
                 File::delete($path);
 
                 $produto->pro_foto = $name;
         }
+
+        if($request->hasFile('pro_foto2')){
+            $image = $request->file('pro_foto2');
+
+                    $name=date('dmY') . "-" . $image->getClientOriginalName();
+                    $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                    $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto2);
+                    //dd($path);
+                    File::delete($path);
+
+                    $produto->pro_foto2 = $name;
+        }
+
+        if($request->hasFile('pro_foto3')){
+            $image = $request->file('pro_foto3');
+
+                    $name=date('dmY') . "-" . $image->getClientOriginalName();
+                    $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                    $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto3);
+                    //dd($path);
+                    File::delete($path);
+
+                    $produto->pro_foto3 = $name;
+            }
+
+            if($request->hasFile('pro_foto4')){
+                $image = $request->file('pro_foto4');
+
+                        $name=date('dmY') . "-" . $image->getClientOriginalName();
+                        $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                        $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto4);
+                        //dd($path);
+                        File::delete($path);
+
+                        $produto->pro_foto4 = $name;
+            }
+
+            if($request->hasFile('pro_foto5')){
+                $image = $request->file('pro_foto5');
+
+                        $name=date('dmY') . "-" . $image->getClientOriginalName();
+                        $image->move(public_path().'/assets/img/fotosProdutos/', $name);
+                        $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto5);
+                        //dd($path);
+                        File::delete($path);
+
+                        $produto->pro_foto5 = $name;
+            }
 
         $produto->id = $request->id;
         $produto->ca_id = $request->ca_id;
@@ -181,74 +217,27 @@ class ProdutosController extends Controller
 
     }
 
-    public function atualizarFotoProduto(Request $request, Produto $produto, FotoProduto $FotoProduto)
-    {
-        $request->validate([
-            'fp_imagem' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-        ]);
-
-        if($request->hasFile('fp_imagem')){
-            $image = $request->file('fp_imagem');
-
-                $name=date('dmY') . "-" . $image->getClientOriginalName();
-                $image->move(public_path().'/assets/img/fotosProdutos/', $name);
-                $path = public_path('assets/img/fotosProdutos/' . $FotoProduto->fp_imagem);
-                //dd($path);
-                File::delete($path);
-                $FotoProduto->fp_imagem = $name;
-            }
-                $FotoProduto->id = $request->id;
-                $FotoProduto->pro_id = $produto->id;
-
-               $FotoProduto->save();
-
-
-            return redirect()->route('produtos.fotoProduto', $produto->id)
-                        ->with('success', 'Imagem do produto atualizada com sucesso!');
-
-    }
-
     public function deleteProdutos(Produto $produto)
     {
-        $existeFotoProduto = FotoProduto::where('pro_id', '=', $produto->id)->first();
-        //dd($existeFotoNoticia);
-        if(empty($existeFotoProduto)){
-            $path = public_path('assets/img/fotosProdutos/principal/' . $produto->no_img);
-//dd($path);
+            $path = public_path('assets/img/fotosProdutos/' . $produto->pro_foto);
             File::delete($path);
+
+            $path2 = public_path('assets/img/fotosProdutos/' . $produto->pro_foto2);
+            File::delete($path2);
+
+            $path3 = public_path('assets/img/fotosProdutos/' . $produto->pro_foto3);
+            File::delete($path3);
+
+            $path4 = public_path('assets/img/fotosProdutos/' . $produto->pro_foto4);
+            File::delete($path4);
+
+            $path5 = public_path('assets/img/fotosProdutos/' . $produto->pro_foto5);
+            File::delete($path5);
+
             $produto->delete();
+            
             return redirect()->route('produtos')
             ->with('success','Produto excluido com sucesso!');
-        } else {
-            return redirect()->route('produtos')
-            ->with('error','Você precisa limpar as imagens do produto antes de exclui-la!');
-        }
-
-    }
-
-    public function deleteFotoProduto(Produto $produto, FotoProduto $FotoProduto)
-    {
-
-        $path = public_path('assets/img/fotosProdutos/' . $FotoProduto->fp_imagem);
-//dd($path);
-            File::delete($path);
-
-            $FotoProduto->delete();
-
-            return redirect()->route('produtos.fotoProduto', $produto->id)
-            ->with('success','Imagem do produto excluida com sucesso!');
-
-    }
-
-
-    public function limparFotoProduto(Produto $produto)
-    {
-        $FotoProduto = FotoProduto::where('pro_id', '=', $produto->id)->get();
-        //dd($existeFotoNoticia);
-
-            $FotoProduto->each->delete();
-            return redirect()->route('produtos')
-            ->with('success','Fotos limpas com sucesso!');
 
     }
 

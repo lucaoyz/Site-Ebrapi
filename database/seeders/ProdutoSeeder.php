@@ -47,6 +47,8 @@ class ProdutoSeeder extends Seeder
         Colocar o arquivo na pasta /assets/img/fotosProdutos/principal/
         Colocar o nome do arquivo (com a extensão, por exemplo .jpeg .jpg .gif .png e etc) no pro_foto
 
+        Proximas fotos, seguir mesma regra acima
+
         Nome do Produto
         Colocar o nome do produto em pro_nome
 
@@ -64,6 +66,10 @@ class ProdutoSeeder extends Seeder
             'sub_id' => '1',
             'pa_id' => '1',
             'pro_foto' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
+            'pro_foto2' => '08062023-hero-bg.jpg',
+            'pro_foto3' => '08062023-Prancheta 1 copiar 2.png',
+            'pro_foto4' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
+            'pro_foto5' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
             'pro_nome' => 'produto teste',
             'pro_subtitulo' => 'produto subtitulo',
             'pro_descricao' => 'descricao',
