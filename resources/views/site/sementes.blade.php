@@ -60,7 +60,8 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$grao->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$grao->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $grao->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$grao->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $grao->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$grao->id}}">{{$grao->pro_nome}}</a>
@@ -79,7 +80,8 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$forrageira->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$forrageira->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $forrageira->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$forrageira->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $forrageira->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$forrageira->id}}">{{$forrageira->pro_nome}}</a>
@@ -98,7 +100,8 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Hortalica->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Hortalica->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Hortalica->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Hortalica->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Hortalica->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Hortalica->id}}">{{$Hortalica->pro_nome}}</a>

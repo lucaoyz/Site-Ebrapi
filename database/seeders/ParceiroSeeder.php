@@ -53,10 +53,37 @@ class ParceiroSeeder extends Seeder
             'id' => '1',
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_nome' => 'lucas teste',
-            'pa_logo' => '15062023-joker.gif',
-            'pa_link' => 'https://www.instagram.com/',
+            'pa_nome' => 'Embrapa',
+            'pa_logo' => '20062023-embrapa.png',
+            'pa_link' => 'https://www.embrapa.br/',
         ]);
-        
+
+        DB::table('parceiros')->insert([
+            'id' => '2',
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_nome' => 'Semeali',
+            'pa_logo' => '29052023-logo-semeali.png',
+            'pa_link' => 'http://www.semeali.com.br/inicial',
+        ]);
+
+        DB::table('parceiros')->insert([
+            'id' => '3',
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_nome' => 'Cati',
+            'pa_logo' => '20062023-logo-cati.png',
+            'pa_link' => 'https://www.cati.sp.gov.br/portal/#',
+        ]);
+
+        DB::table('parceiros')->insert([
+            'id' => '4',
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_nome' => 'Sementes Bonamigo',
+            'pa_logo' => '20062023-logo-sementesbonamigo.png',
+            'pa_link' => 'https://www.sementesbonamigo.com.br/',
+        ]);
+
     }
 }

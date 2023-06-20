@@ -103,9 +103,9 @@
                         </table>
                     <!-- Paginação com e sem filtros -->
                     @if (isset($filters))
-                        {{-- $produtos->appends($filters)->links() --}}
+                        {{ $produtos->appends($filters)->links() }}
                     @else
-                        {{-- $produtos->links() --}}
+                        {{ $produtos->links() }}
                     @endif
                     </div>
                 </div>

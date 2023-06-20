@@ -74,11 +74,11 @@ class ProdutosController extends Controller
             'ca_id' => 'nullable',
             'sub_id' => 'nullable',
             'pa_id' => 'nullable',
-            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
             'pro_nome' => 'required',
             'pro_subtitulo' => 'nullable',
             'pro_descricao' => 'nullable',
@@ -132,11 +132,11 @@ class ProdutosController extends Controller
             'ca_id' => 'nullable',
             'sub_id' => 'nullable',
             'pa_id' => 'nullable',
-            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
-            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=1024,min_height=768',
+            'pro_foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto2' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto3' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto4' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
+            'pro_foto5' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:5048|dimensions:min_width=550,min_height=550',
             'pro_nome' => 'required',
             'pro_subtitulo' => 'nullable',
             'pro_descricao' => 'nullable',
@@ -235,7 +235,7 @@ class ProdutosController extends Controller
             File::delete($path5);
 
             $produto->delete();
-            
+
             return redirect()->route('produtos')
             ->with('success','Produto excluido com sucesso!');
 

@@ -64,13 +64,236 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '1',
             'sub_id' => '1',
             'pa_id' => '1',
-            'pro_foto' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
-            'pro_foto2' => '08062023-hero-bg.jpg',
-            'pro_foto3' => '08062023-Prancheta 1 copiar 2.png',
-            'pro_foto4' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
-            'pro_foto5' => '15062023-twenty-one-pilots-desenho-desenho.jpg',
-            'pro_nome' => 'produto teste',
-            'pro_subtitulo' => 'produto subtitulo',
+            'pro_foto' => '20062023-brs-sertaneja.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Sertaneja',
+            'pro_subtitulo' => 'Arroz',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-brs-esmeralda.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Esmeralda',
+            'pro_subtitulo' => 'Arroz',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-brs-a502.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS A502',
+            'pro_subtitulo' => 'Arroz',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-feijao-brs-perola.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Pérola',
+            'pro_subtitulo' => 'Grupo Carioca',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-feijao-brs-estilo.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Estilo',
+            'pro_subtitulo' => 'Grupo Carioca',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-feijao-brs-guariba.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Guariba',
+            'pro_subtitulo' => 'Grupo Vigna Caupi',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '1',
+            'pro_foto' => '20062023-feijao-brs-tumucumaque.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Tumucumaque',
+            'pro_subtitulo' => 'Grupo Vigna Caupi',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '2',
+            'pro_foto' => '20062023-xb8018.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'XB 8018',
+            'pro_subtitulo' => 'Híbridos',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '2',
+            'pro_foto' => '20062023-xb6055pro2.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'XB 6055 Pro',
+            'pro_subtitulo' => 'Híbridos',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '2',
+            'pro_foto' => '20062023-sx8555vip3.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'SX 8555 Vip3',
+            'pro_subtitulo' => 'Híbridos',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '2',
+            'pro_foto' => '20062023-xb6016vip3.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'XB 6016 Vip3',
+            'pro_subtitulo' => 'Híbridos',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '3',
+            'pro_foto' => '20062023-al-bandeirante.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Al Bandeirante',
+            'pro_subtitulo' => 'Milho Variedade',
+            'pro_descricao' => 'Características Agronômicas:
+            - Tipo: Variedade;
+            - Ciclo: Médio (130 dias);
+            - Altura média da planta: 2,30m;
+            - Altura média da Espiga: 1,25m;
+            - Cor de grãos: Amarelo alaranjado;
+            - Tipo de grãos: Semi duro;
+            - Uso: Grãos e silagem;
+            - Resistência ao acamamento: Ótima;
+            - Resistência às principais doenças: Boa;
+            - População: Safra normal: 65 mil plantas/hectare; Safrinha: 45 mil plantas/hectare;
+            - Produtividade média: Safra normal: 7.500/kg/hectare; Safrinha: 3.500 Kg/hectare;
+            - Recomendação: 15 – 23 Kg de semente/hectare;
+            - Regiões indicadas para o plantio: Todo o Brasil, sem restrições.',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '3',
+            'pro_foto' => '20062023-al-avare.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Al Avaré',
+            'pro_subtitulo' => 'Milho Variedade',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '3',
+            'pro_foto' => '20062023-cativerde.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cativerde',
+            'pro_subtitulo' => 'Milho Variedade',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '20062023-br106.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BR 106',
+            'pro_subtitulo' => 'Milho Variedade',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '20062023-soja-brs-284.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS 284',
+            'pro_subtitulo' => 'Soja',
             'pro_descricao' => 'descricao',
         ]);
 
