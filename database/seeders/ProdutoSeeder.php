@@ -61,7 +61,6 @@ class ProdutoSeeder extends Seeder
         */
 
         DB::table('produtos')->insert([
-            'id' => '1',
             'ca_id' => '1',
             'sub_id' => '1',
             'pa_id' => '1',

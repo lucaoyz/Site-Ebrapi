@@ -57,5 +57,6 @@ class ParceiroSeeder extends Seeder
             'pa_logo' => '15062023-joker.gif',
             'pa_link' => 'https://www.instagram.com/',
         ]);
+        
     }
 }
