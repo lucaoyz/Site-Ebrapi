@@ -297,5 +297,89 @@ class ProdutoSeeder extends Seeder
             'pro_descricao' => 'descricao',
         ]);
 
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-brs-525.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS 525',
+            'pro_subtitulo' => 'Soja',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-m-6410-ipro.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'M 6410 IPRO',
+            'pro_subtitulo' => 'Soja',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-sorgo-forrageiro-podium.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Forrageiro Podium',
+            'pro_subtitulo' => 'Sorgo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-sorgo-ponta-negra.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Ponta Negra',
+            'pro_subtitulo' => 'Sorgo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-sorgo.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Semeali',
+            'pro_subtitulo' => 'Sorgo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '1',
+            'pa_id' => '4',
+            'pro_foto' => '21062023-trigo.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Trigo',
+            'pro_subtitulo' => 'Sob Consulta',
+            'pro_descricao' => 'descricao',
+        ]);
+
     }
 }
