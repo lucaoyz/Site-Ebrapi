@@ -381,5 +381,327 @@ class ProdutoSeeder extends Seeder
             'pro_descricao' => 'descricao',
         ]);
 
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-BRS-PAIAGUAS.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Paiaguás',
+            'pro_subtitulo' => 'Brachiaria Brizantha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-BRS-PIATA.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Piatã',
+            'pro_subtitulo' => 'Brachiaria Brizantha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-cv-marandu.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Marandú',
+            'pro_subtitulo' => 'Brachiaria Brizantha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-Xaraes-MG-5.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Xaraés MG-5',
+            'pro_subtitulo' => 'Brachiaria Brizantha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-cv-basilisk.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'CV Basilisk',
+            'pro_subtitulo' => 'Brachiaria Decumbens',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-brs-ipypora.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Ipyporã',
+            'pro_subtitulo' => 'Brachiaria Híbrida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-cv-ruziziensis.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Ruziziensis',
+            'pro_subtitulo' => 'Brachiaria Ruziziensis',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-cv-humidicola.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Humidícola',
+            'pro_subtitulo' => 'Brachiaria Humidícola',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-brachiaria-cv-llanero.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv LLANERO',
+            'pro_subtitulo' => 'Brachiaria Humidícola',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-brs-quenia.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Quênia',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-brs-tamania.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Tamania',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-brs-zuri.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'BRS Zuri',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-cv-aruana.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Aruana',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-cv-massai.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Massai',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-cv-tanzania.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Tanzânia',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-cv-mombaca.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Mombaça',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-panicum-cv-miyagui.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'cv Miyagui',
+            'pro_subtitulo' => 'Panicum Maximum',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-aveia-preta.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Aveia Preta',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-plantacao-milheto.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Milheto',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-crotalaria.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Crotalárias',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-feijao-de-porco.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Feijão de Porco',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-guandu.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Guandu',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '2',
+            'pa_id' => '4',
+            'pro_foto' => '22062023-mucuna.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mucuna',
+            'pro_subtitulo' => 'Subtitulo',
+            'pro_descricao' => 'descricao',
+        ]);
+
     }
 }
