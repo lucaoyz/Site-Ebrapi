@@ -85,5 +85,14 @@ class ParceiroSeeder extends Seeder
             'pa_link' => 'https://www.sementesbonamigo.com.br/',
         ]);
 
+        DB::table('parceiros')->insert([
+            'id' => '5',
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_nome' => 'Feltrin',
+            'pa_logo' => '23062023-logo-feltrin-white.png',
+            'pa_link' => 'https://www.sementesfeltrin.com.br/',
+        ]);
+
     }
 }

@@ -703,5 +703,621 @@ class ProdutoSeeder extends Seeder
             'pro_descricao' => 'descricao',
         ]);
 
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-expositor-feltrin.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Sementes',
+            'pro_subtitulo' => 'Linha Envelopes',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-abobora-hiroko.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Hiroko',
+            'pro_subtitulo' => 'Abóbora Tetsukabuto',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-abobora-rajada-seca.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rajada Seca',
+            'pro_subtitulo' => 'Abóbora Seca/Pescoço',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-abobora-xingo.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Xingó',
+            'pro_subtitulo' => 'Abóbora',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-abobrinha-caserta.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Caserta Italiana',
+            'pro_subtitulo' => 'Abobrinha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-menina-brasileira-precoce.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Menina Brasileira Precoce',
+            'pro_subtitulo' => 'Abobrinha Menina Brasileira',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-mauren.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mauren',
+            'pro_subtitulo' => 'Alface Americana',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-crocantela.jpg',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Crocantela',
+            'pro_subtitulo' => 'Alface Crespa Verde',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-betania.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Betânia',
+            'pro_subtitulo' => 'Alface Mimosa Roxa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-giovana.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Giovana',
+            'pro_subtitulo' => 'Alface Mimosa Verde',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-veneranda.jpg',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Veneranda',
+            'pro_subtitulo' => 'Alface Crespa Verde',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-rubinela.jpg',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rubinela',
+            'pro_subtitulo' => 'Alface Crespa Roxa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-alface-elisabeth.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Elisabeth',
+            'pro_subtitulo' => 'Alface Lisa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-berinjela-classic.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Classic',
+            'pro_subtitulo' => 'Berinjela',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-berinjela-marjorie.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Marjorie',
+            'pro_subtitulo' => 'Berinjela',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-beterraba-katrina.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Katrina',
+            'pro_subtitulo' => 'Beterraba',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-brocolis-coliseu.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Coliseu',
+            'pro_subtitulo' => 'Brócolis Verão',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-cebola-baia-herval.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Baia Herval',
+            'pro_subtitulo' => 'Cebola Amarela',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-cenoura-brasilia-irece.jpg',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Brasília Irecê',
+            'pro_subtitulo' => 'Cenoura Verão',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-cenoura-nantes-milena.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Nantes Milena',
+            'pro_subtitulo' => 'Cenoura Outono/Inverno',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-couve-manteiga.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Manteiga',
+            'pro_subtitulo' => 'Couve-Folha',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-chicoria-encantada.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Encantada',
+            'pro_subtitulo' => 'Chicória Lisa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-jilo-comprido-grande-rio.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Comprido Grande Rio',
+            'pro_subtitulo' => 'Jiló Comprido',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-abobora-isabella.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mini Paulista Isabella',
+            'pro_subtitulo' => 'Mini Abóbora Butternut Tropical',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-melancia-crimson-select-plus.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Crimson Select Plus',
+            'pro_subtitulo' => 'Melancia Crimson',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-melancia-crimson-sweet.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Crimson Sweet',
+            'pro_subtitulo' => 'Melancia Crimson',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-maxixe-do-norte.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Do Norte',
+            'pro_subtitulo' => 'Maxixe',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-mamao-formosa.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Formosa',
+            'pro_subtitulo' => 'Mamão Formosa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-mamao-ouro.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Ouro',
+            'pro_subtitulo' => 'Mamão Solo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimentao-amarelo-sf.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Amarelo SF',
+            'pro_subtitulo' => 'Pimentão Cônico',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimentao-casca-dura-ikeda.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Casca Dura Ikeda',
+            'pro_subtitulo' => 'Pimentão Cônico',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimentao-rubi.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rubi',
+            'pro_subtitulo' => 'Pimentão Cônico',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimentao-derick.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Derick',
+            'pro_subtitulo' => 'Pimentão Lamuyo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimenta-bico-vermelho.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Bico Vermelho',
+            'pro_subtitulo' => 'Pimenta Bico',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pimenta-malagueta.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Malagueta',
+            'pro_subtitulo' => 'Pimenta Malagueta',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-pepino-esmeralda.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Esmeralda Caipira',
+            'pro_subtitulo' => 'Pepino Caipira Verde Claro',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-quiabo-santa-cruz.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Santa Cruz47',
+            'pro_subtitulo' => 'Quiabo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-rucula-apreciatta.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Apreciatta',
+            'pro_subtitulo' => 'Rúcula Folha Larga',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-rabanete-vip-crimson.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Vip Crimson',
+            'pro_subtitulo' => 'Rabanete Redondo',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-salsa-lisa.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Lisa',
+            'pro_subtitulo' => 'Salsa Lisa',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-tomate-barto.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Bartô',
+            'pro_subtitulo' => 'Tomate Determinado Saladete',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-tomate-fascinio.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Fascínio',
+            'pro_subtitulo' => 'Tomate Determinado Saladete',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-tomate-cascade.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cascade',
+            'pro_subtitulo' => 'Tomate Indeterminado Cereja',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '1',
+            'sub_id' => '3',
+            'pa_id' => '5',
+            'pro_foto' => '23062023-tomate-santa-cruz-kada.png',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Santa Cruz Kada',
+            'pro_subtitulo' => 'Tomate Indeterminado Santa Cruz',
+            'pro_descricao' => 'descricao',
+        ]);
+
     }
 }
