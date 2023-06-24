@@ -1,3 +1,8 @@
+<h1>
+Site completo com painel administrativo integrado
+</h1>
+<p>Desenvolvimento de um site completo com painel administrativo integrado para uma empresa de vendas de agronegócio, o sistema contém gerenciamento completo das informações de contato da empresa, informações extras sobre a empresa, posts do instagram conectadas automaticamente ao site, inclusão, edição e exclusão de produtos e parceiros da empresa, sistema de login completo e posts do instagram atualizados automáticamente no site para o público. 
+Projeto realizado pela equipe Eazy, composta por Lucas Moraes, Bruna Silva e Filipe Bacchin.</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
