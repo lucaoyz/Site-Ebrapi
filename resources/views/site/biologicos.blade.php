@@ -23,7 +23,7 @@
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
-                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
             @endforeach
             </div>
         </div>
@@ -61,7 +61,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$microbiologico->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$microbiologico->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $microbiologico->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$microbiologico->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $microbiologico->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -81,7 +81,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$feromonio->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$feromonio->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $feromonio->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$feromonio->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $feromonio->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -101,7 +101,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$armadilha->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$armadilha->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $armadilha->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$armadilha->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $armadilha->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">

@@ -23,7 +23,7 @@
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
-                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
                 @endforeach
             </div>
         </div>
@@ -60,7 +60,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$grao->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$grao->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $grao->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                        <a href="{{$grao->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $grao->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -80,7 +80,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$forrageira->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$forrageira->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $forrageira->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                        <a href="{{$forrageira->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $forrageira->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -100,7 +100,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Hortalica->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Hortalica->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Hortalica->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
+                                        <a href="{{$Hortalica->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Hortalica->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">

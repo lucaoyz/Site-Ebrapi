@@ -270,6 +270,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Inseticidas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $Herbicidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -277,6 +278,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Herbicidas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $Fungicidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -284,6 +286,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Fungicidas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $Acaricidas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -291,6 +294,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Acaricidas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             return view('site.defensivos',[
@@ -318,6 +322,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('categorias.ca_nome', 'Fertilizantes')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             return view('site.fertilizantes',[
@@ -342,6 +347,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'microbiologicos')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $feromonios = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -349,6 +355,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'feromonios')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $armadilhas = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -356,6 +363,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'armadilhas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             return view('site.biologicos',[
@@ -389,6 +397,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Graos')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             $forrageiras = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
@@ -396,6 +405,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Forrageiras e Adubacao Verde')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
 
@@ -404,6 +414,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('sub_categorias.sub_nome', 'Hortalicas')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
             //dd($Hortalicas);
             return view('site.sementes',[
@@ -431,6 +442,7 @@ class ProdutosController extends Controller
             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
             ->where('categorias.ca_nome', 'Linha Orgânica')
+            ->orderBy('produtos.pro_subtitulo', 'asc')
             ->get();
 
             return view('site.linhaorganica',[

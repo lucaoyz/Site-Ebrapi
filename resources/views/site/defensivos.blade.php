@@ -23,7 +23,7 @@
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 @foreach ($parceiros as $parceiro)
-                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="{{$parceiro->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $parceiro->pa_logo)}}" class="img-fluid" alt=""></a></div>
             @endforeach
             </div>
         </div>
@@ -64,7 +64,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Inseticida->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Inseticida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Inseticida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Inseticida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Inseticida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Inseticida->id}}">{{$Inseticida->pro_nome}}</a>
@@ -83,7 +83,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Herbicida->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Herbicida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Herbicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Herbicida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Herbicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Herbicida->id}}">{{$Herbicida->pro_nome}}</a>
@@ -102,7 +102,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Fungicida->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Fungicida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Fungicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Fungicida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Fungicida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Fungicida->id}}">{{$Fungicida->pro_nome}}</a>
@@ -121,7 +121,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Acaricida->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Acaricida->pa_link}}"><img src="{{asset('assets/img/parceiros/' . $Acaricida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Acaricida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Acaricida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Acaricida->id}}">{{$Acaricida->pro_nome}}</a>
