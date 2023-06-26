@@ -286,7 +286,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '1',
             'pro_foto' => '20062023-soja-brs-284.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -300,7 +300,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '1',
             'pro_foto' => '21062023-brs-525.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -314,8 +314,8 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
-            'pro_foto' => '21062023-m-6410-ipro.png',
+            'pa_id' => '1',
+            'pro_foto' => '26062023-m-6410-ipro.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
