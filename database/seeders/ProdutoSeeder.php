@@ -1319,5 +1319,326 @@ class ProdutoSeeder extends Seeder
             'pro_descricao' => 'descricao',
         ]);
 
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Abamectin Prentiss',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Abamectin Potenza',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Abamectin DVA',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Actara  250WG (Tiametoxan)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Actara  250WG (Tiametoxan)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Alfacipermetrina Fersol',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Baraticida Mega Gel - Domissanitário',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Carboran Fersol 350 SC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cartap BR 500 (Cloridrato de Cartape) CX12X1',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cipertrin 250',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Connect',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cupinicida Atack 200 CE - Domissanitário',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cupinicida Atack 200 CE',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cypermaster 250 CE',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cruiser 350 FS',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'DDVP 500 CE PIKAPAU - Domissanitário',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'DANIMEN 300 CE (Fenpropatrina) CX12X1',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'DELTAMAX 25 CE (Deltametrina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Deltametrina Fersol 25 CE',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'DECIS 25CE (Deltametrina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Dimetoato 500 CE Nortox',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Dimilin (Diflubenzuron) - P/ Lagartas',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Dipel (Bacillus Thuringiensis)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
     }
 }

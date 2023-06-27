@@ -64,7 +64,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$Inseticida->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$Inseticida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Inseticida->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <a href="{{$Inseticida->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $Inseticida->pa_logo)}}" style="width: 200px;" class="img-fluid" alt=""></a>                                    </div>
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5" data-bs-toggle="modal" data-bs-target="#infoProduto{{$Inseticida->id}}">{{$Inseticida->pro_nome}}</a>

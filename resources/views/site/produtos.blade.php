@@ -55,7 +55,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-2.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt="">
                                 <div class="product-overlay">
                                     <a class="link" href="{{route('site.fertilizantes')}}"><i class="fa fa-link"></i></a>
                                 </div>
@@ -68,7 +68,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-3.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('img/products/defensivo.png')}}" alt="">
                                 <div class="product-overlay">
                                     <a class="link" href="{{route('site.defensivos')}}"><i class="fa fa-link"></i></a>
                                 </div>
