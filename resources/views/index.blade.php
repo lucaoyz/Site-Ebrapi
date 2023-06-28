@@ -177,7 +177,7 @@
                     <p style="font-size: 19px;">Converse conosco via whatsapp e adquira seu produto diretamente com nossa equipe.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="btn btn-secondary align-middle py-2 px-4 mt-3" href="{{route('site.sobre')}}">Saiba Mais</a>
+                    <a class="btn btn-secondary align-middle py-2 px-4 mt-3" href="https://wa.me/+5519992271158" target="_blank">Fale conosco</a>
                 </div>
             </div>
 

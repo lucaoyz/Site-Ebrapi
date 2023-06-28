@@ -90,7 +90,7 @@ class ParceiroSeeder extends Seeder
             'ca_id' => '1',
             'sub_id' => '3',
             'pa_nome' => 'Feltrin',
-            'pa_logo' => '23062023-logo-feltrin-white.png',
+            'pa_logo' => '28062023-feltrin.png',
             'pa_link' => 'https://www.sementesfeltrin.com.br/',
         ]);
 
