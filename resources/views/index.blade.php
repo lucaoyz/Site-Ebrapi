@@ -80,23 +80,19 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/sementes.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.sementes')}}"><img src="{{asset('img/products/sementes.png')}}" class="img-fluid" alt=""></a>
+                                <div class="product-overlay"></div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
+                                <a class="d-block h5">Sementes</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.fertilizantes')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.fertilizantes')}}"><img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt=""></a>
+                                <div class="product-overlay"></div>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
@@ -106,10 +102,8 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/defensivo.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.defensivos')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <img class="img-fluid" href="{{route('site.defensivos')}}" src="{{asset('img/products/defensivo.png')}}" alt="">
+                                <div class="product-overlay"></div>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>

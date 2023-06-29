@@ -23,10 +23,8 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="row g-2">
-                        <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                            <div class="about-experience">
-                                <img class="img-fluid-49" src="{{asset('img/about/49-ANOS.png')}}">
-                            </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
                             <img class="img-fluid" src="{{asset('img/about/Cópia-de-041.jpg')}}">
@@ -34,8 +32,10 @@
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
                             <img class="img-fluid" src="{{asset('img/about/Cópia-de-039.jpg')}}">
                         </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
+                        <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
+                            <div class="about-experience">
+                                <img class="img-fluid-49" src="{{asset('img/about/50-ANOS.png')}}">
+                            </div>
                         </div>
                     </div>
                 </div>

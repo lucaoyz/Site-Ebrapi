@@ -62,6 +62,7 @@
             <div class="col-lg-6 px-5 text-end text-white">
                 <a class="text-body ms-3" href="https://www.facebook.com/ebrapiagroinsumos" target="blank_"><i class="fab fa-facebook-f" style="color: #fff"></i></a>
                 <a class="text-body ms-3" href="https://instagram.com/ebrapiagronegocios?igshid=MDM4ZDc5MmU=" target="blank_"><i class="fab fa-instagram" style="color: #fff"></i></a>
+                <a class="text-body ms-3" href="https://wa.me/+5519992271158" target="blank_"><i class="fab fa-whatsapp" style="color: #fff"></i></a>
             </div>
         </div>
 
@@ -130,6 +131,7 @@
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light me-1" href="https://www.facebook.com/ebrapiagroinsumos" target="blank_"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light me-1" href="https://instagram.com/ebrapiagronegocios?igshid=MDM4ZDc5MmU=" target="blank_"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="https://wa.me/+5519992271158" target="blank_"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
