@@ -42,10 +42,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/sementes.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.sementes')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.sementes')}}"><img class="img-fluid" src="{{asset('img/products/sementes.png')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
@@ -55,10 +52,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.fertilizantes')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.fertilizantes')}}"><img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
@@ -68,10 +62,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/defensivo.png')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.defensivos')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.defensivos')}}"><img class="img-fluid" src="{{asset('img/products/defensivo.png')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>
@@ -81,10 +72,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.biologicos')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.biologicos')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
@@ -94,10 +82,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.linhaorganica')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.linhaorganica')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.linhaorganica')}}">Linha Orgânica</a>

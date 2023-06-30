@@ -81,7 +81,6 @@
                         <div class="product-item">
                             <div class="position-relative">
                                 <a href="{{route('site.sementes')}}"><img src="{{asset('img/products/sementes.png')}}" class="img-fluid" alt=""></a>
-                                <div class="product-overlay"></div>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5">Sementes</a>
@@ -92,7 +91,6 @@
                         <div class="product-item">
                             <div class="position-relative">
                                 <a href="{{route('site.fertilizantes')}}"><img class="img-fluid" src="{{asset('img/products/fertilizante.png')}}" alt=""></a>
-                                <div class="product-overlay"></div>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.fertilizantes')}}">Fertilizantes</a>
@@ -102,8 +100,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" href="{{route('site.defensivos')}}" src="{{asset('img/products/defensivo.png')}}" alt="">
-                                <div class="product-overlay"></div>
+                                <a href="{{route('site.defensivos')}}"><img class="img-fluid" src="{{asset('img/products/defensivo.png')}}" alt=""></a>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.defensivos')}}">Defensivos Agrícolas</a>
@@ -113,10 +110,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.biologicos')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.biologicos')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt=""></a>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
@@ -126,10 +120,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
-                                <div class="product-overlay">
-                                    <a class="link" href="{{route('site.linhaorganica')}}"><i class="fa fa-link"></i></a>
-                                </div>
+                                <a href="{{route('site.linhaorganica')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt=""></a>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.linhaorganica')}}">Linha Orgânica</a>
@@ -196,8 +187,8 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Reflorestamento: Recomposição de mata-ciliar</h4>
-                            <p class="mb-4">Plantação de mata nativa nas margens de rios e lagos com o intuito de evitar erosão e assoreamento.</p>
+                            <h5 class="mb-3" style="font-size: 22px;">Reflorestamento/Recomposição de Mata Ciliar</h4>
+                            <p class="mb-4">Implantação de Florestas Nativas, com serviços de plantio e manutenção das mudas.</p>
                         </div>
                     </div>
                 </div>
@@ -210,8 +201,8 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Acompanhamento Agronômico</h5>
-                            <p class="mb-4">Análise do desenvolvimento de sua plantação com agrônomos profissionais e capacitados.</p>
+                            <h5 class="mb-3" style="font-size: 22px;">Assistência Técnica Agronômica</h5>
+                            <p class="mb-4">Serviços de análise de solo, de folhas e de recomendação técnica de manejo.</p>
                         </div>
                     </div>
                 </div>
