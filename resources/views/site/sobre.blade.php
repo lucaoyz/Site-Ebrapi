@@ -24,9 +24,12 @@
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
+                            <h5 class="mb-3">Linha do Tempo</h5>
                             <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
+                            <br>
+                            <br>
                             <img class="img-fluid" src="{{asset('img/about/Cópia-de-041.jpg')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
