@@ -95,7 +95,7 @@
         </div>
 
         <div class="mb-3">
-            <label for="pa_id" class="form-label">Parceiros</label>
+            <label for="pa_id" class="form-label">Parceiros (Opcional)</label>
             @empty($parceiroExiste)
             <a href="{{route('parceiros')}}" class="text-primary">
                 Não há nenhum parceiro, clique aqui para adicionar o primeiro..
@@ -103,7 +103,7 @@
             @endempty
                 <select name="pa_id" id="pa_id"
                 class="form-select @error('pa_id') is-invalid @enderror"
-                value="{{ old('pa_id') }}" required autocomplete="pa_id">
+                value="{{ old('pa_id') }}" autocomplete="pa_id">
 
                         <option
                             value=""> Selecione um parceiro..
