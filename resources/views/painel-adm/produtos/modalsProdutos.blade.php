@@ -1,17 +1,17 @@
 <!-- Descrição do produto -->
 @foreach ($produtos as $produto)
-<div class="modal fade" id="descricaoProduto{{$produto->id}}" tabindex="-1" role="dialog" aria-labelledby="descricaoProduto{{$produto->id}}" aria-hidden="true">
+<div class="modal fade" id="descricaoProduto{{$produto['id']}}" tabindex="-1" role="dialog" aria-labelledby="descricaoProduto{{$produto['id']}}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-weight-normal" id="descricaoProduto{{$produto->id}}">Descrição do produto {{$produto->pro_nome}}</h5>
+          <h5 class="modal-title font-weight-normal" id="descricaoProduto{{$produto['id']}}">Descrição do produto {{$produto['pro_nome']}}</h5>
           <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
 
-            <p>@nl2br($produto->pro_descricao)</p>
+            <p>@nl2br($produto['pro_descricao'])</p>
 
         </div>
         <div class="modal-footer">
@@ -24,11 +24,11 @@
 
 <!-- Fotos do produto -->
 @foreach ($produtos as $produto)
-<div class="modal fade" id="fotosProduto{{$produto->id}}" tabindex="-1" role="dialog" aria-labelledby="fotosProduto{{$produto->id}}" aria-hidden="true">
+<div class="modal fade" id="fotosProduto{{$produto['id']}}" tabindex="-1" role="dialog" aria-labelledby="fotosProduto{{$produto['id']}}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-weight-normal" id="fotosProduto{{$produto->id}}">Fotos do produto {{$produto->pro_nome}}</h5>
+          <h5 class="modal-title font-weight-normal" id="fotosProduto{{$produto['id']}}">Fotos do produto {{$produto['pro_nome']}}</h5>
           <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -39,43 +39,43 @@
                 <div class="col-md-8 mx-auto">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
-                    @empty($produto->pro_foto)
+                    @empty($produto['pro_foto'])
 
                     @else
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto->pro_foto}}">
+                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto['pro_foto']}}">
                     </div>
                     @endempty
 
-                    @empty($produto->pro_foto2)
+                    @empty($produto['pro_foto2'])
 
                     @else
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto->pro_foto2}}">
+                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto['pro_foto2']}}">
                     </div>
                     @endempty
 
-                    @empty($produto->pro_foto3)
+                    @empty($produto['pro_foto3'])
 
                     @else
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto->pro_foto3}}">
+                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto['pro_foto3']}}">
                     </div>
                     @endempty
 
-                    @empty($produto->pro_foto4)
+                    @empty($produto['pro_foto4'])
 
                     @else
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto->pro_foto4}}">
+                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto['pro_foto4']}}">
                     </div>
                     @endempty
 
-                    @empty($produto->pro_foto5)
+                    @empty($produto['pro_foto5'])
 
                     @else
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto->pro_foto5}}">
+                        <img class="d-block w-100" src="/assets/img/fotosProdutos/{{$produto['pro_foto5']}}">
                     </div>
                     @endempty
 
@@ -113,17 +113,17 @@
     </ul>
 </div>
 @endif
-<div class="modal fade" id="editarProdutoModal{{$produto->id}}" tabindex="-1" role="dialog" aria-labelledby="editarProdutoModal{{$produto->id}}" aria-hidden="true">
+<div class="modal fade" id="editarProdutoModal{{$produto['id']}}" tabindex="-1" role="dialog" aria-labelledby="editarProdutoModal{{$produto['id']}}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 700px">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-weight-normal" id="editarProdutoModal{{$produto->id}}">Editar</h5>
+          <h5 class="modal-title font-weight-normal" id="editarProdutoModal{{$produto['id']}}">Editar</h5>
           <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-            <form action="{{ route('produtos.atualizar',$produto->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('produtos.atualizar',$produto['id']) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
@@ -132,9 +132,9 @@
                         <label for="id" class="col-md-4 col-form-label text-md-end">{{ __('ID') }}</label>
 
                         <div class="col-md-6">
-                            <input id="id" type="text" {{ $produto->id ? 'readonly' : '' }}
+                            <input id="id" type="text" {{ $produto['id'] ? 'readonly' : '' }}
                             class="form-control @error('id') is-invalid @enderror"
-                            name="id" value="{{ $produto->id }}" required autocomplete="id" autofocus>
+                            name="id" value="{{ $produto['id'] }}" required autocomplete="id" autofocus>
 
                             @error('id')
                                 <span class="invalid-feedback" role="alert">
@@ -154,7 +154,7 @@
 
                                 @foreach ($categorias as $categoria)
                                     <option
-                                        value="{{ $categoria['id'] }}"" @if($categoria->id == $produto->ca_id) selected @endif"> {{ $categoria['ca_nome'] }}
+                                        value="{{ $categoria['id'] }}"" @if($categoria['id'] == $produto['ca_id']) selected @endif"> {{ $categoria['ca_nome'] }}
                                     </option>
                                 @endforeach
 
@@ -174,11 +174,11 @@
                         <div class="col-md-6">
                             <select name="sub_id" id="sub_id"
                             class="form-select @error('sub_id') is-invalid @enderror"
-                            value="{{ old('sub_id') }}" required autocomplete="sub_id">
+                            value="{{ old('sub_id') }}" autocomplete="sub_id">
 
                                 @foreach ($subcategorias as $subcategoria)
                                     <option
-                                        value="{{ $subcategoria['id'] }}"" @if($subcategoria->id == $produto->sub_id) selected @endif"> {{ $subcategoria['sub_nome'] }}
+                                        value="{{ $subcategoria['id'] }}"" @if($subcategoria['id'] == $produto['sub_id']) selected @endif"> {{ $subcategoria['sub_nome'] }}
                                     </option>
                                 @endforeach
 
@@ -198,11 +198,11 @@
                         <div class="col-md-6">
                             <select name="pa_id" id="pa_id"
                             class="form-select @error('pa_id') is-invalid @enderror"
-                            value="{{ old('pa_id') }}" required autocomplete="pa_id">
+                            value="{{ old('pa_id') }}" autocomplete="pa_id">
 
                                 @foreach ($parceiros as $parceiro)
                                     <option
-                                        value="{{ $parceiro['id'] }}"" @if($parceiro->id == $produto->pa_id) selected @endif"> {{ $parceiro['pa_nome'] }}
+                                        value="{{ $parceiro['id'] }}"" @if($parceiro['id'] == $produto['pa_id']) selected @endif"> {{ $parceiro['pa_nome'] }}
                                     </option>
                                 @endforeach
 
@@ -222,7 +222,7 @@
                         <div class="col-md-6">
                             <input id="pro_nome" type="text"
                              class="form-control @error('pro_nome') is-invalid @enderror"
-                              name="pro_nome" value="{{ $produto->pro_nome }}" required autocomplete="pro_nome" autofocus>
+                              name="pro_nome" value="{{ $produto['pro_nome'] }}" required autocomplete="pro_nome" autofocus>
 
                             @error('pro_nome')
                                 <span class="invalid-feedback" role="alert">
@@ -238,7 +238,7 @@
                         <div class="col-md-6">
                             <input id="pro_subtitulo" type="text"
                              class="form-control @error('pro_subtitulo') is-invalid @enderror"
-                              name="pro_subtitulo" value="{{ $produto->pro_subtitulo }}" required autocomplete="pro_subtitulo" autofocus>
+                              name="pro_subtitulo" value="{{ $produto['pro_subtitulo'] }}" required autocomplete="pro_subtitulo" autofocus>
 
                             @error('pro_subtitulo')
                                 <span class="invalid-feedback" role="alert">
@@ -254,7 +254,7 @@
                         <div class="col-md-6">
                             <textarea id="pro_descricao" type="text"
                              class="form-control @error('pro_descricao') is-invalid @enderror"
-                              name="pro_descricao" value="{{ $produto->pro_descricao }}" required autocomplete="pro_descricao" autofocus>{{$produto->pro_descricao}}</textarea>
+                              name="pro_descricao" value="{{ $produto['pro_descricao'] }}" required autocomplete="pro_descricao" autofocus>{{$produto['pro_descricao']}}</textarea>
 
                             @error('pro_descricao')
                                 <span class="invalid-feedback" role="alert">
@@ -272,7 +272,7 @@
                            class="form-control-sm @error('pro_foto') is-invalid @enderror"
                             name="pro_foto" value="{{ old('pro_foto') }}" autocomplete="pro_foto"
                             accept=".jpeg, .png, .jpg, .gif, .svg">
-                          <img src="/assets/img/fotosProdutos/{{$produto->pro_foto}}" width="100rem;"><br>
+                          <img src="/assets/img/fotosProdutos/{{$produto['pro_foto']}}" width="100rem;"><br>
                           @error('pro_foto')
                               <span class="invalid-feedback" role="alert">
                                   <strong>{{ $message }}</strong>
@@ -289,7 +289,7 @@
                          class="form-control-sm @error('pro_foto2') is-invalid @enderror"
                           name="pro_foto2" value="{{ old('pro_foto2') }}" autocomplete="pro_foto2"
                           accept=".jpeg, .png, .jpg, .gif, .svg">
-                        <img src="/assets/img/fotosProdutos/{{$produto->pro_foto2}}" width="100rem;"><br>
+                        <img src="/assets/img/fotosProdutos/{{$produto['pro_foto2']}}" width="100rem;"><br>
                         @error('pro_foto2')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -306,7 +306,7 @@
                          class="form-control-sm @error('pro_foto3') is-invalid @enderror"
                           name="pro_foto3" value="{{ old('pro_foto3') }}" autocomplete="pro_foto3"
                           accept=".jpeg, .png, .jpg, .gif, .svg">
-                        <img src="/assets/img/fotosProdutos/{{$produto->pro_foto3}}" width="100rem;"><br>
+                        <img src="/assets/img/fotosProdutos/{{$produto['pro_foto3']}}" width="100rem;"><br>
                         @error('pro_foto3')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -323,7 +323,7 @@
                          class="form-control-sm @error('pro_foto4') is-invalid @enderror"
                           name="pro_foto4" value="{{ old('pro_foto4') }}" autocomplete="pro_foto4"
                           accept=".jpeg, .png, .jpg, .gif, .svg">
-                        <img src="/assets/img/fotosProdutos/{{$produto->pro_foto4}}" width="100rem;"><br>
+                        <img src="/assets/img/fotosProdutos/{{$produto['pro_foto4']}}" width="100rem;"><br>
                         @error('pro_foto4')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -340,7 +340,7 @@
                          class="form-control-sm @error('pro_foto5') is-invalid @enderror"
                           name="pro_foto5" value="{{ old('pro_foto5') }}" autocomplete="pro_foto5"
                           accept=".jpeg, .png, .jpg, .gif, .svg">
-                        <img src="/assets/img/fotosProdutos/{{$produto->pro_foto5}}" width="100rem;"><br>
+                        <img src="/assets/img/fotosProdutos/{{$produto['pro_foto5']}}" width="100rem;"><br>
                         @error('pro_foto5')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -365,11 +365,11 @@
 
    <!-- Modal de excluir -->
    @foreach($produtos as $produto)
-   <div class="modal fade" id="excluirProdutoModal{{$produto->id}}" tabindex="-1" role="dialog" aria-labelledby="excluirProdutoModal{{$produto->id}}" aria-hidden="true">
+   <div class="modal fade" id="excluirProdutoModal{{$produto['id']}}" tabindex="-1" role="dialog" aria-labelledby="excluirProdutoModal{{$produto['id']}}" aria-hidden="true">
        <div class="modal-dialog modal-dialog-centered" role="document">
          <div class="modal-content">
            <div class="modal-header">
-             <h5 class="modal-title font-weight-normal" id="excluirProdutoModal{{$produto->id}}">Excluir Produto</h5>
+             <h5 class="modal-title font-weight-normal" id="excluirProdutoModal{{$produto['id']}}">Excluir Produto</h5>
              <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">&times;</span>
              </button>
@@ -381,7 +381,7 @@
            </div>
            <div class="modal-footer">
              <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Cancelar</button>
-           <form action="{{route('produtos.delete', $produto->id)}}" method="post">
+           <form action="{{route('produtos.delete', $produto['id'])}}" method="post">
             @csrf
             @method('DELETE')
             <button type="submit" class="btn btn-danger">Excluir produto</button>

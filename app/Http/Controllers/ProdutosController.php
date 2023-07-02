@@ -21,10 +21,31 @@ class ProdutosController extends Controller
      public function indexPainelAdm()
      {
              $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
-             $produtos = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+
+             $produtosCategoria = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+             ->whereNull('produtos.sub_id')
+             ->whereNull('produtos.pa_id')
+             ->select('categorias.*', 'produtos.*')
+             ->get(5)->toArray();
+             $produtosSubCategoria = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+             ->whereNull('produtos.pa_id')
+             ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
+             ->select('categorias.*', 'sub_categorias.*', 'produtos.*')
+             ->get(5)->toArray();
+             $produtosParceiro = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
+             ->whereNull('produtos.sub_id')
+             ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
+             ->select('categorias.*', 'parceiros.*', 'produtos.*')
+             ->get(5)->toArray();
+             $produtosParceiroESub = Produto::join('categorias', 'categorias.id', '=', 'produtos.ca_id')
              ->join('sub_categorias', 'sub_categorias.id', '=', 'produtos.sub_id')
              ->join('parceiros', 'parceiros.id', '=', 'produtos.pa_id')
-             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')->paginate(5);
+             ->select('categorias.*', 'sub_categorias.*', 'parceiros.*', 'produtos.*')
+             ->get(5)->toArray();
+
+             $produtos = array_merge($produtosCategoria, $produtosSubCategoria, $produtosParceiro, $produtosParceiroESub);
+
+             //dd($produtos);
 
              $categorias = Categoria::latest()->get();
              $subcategorias = SubCategoria::orderBy('created_at', 'desc')->get();
