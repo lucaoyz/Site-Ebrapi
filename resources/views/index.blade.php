@@ -83,7 +83,7 @@
                                 <a href="{{route('site.sementes')}}"><img src="{{asset('img/products/sementes.png')}}" class="img-fluid" alt=""></a>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5">Sementes</a>
+                                <a class="d-block h5" href="{{route('site.sementes')}}">Sementes</a>
                             </div>
                         </div>
                     </div>

@@ -1584,5 +1584,566 @@ class ProdutoSeeder extends Seeder
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Endosulfan Nortox (Endossulfam)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Evidence (imidacloprido)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Fita pega moscas berguim (80X3,9CM)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Formicida Atack 200 CE',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Formicida Atack BIOCARB',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Folisuper 600 BR (Parationa-metilica)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Furadan 350 F',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Furadan 350 SC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Furadan 50G (Carbofurano) - Sistêmico',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gastoxin Pastilha',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gastoxin Pasta (Fosfeto de Aluminio)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gastoxin B-57',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Imunit',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Keshet 25 CE (Deltametrina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Klap',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Karate Zeon 50CS (Lambda-cialotrina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'K-OBIOL 2P (Deltametrina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'K-OTHRINE SC 25',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Lankron 10 ME Lambda-Cialotrina',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Lesmicida Lesmafin',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Lesmicida Metarex SP',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Lannate BR (Metomil)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Malathion 1000 CE Cheminova',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Malatol PO',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Match EC (Lufenuron)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mentox 600 CE (Paration Metílico)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Nufos 480 EC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Óleo de Neen Natuneem',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Orthene (Acefato)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Oppa BR CE - Óleo Mineral',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Pounce 384 EC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Provado 200 SC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Ralzer 350 TS',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Regent 800WG (fipronil)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Starion 25 CE',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Supracid 400 CE - P/ Cochonilhas',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tiger 100CE (Piriproxifen) - P/ Cochonilhas Ortézia',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tracer',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Vexter - Clorpirifos',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Vertimec 18 CE (Abamectina)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
     }
 }

@@ -55,7 +55,6 @@ class ParceiroSeeder extends Seeder
             'sub_id' => '1',
             'pa_nome' => 'Embrapa',
             'pa_logo' => '20062023-embrapa.png',
-            'pa_link' => 'https://www.embrapa.br/',
         ]);
 
         DB::table('parceiros')->insert([
@@ -64,7 +63,6 @@ class ParceiroSeeder extends Seeder
             'sub_id' => '1',
             'pa_nome' => 'Semeali',
             'pa_logo' => '29052023-logo-semeali.png',
-            'pa_link' => 'http://www.semeali.com.br/inicial',
         ]);
 
         DB::table('parceiros')->insert([
@@ -73,7 +71,6 @@ class ParceiroSeeder extends Seeder
             'sub_id' => '1',
             'pa_nome' => 'Cati',
             'pa_logo' => '20062023-logo-cati.png',
-            'pa_link' => 'https://www.cati.sp.gov.br/portal/#',
         ]);
 
         DB::table('parceiros')->insert([
@@ -82,7 +79,6 @@ class ParceiroSeeder extends Seeder
             'sub_id' => '1',
             'pa_nome' => 'Sementes Bonamigo',
             'pa_logo' => '20062023-logo-sementesbonamigo.png',
-            'pa_link' => 'https://www.sementesbonamigo.com.br/',
         ]);
 
         DB::table('parceiros')->insert([
@@ -91,7 +87,6 @@ class ParceiroSeeder extends Seeder
             'sub_id' => '3',
             'pa_nome' => 'Feltrin',
             'pa_logo' => '28062023-feltrin.png',
-            'pa_link' => 'https://www.sementesfeltrin.com.br/',
         ]);
 
     }
