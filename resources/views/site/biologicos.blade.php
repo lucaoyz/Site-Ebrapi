@@ -61,7 +61,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$microbiologico->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$microbiologico->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $microbiologico->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <img src="{{asset('assets/img/parceiros/' . $microbiologico->pa_logo)}}" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -71,8 +71,8 @@
                             </div>
                         </div>
                         @endforeach
+                    </div>
                 </div>
-            </div>
                 <div id="tab-2" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         @foreach ($feromonios as $feromonio)
@@ -81,7 +81,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$feromonio->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$feromonio->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $feromonio->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <img src="{{asset('assets/img/parceiros/' . $feromonio->pa_logo)}}" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -91,8 +91,8 @@
                             </div>
                         </div>
                         @endforeach
+                    </div>
                 </div>
-        </div>
                 <div id="tab-3" class="tab-pane fade show p-0">
                     <div class="row g-4">
                         @foreach ($armadilhas as $armadilha)
@@ -101,7 +101,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$armadilha->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$armadilha->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $armadilha->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <img src="{{asset('assets/img/parceiros/' . $armadilha->pa_logo)}}" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
@@ -111,8 +111,6 @@
                             </div>
                         </div>
                         @endforeach
-                </div>
-    </div>
                     </div>
                 </div>
             </div>

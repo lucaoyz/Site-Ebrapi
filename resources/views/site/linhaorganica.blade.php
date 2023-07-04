@@ -47,7 +47,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/img/fotosProdutos/{{$produto->pro_foto}}" alt="">
                                     <div class="product-overlay">
-                                        <a href="{{$produto->pa_link}}" target="_blank"><img src="{{asset('assets/img/parceiros/' . $produto->pa_logo)}}" class="img-fluid" alt=""></a>                                    </div>
+                                        <img src="{{asset('assets/img/parceiros/' . $produto->pa_logo)}}" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
