@@ -1370,7 +1370,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Actara  250WG (Tiametoxan)',
+            'pro_nome' => 'Abamectin Abamex 18 CE',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1399,6 +1399,34 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Alfacipermetrina Fersol',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Alfacipermetrina Fersol',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Bac-Control (Bacillus Thuringiensis)',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1441,6 +1469,20 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Connect',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Curyom',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1538,7 +1580,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'DECIS 25CE (Deltametrina)',
+            'pro_nome' => 'Deltametrina DECIS 25CE',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1580,7 +1622,35 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
+            'pro_nome' => 'Dipel WG (Bacillus Thuringiensis)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
             'pro_nome' => 'Dipel (Bacillus Thuringiensis)',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Engeo Pleno',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1762,6 +1832,20 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
+            'pro_nome' => 'Granary 700WG',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
             'pro_nome' => 'Imunit',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
@@ -1833,6 +1917,20 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'K-OTHRINE SC 25',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Klorpan 480 CE',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -2000,20 +2098,6 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Oppa BR CE - Óleo Mineral',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
             'pro_nome' => 'Pounce 384 EC',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
@@ -2029,6 +2113,48 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Provado 200 SC',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Platinum Neo',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Polo',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Pratico',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -2098,6 +2224,34 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
+            'pro_nome' => 'Singular',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Safety',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
             'pro_nome' => 'Tiger 100CE (Piriproxifen) - P/ Cochonilhas Ortézia',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
@@ -2113,6 +2267,20 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Tracer',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Trigard',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -2142,6 +2310,48 @@ class ProdutoSeeder extends Seeder
             'pro_foto5' => '',
             'pro_nome' => 'Vertimec 18 CE (Abamectina)',
             'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Verdadero',
+            'pro_subtitulo' => 'Inseticida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Assist',
+            'pro_subtitulo' => 'Óleo Mineral',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '7',
+            'pa_id' => '1',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Oppa BR CE',
+            'pro_subtitulo' => 'Óleo Mineral',
             'pro_descricao' => 'descricao',
         ]);
 
