@@ -25,15 +25,14 @@
                     <div class="row g-2">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
                             <h5 class="mb-3">Linha do Tempo</h5>
-                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-Laudisse.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <br>
-                            <br>
-                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-041.jpg')}}">
+                            <h5 class="mb-3" style="color: #fff">teste</h5>
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-JK.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid" src="{{asset('img/about/Cópia-de-039.jpg')}}">
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
                         </div>
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
                             <div class="about-experience">
