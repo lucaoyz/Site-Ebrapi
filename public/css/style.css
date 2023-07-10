@@ -764,22 +764,22 @@
 # Counts
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(90deg, #008352 0%, #B1C900 100%), url("../img/counts-bg.png") center center no-repeat;
-  padding: 80px 0;
+  background: #f2f9f8;
+  padding: 30px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #000;
   font-size: 35px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #777;
 }
 
 .primeiroproduto {
-    width: 800px;
+    width: 700px;
 }
 
 @media screen and (max-width:400px) {

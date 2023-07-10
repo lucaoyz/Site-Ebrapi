@@ -5,11 +5,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header-sobre wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-3 mb-3 text-white animated slideInDown">Sobre Nós</h1>
+            <h1 class="display-3 mb-3 text-white animated slideInDown" style="text-shadow: 0px 0px 20px #000;">Sobre Nós</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}">Menu</a></li>
-                    <li class="breadcrumb-item text-body active" aria-current="page">Sobre</li>
+                    <li class="breadcrumb-item"><a class="text-body" href="{{route('site.index')}}" style="text-shadow: 0px 0px 10px #000;">Menu</a></li>
+                    <li class="breadcrumb-item text-body active" aria-current="page" style="text-shadow: 0px 0px 10px #000;">Sobre</li>
                 </ol>
             </nav>
         </div>
@@ -96,32 +96,30 @@
 
 
     <!-- ======= Politic Start ======= -->
-    <section>
-        <div class="container-xxl py-5-5 alt-services">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">Política de Sustentabilidade</h1>
-                        <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
-                        <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
-                        <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">PDF</a>
-                    </div>
-                    <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img class="inpev" src="{{asset('img/inpev.png')}}" alt="">
-                    </div>
+    <div class="container-xxl py-5-5 alt-services">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-4">Política de Sustentabilidade</h1>
+                    <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
+                    <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
+                    <a class="btn btn-secondary py-2 px-4 mt-3" href="{{asset('img/PDF-Sustentabilidade.pdf')}}" target="iframe_download">PDF</a>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img class="inpev" src="{{asset('img/inpev.png')}}" alt="">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Politic End -->
 
 
-    <!-- Team Start -->
+    <!-- Team Start
     <div class="container-xxl py-5-5">
         <div class="container">
             <!--<div class="section-header">
                 <h1>Equipe Ebrapi Agroinsumos</h1>
-            </div>-->
+            </div>
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <div class="text-center">
                     <img class="logosdvd" src="{{asset('img/about/logos-DVD.png')}}" alt="">
