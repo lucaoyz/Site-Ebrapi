@@ -701,6 +701,7 @@
     padding-bottom: 6rem;
     background-color: #B1C900;
     background: url(../img/sobre.png) top right no-repeat;
+    background-position: center;
     background-size: cover;
 }
 

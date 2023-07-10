@@ -24,7 +24,7 @@
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <h5 class="mb-3">Linha do Tempo</h5>
+                            <h5 class="mb-3">Linha do Tempo:</h5>
                             <img class="img-fluid" src="{{asset('img/about/Ebrapi-Laudisse.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
@@ -32,11 +32,11 @@
                             <img class="img-fluid" src="{{asset('img/about/Ebrapi-JK.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.jpg')}}">
+                            <img class="img-fluid" src="{{asset('img/about/Ebrapi-novo.png')}}">
                         </div>
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
                             <div class="about-experience">
-                                <img class="img-fluid-49" src="{{asset('img/about/50-ANOS.png')}}">
+                                <img class="img-fluid-50" src="{{asset('img/about/50-ANOS.png')}}">
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h3>Nosso primeiro produto</h3>
-                    <p class="mb-4">A responsabilidade socioambiental e a sustentabilidade, são valores permanentes, na busca da conscientização ambiental por funcionários, fornecedores, clientes e toda a comunidade.</p>
-                    <p class="mb-4">Apoiamos o Programa Campo Limpo e Seguro, do Programa de Devolução de Embalagens Vazias de Agrotóxicos (INPEV).</p>
+                    <p class="mb-4">TREFLAN - primeira Trifluralina comercializada no Brasil pela Elanco e um dos primeiros produtos comercializados pela Ebrapi/Agroinsumos.</p>
+                    <p class="mb-4">O produto tinha posicionamento no controle de ervas monodicotelidôneas, nas culturas de algodão e soja.</p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                     <img class="primeiroproduto" src="{{asset('img/about/primeiro-produto.png')}}" alt="">
