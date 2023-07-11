@@ -28,7 +28,7 @@
                             <img class="img-fluid" src="{{asset('img/about/Ebrapi-Laudisse.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <h5 class="mb-3" style="color: #fff">teste</h5>
+                            <h5 class="mb-3" style="color: #fff; visibility: hidden;">teste</h5>
                             <img class="img-fluid" src="{{asset('img/about/Ebrapi-JK.png')}}">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
@@ -76,8 +76,8 @@
 
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container">
+    <section id="prod" class="prod">
+        <div class="container-xxl container">
 
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

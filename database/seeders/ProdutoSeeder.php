@@ -1575,7 +1575,7 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '3',
             'sub_id' => '7',
             'pa_id' => '1',
-            'pro_foto' => '',
+            'pro_foto' => 'decis-25ce-250ml.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
