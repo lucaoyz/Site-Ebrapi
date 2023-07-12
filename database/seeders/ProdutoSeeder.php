@@ -1645,7 +1645,7 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '3',
             'sub_id' => '7',
             'pa_id' => '1',
-            'pro_foto' => '',
+            'pro_foto' => 'engeo-pleno-1l.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
@@ -1678,7 +1678,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Evidence (imidacloprido)',
+            'pro_nome' => 'Evidence WG 70 (imidacloprido)',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1692,7 +1692,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Fita pega moscas berguim (80X3,9CM)',
+            'pro_nome' => 'Fita pega moscas berguim',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
