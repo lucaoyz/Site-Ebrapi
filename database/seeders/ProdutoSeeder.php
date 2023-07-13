@@ -314,7 +314,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '26062023-m-6410-ipro.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -328,7 +328,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '21062023-sorgo-forrageiro-podium.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -342,7 +342,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '21062023-sorgo-ponta-negra.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -356,7 +356,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '21062023-sorgo.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -370,7 +370,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '1',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '21062023-trigo.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -622,7 +622,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-aveia-preta.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -636,7 +636,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-plantacao-milheto.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -650,7 +650,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-crotalaria.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -664,7 +664,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-feijao-de-porco.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -678,7 +678,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-guandu.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -692,7 +692,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '1',
             'sub_id' => '2',
-            'pa_id' => '4',
+            'pa_id' => '6',
             'pro_foto' => '22062023-mucuna.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1322,7 +1322,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '06072023-abamectin-prentiss.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1336,7 +1336,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1350,7 +1350,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '06072023-abamectin-dva.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1364,7 +1364,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '06072023-abamectin-abamex-18ce-1l.png',
             'pro_foto2' => '06072023-abamectin-abamex-18ce-5l.png',
             'pro_foto3' => '',
@@ -1378,7 +1378,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '06072023-actara-250wg-100g.png',
             'pro_foto2' => '06072023-actara-250wg-1kg.png',
             'pro_foto3' => '',
@@ -1392,7 +1392,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-alfacipermetrina-fersol.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1406,7 +1406,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-bac-control.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1420,7 +1420,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1434,7 +1434,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-cartap-br500-1kg.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1448,7 +1448,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1462,7 +1462,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-connect.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1476,7 +1476,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1490,7 +1490,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-cupinicida-atack-200ce.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1504,7 +1504,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-cypermaster-250ce.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1518,7 +1518,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-cruiser-350fs.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1532,7 +1532,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-danimen-300ec.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1546,7 +1546,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-deltamax-25ce.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1560,7 +1560,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '10072023-deltametrina-fersol-25ce.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1574,7 +1574,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => 'decis-25ce-250ml.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1588,7 +1588,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1602,7 +1602,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1616,7 +1616,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1630,7 +1630,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1644,8 +1644,8 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => 'engeo-pleno-1l.png',
+            'pa_id' => '6',
+            'pro_foto' => 'engeo-pleno-1l.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
@@ -1658,7 +1658,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1672,7 +1672,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1686,7 +1686,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1700,7 +1700,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1714,7 +1714,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1728,7 +1728,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1742,7 +1742,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1756,7 +1756,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1770,7 +1770,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1784,7 +1784,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1798,7 +1798,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1812,7 +1812,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1826,7 +1826,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1840,7 +1840,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1854,7 +1854,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1868,7 +1868,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1882,9 +1882,9 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => '',
-            'pro_foto2' => '',
+            'pa_id' => '6',
+            'pro_foto' => 'karate-zeon-1l.png',
+            'pro_foto2' => 'karate-zeon-250ml.jpg',
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
@@ -1896,8 +1896,8 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => '',
+            'pa_id' => '6',
+            'pro_foto' => 'k-obiol-2p.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
@@ -1910,7 +1910,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1924,13 +1924,13 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => '',
-            'pro_foto2' => '',
+            'pa_id' => '6',
+            'pro_foto' => 'klorpan-480ec-1l.jpg',
+            'pro_foto2' => 'klorpan-480ec-10l.jpg',
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Klorpan 480 CE',
+            'pro_nome' => 'Klorpan 480 EC',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1938,8 +1938,8 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
-            'pro_foto' => '',
+            'pa_id' => '6',
+            'pro_foto' => 'lankron10.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
@@ -1952,7 +1952,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1966,7 +1966,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1980,7 +1980,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1994,7 +1994,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2008,7 +2008,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2022,7 +2022,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2036,7 +2036,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2050,7 +2050,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2064,7 +2064,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2078,7 +2078,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2092,7 +2092,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2106,7 +2106,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2120,7 +2120,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2134,7 +2134,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2148,7 +2148,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2162,7 +2162,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2176,7 +2176,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2190,7 +2190,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2204,7 +2204,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2218,7 +2218,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2232,7 +2232,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2246,7 +2246,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2260,7 +2260,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2274,7 +2274,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2288,7 +2288,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2302,7 +2302,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2316,7 +2316,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2330,7 +2330,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2344,7 +2344,7 @@ class ProdutoSeeder extends Seeder
         DB::table('produtos')->insert([
             'ca_id' => '3',
             'sub_id' => '7',
-            'pa_id' => '1',
+            'pa_id' => '6',
             'pro_foto' => '',
             'pro_foto2' => '',
             'pro_foto3' => '',

@@ -89,5 +89,12 @@ class ParceiroSeeder extends Seeder
             'pa_logo' => '28062023-feltrin.png',
         ]);
 
+        DB::table('parceiros')->insert([
+            'id' => '6',
+            'sub_id' => '7',
+            'pa_nome' => 'Sem nome',
+            'pa_logo' => '',
+        ]);
+
     }
 }
