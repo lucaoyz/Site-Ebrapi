@@ -33,8 +33,8 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Reflorestamento: Recomposição de mata-ciliar</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h5 class="mb-3">Reflorestamento e Recomposição de mata-ciliar</h4>
+                            <p class="mb-4">Implantação de Florestas Nativas, com serviços de plantio e manutenção das mudas.</p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Acompanhamento Agronômico</h5>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h5 class="mb-3">Assistência Técnica Agronômica</h5>
+                            <p class="mb-4">Serviços de análise de solo, de folhas e de recomendação técnica de manejo.</p>
                         </div>
                     </div>
                 </div>

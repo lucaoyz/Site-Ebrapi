@@ -28,7 +28,7 @@
             <h1>News</h1>
         </div>
 
-        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0e671a2182a258d8b3ab43bb5c0871f9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7a170364bb135beb8f4449b8b9da48b0.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
         <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3 ">Ver outras notícias</a>
 
@@ -120,7 +120,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <a href="{{route('site.linhaorganica')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt=""></a>
+                                <a href="{{route('site.linhaorganica')}}"><img class="img-fluid" src="{{asset('img/products/linha-organica.png')}}" alt=""></a>
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.linhaorganica')}}">Linha Orgânica</a>
@@ -187,7 +187,7 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Reflorestamento/Recomposição de Mata Ciliar</h4>
+                            <h5 class="mb-3">Reflorestamento/Recomposição de mata-ciliar</h4>
                             <p class="mb-4">Implantação de Florestas Nativas, com serviços de plantio e manutenção das mudas.</p>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-2.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3" style="font-size: 22px;">Assistência Técnica Agronômica</h5>
+                            <h5 class="mb-3">Assistência Técnica Agronômica</h5>
                             <p class="mb-4">Serviços de análise de solo, de folhas e de recomendação técnica de manejo.</p>
                         </div>
                     </div>
