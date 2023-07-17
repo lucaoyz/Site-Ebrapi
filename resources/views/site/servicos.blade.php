@@ -33,7 +33,7 @@
                             <div class="service-icon">
                                 <img class="img-fluid" src="{{asset('img/services/service-1.png')}}" alt="">
                             </div>
-                            <h5 class="mb-3">Reflorestamento e Recomposição de mata-ciliar</h4>
+                            <h5 class="mb-3">Reflorestamento/Recomposição de mata-ciliar</h4>
                             <p class="mb-4">Implantação de Florestas Nativas, com serviços de plantio e manutenção das mudas.</p>
                         </div>
                     </div>

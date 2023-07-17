@@ -843,7 +843,7 @@
   .cta .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 
@@ -996,6 +996,90 @@
 
 .service-item .service-text .readmore:hover {
     color: #008352;
+}
+
+@media screen and (max-width:1400px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1340px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1192px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width:450px) {
