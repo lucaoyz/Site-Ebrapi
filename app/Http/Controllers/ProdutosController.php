@@ -265,7 +265,10 @@ class ProdutosController extends Controller
     public function indexSite(Contato $contato)
     {
             $contato = Contato::all()->first();
-            $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+            $parceiros = Parceiro::join('categorias', 'categorias.id', '=', 'parceiros.ca_id')
+            ->select('categorias.*', 'parceiros.*')
+            ->where('parceiros.ca_id', '<>', null)
+            ->get();
 
             //dd($contato);
 
