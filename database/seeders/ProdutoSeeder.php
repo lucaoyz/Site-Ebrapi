@@ -2355,5 +2355,1265 @@ class ProdutoSeeder extends Seeder
             'pro_descricao' => 'descricao',
         ]);
 
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Agimix',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Arsenal NA',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Atrazina 500 - ACLAMADO BR',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Atrazina 500 - Gesaprim',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Atrazina Nortox 500 SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Atrazina Attranex 500SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Advance (Diuron+hexazinona) CX4X5 PC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Aminol 806 (2,4D)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Basagran (Bentazona)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Boral (Sulfentrazona)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cobra',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Clorim 250 - CLORIMURON - ETÍLICO',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Diuron Nortox 500 SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'D.M.A 806 (2,4 – D)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Flex (Fomesafem)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Flumyzin',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Fusiflex',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Fusilade',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gallant-R',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gamit 500 CE (Clomazona)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gesapax 500 (ametrina)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gesaprim (Atrasina)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gladium (Ethoxysulfuron) - P/ Tiririca',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato 480 HELM',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Shadow 480',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Gliall 480',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Fersol N.A.',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Atanor',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Biocarb',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato - Icarai',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Nortox',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Trop',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Polaris',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Ryvolt N.A.',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Stinger 480',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Glifosato Trop 480',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gramocil (Diuron+Paraquate)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gramocil',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Gramoxone (Paraquate)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Goal BR',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Imazetapyr Plus Nortox',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Nicosulfuron Nortox 40 SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Podium EW 110',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Podium S',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Paradox',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Premerlin 600 CE',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Ponteiro (Generico do Boral)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Primoleo',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Primestra Gold (Atrazina+S-metolacloro)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Robust',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Roundup Original (Glifosato)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Roundup Original Mais (Glifosato)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Roundup Transorb (Glifosato)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Roundup WG (Glifosato)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Roundup Ultra',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Reator',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Reglone (Diquat)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Sanson 40 SC (Nicosulfuron)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Sempra (Halosulfuron-metilico)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Sinerge',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Stone (Boral + Diuron)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tordon (2,4-D + Picloran)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tordon Ultra S',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Turuna (2,4-D + Picloran)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tropero',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Tractor (Generico do Dontor)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Trifluralina - Milenia',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'U46 D FLUID',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Velpar K',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Volcane (MSMA)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Zaphir',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '8',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'ZAPP QI 620',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Aliete (FOSETIL)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Amistar 500 WG (Azoxistrobina)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Amistar TOP',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Bayfidan EC 250',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Baytan SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Bravonil 500 SC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Metiltiofan (Tiofanato-Metilico)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Comet',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cuprogarb 350',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Curzate BR',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cercobin 700 WP (Tiofanato-Metilico)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Cerconil PM (Clorotalonil+Tiofanato-metilico)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Daconil BR (Clorotalonil)',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Dithane',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Elatus',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Icarus 250 EC',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Kocide',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mayran',
+            'pro_subtitulo' => 'Herbicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
     }
 }
