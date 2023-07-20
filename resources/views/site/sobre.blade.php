@@ -77,19 +77,21 @@
 
     <!-- ======= Cta Section ======= -->
     <section id="prod" class="prod">
-        <div class="container-xxl container">
+        <div class="container-xxl">
+            <div class="container">
 
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="mb-4">Nosso primeiro produto</h3>
-                    <p class="mb-4">TREFLAN - primeira Trifluralina comercializada no Brasil pela Elanco e um dos primeiros produtos comercializados pela Ebrapi/Agroinsumos.</p>
-                    <p class="mb-4">O produto tinha posicionamento no controle de ervas monodicotelidôneas, nas culturas de algodão e soja.</p>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h3 class="mb-4">Nosso primeiro produto</h3>
+                        <p class="mb-4">TREFLAN - primeira Trifluralina comercializada no Brasil pela Elanco e um dos primeiros produtos comercializados pela Ebrapi/Agroinsumos.</p>
+                        <p class="mb-4">O produto tinha posicionamento no controle de ervas monodicotelidôneas, nas culturas de algodão e soja.</p>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <img class="primeiroproduto" src="{{asset('img/about/primeiro-produto.png')}}" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <img class="primeiroproduto" src="{{asset('img/about/primeiro-produto.png')}}" alt="">
-                </div>
+
             </div>
-
         </div>
     </section>
     <!-- End Cta Section -->

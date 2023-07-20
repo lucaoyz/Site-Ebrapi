@@ -3373,7 +3373,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Aliete (FOSETIL)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3387,7 +3387,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Amistar 500 WG (Azoxistrobina)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3401,7 +3401,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Amistar TOP',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3415,7 +3415,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Bayfidan EC 250',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3429,7 +3429,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Baytan SC',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3443,7 +3443,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Bravonil 500 SC',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3457,7 +3457,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Metiltiofan (Tiofanato-Metilico)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3471,7 +3471,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Comet',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3485,7 +3485,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Cuprogarb 350',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3499,7 +3499,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Curzate BR',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3513,7 +3513,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Cercobin 700 WP (Tiofanato-Metilico)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3527,7 +3527,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Cerconil PM (Clorotalonil+Tiofanato-metilico)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3541,7 +3541,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Daconil BR (Clorotalonil)',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3555,7 +3555,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Dithane',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3569,7 +3569,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Elatus',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3583,7 +3583,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Icarus 250 EC',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3597,7 +3597,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Kocide',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
             'pro_descricao' => 'descricao',
         ]);
 
@@ -3611,7 +3611,259 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Mayran',
-            'pro_subtitulo' => 'Herbicida',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Manzate 800 (mancozebe)',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Nativo SC 300',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Opera',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Priori XTRA',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rival 200 EC',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Recop (Oxicloreto de Cobre)',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Ridomil Gold MZ (mancozebe+metalaxil-M)',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rodazim 500 SC',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Rubigan 120 EC',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Revus',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Sulfato de Cobre',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Score (Difenoconazol)',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Viper',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '9',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Vitavax-Thiram 200 SC (Carboxina + Tiram)',
+            'pro_subtitulo' => 'Fungicida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '10',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Folisuper 600 BR',
+            'pro_subtitulo' => 'Acaricida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '10',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Kumulus S (Enxofre)',
+            'pro_subtitulo' => 'Acaricida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '10',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Mentox 600 CE (Paration Metílico)',
+            'pro_subtitulo' => 'Acaricida',
+            'pro_descricao' => 'descricao',
+        ]);
+
+        DB::table('produtos')->insert([
+            'ca_id' => '3',
+            'sub_id' => '10',
+            'pa_id' => '6',
+            'pro_foto' => '',
+            'pro_foto2' => '',
+            'pro_foto3' => '',
+            'pro_foto4' => '',
+            'pro_foto5' => '',
+            'pro_nome' => 'Talstar (Bifentrina)',
+            'pro_subtitulo' => 'Acaricida',
             'pro_descricao' => 'descricao',
         ]);
 
