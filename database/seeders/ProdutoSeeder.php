@@ -1421,40 +1421,12 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '3',
             'sub_id' => '7',
             'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Carboran Fersol 350 SC',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
             'pro_foto' => '10072023-cartap-br500-1kg.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Cartap BR 500 (Cloridrato de Cartape) CX12X1',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Cipertrin 250',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1491,34 +1463,6 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '3',
             'sub_id' => '7',
             'pa_id' => '6',
-            'pro_foto' => '10072023-cupinicida-atack-200ce.png',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Cupinicida Atack 200 CE',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '10072023-cypermaster-250ce.png',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Cypermaster 250 CE',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
             'pro_foto' => '10072023-cruiser-350fs.jpg',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -1539,34 +1483,6 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Danimen 300 CE (Fenpropatrina) CX12X1',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '10072023-deltamax-25ce.png',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Deltamax 25 CE',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '10072023-deltametrina-fersol-25ce.jpg',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Deltametrina Fersol 25 CE',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1664,119 +1580,7 @@ class ProdutoSeeder extends Seeder
             'pro_foto3' => '',
             'pro_foto4' => '',
             'pro_foto5' => '',
-            'pro_nome' => 'Endosulfan Nortox (Endossulfam)',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
             'pro_nome' => 'Evidence WG 70 (imidacloprido)',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Fita pega moscas berguim',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Formicida Atack 200 CE',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Formicida Atack BIOCARB',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Folisuper 600 BR (Parationa-metilica)',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Furadan 350 F',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Furadan 350 SC',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Furadan 50G (Carbofurano) - Sistêmico',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -1939,34 +1743,6 @@ class ProdutoSeeder extends Seeder
             'ca_id' => '3',
             'sub_id' => '7',
             'pa_id' => '6',
-            'pro_foto' => '17072023-lankron10.jpg',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Lankron 10 ME Lambda-Cialotrina',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Lesmicida Lesmafin',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
             'pro_foto' => '17072023-lesmicida-metarex-sp-1kg.png',
             'pro_foto2' => '',
             'pro_foto3' => '',
@@ -2001,20 +1777,6 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Malathion 1000 EC Cheminova',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '17072023-malatol.png',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Malatol PO',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);
@@ -2085,20 +1847,6 @@ class ProdutoSeeder extends Seeder
             'pro_foto4' => '',
             'pro_foto5' => '',
             'pro_nome' => 'Orthene (Acefato)',
-            'pro_subtitulo' => 'Inseticida',
-            'pro_descricao' => 'descricao',
-        ]);
-
-        DB::table('produtos')->insert([
-            'ca_id' => '3',
-            'sub_id' => '7',
-            'pa_id' => '6',
-            'pro_foto' => '17072023-pounce-384ec.png',
-            'pro_foto2' => '',
-            'pro_foto3' => '',
-            'pro_foto4' => '',
-            'pro_foto5' => '',
-            'pro_nome' => 'Pounce 384 EC',
             'pro_subtitulo' => 'Inseticida',
             'pro_descricao' => 'descricao',
         ]);

@@ -72,7 +72,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative">
-                                <a href="{{route('site.biologicos')}}"><img class="img-fluid" src="{{asset('img/products/product-4.jpg')}}" alt="">
+                                <a href="{{route('site.biologicos')}}"><img class="img-fluid" src="{{asset('img/products/biologicos.png')}}" alt="">
                             </div>
                             <div class="text-center p-4">
                                 <a class="d-block h5" href="{{route('site.biologicos')}}">Biológicos</a>
