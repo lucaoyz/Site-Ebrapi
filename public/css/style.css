@@ -778,21 +778,24 @@
 }
 
 .primeiroproduto {
-  width: 700px;
+    width: 700px;
 }
 
-@media screen and (max-width:400px) {
-    .primeiroproduto{
-        height: auto;
-        max-width: 100%;
+@media screen and (max-width: 430px) {
+    .primeiroproduto {
+        width: 550px;
     }
 }
 
-@media screen and (max-width:440px) {
-    .primeiroproduto{
-        height: auto;
-        max-width: 150%;
-        align-items: center;
+@media screen and (max-width: 330px) {
+    .primeiroproduto {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .primeiroproduto {
+        width: 240px;
     }
 }
 
