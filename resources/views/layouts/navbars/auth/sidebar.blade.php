@@ -62,14 +62,14 @@
           <span class="nav-link-text ms-1">Parceiros</span>
         </a>
       </li>
-      <li class="nav-item">
+      <!--<li class="nav-item">
         <a class="nav-link {{ (Request::is('noticias') ? 'active' : '') }}" href="{{ route('noticias') }}">
             <div class="icon icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="fa fa-newspaper-o text-lg opacity-10" aria-hidden="true"></i>
               </div>
           <span class="nav-link-text ms-1">Notícias</span>
         </a>
-      </li>
+      </li>-->
       <li class="nav-item">
         <a class="nav-link {{ (Request::is('produtos') ? 'active' : '') }}" href="{{ route('produtos') }}">
             <div class="icon icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
