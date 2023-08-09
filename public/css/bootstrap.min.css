@@ -158,7 +158,19 @@ section {
  * responsive:
  * home logo
  * ------------------------------------------------------------------- */
+@media screen and (max-width:1440px) {
+    .home .logo{
+        width: 740px;
+    }
+}
+
 @media screen and (max-width:1400px) {
+    .home .logo{
+        width: 740px;
+    }
+}
+
+@media screen and (max-width:1080px) {
     .home .logo{
         width: 740px;
     }
