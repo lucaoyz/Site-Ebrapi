@@ -28,8 +28,9 @@
             <h1>News</h1>
         </div>
 
-        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7a170364bb135beb8f4449b8b9da48b0.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-
+<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/1041279" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
         <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3 ">Ver outras notícias</a>
 
 
