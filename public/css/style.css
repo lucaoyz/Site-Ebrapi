@@ -1137,10 +1137,24 @@
     }
 }
 
+@media screen and (max-width:380px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .service-item .service-text h5,
+    .service-item .service-text p {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:350px) {
     .service-item .service-text h5,
     .service-item .service-text p {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 

@@ -172,7 +172,13 @@ section {
 
 @media screen and (max-width:1080px) {
     .home .logo{
-        width: 720px;
+        width: 740px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .home .logo{
+        width: 740px;
     }
 }
 
@@ -194,7 +200,7 @@ section {
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:740px) {
     .home .logo{
         width: 480px;
     }
@@ -202,9 +208,10 @@ section {
 
 @media screen and (max-width:700px) {
     .home .logo{
-        width: 450px;
+        width: 480px;
     }
 }
+
 
 @media screen and (max-width:680px) {
     .home .logo{
@@ -218,40 +225,21 @@ section {
     }
 }
 
-
 @media screen and (max-width:480px) {
     .home .logo{
         width: 370px;
     }
 }
 
-@media screen and (max-width:390px) {
-    .home .logo{
-        width: 340px;
-    }
-}
-
 @media screen and (max-width:380px) {
     .home .logo{
-        width: 370px;
+        width: 240px;
     }
 }
 
 @media screen and (max-width:350px) {
     .home .logo{
-        width: 330px;
-    }
-}
-
-@media screen and (max-width:350px) {
-    .home .logo{
-        width: 300px;
-    }
-}
-
-@media screen and (max-width:240px) {
-    .home .logo{
-        width: 210px;
+        width: 240px;
     }
 }
 
