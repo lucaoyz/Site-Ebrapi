@@ -28,9 +28,7 @@
             <h1>News</h1>
         </div>
 
-        <!-- SnapWidget -->
-        <script src="https://snapwidget.com/js/snapwidget.js"></script>
-        <iframe src="https://snapwidget.com/embed/undefined" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+
 
         <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3 ">Ver outras notícias</a>
 
