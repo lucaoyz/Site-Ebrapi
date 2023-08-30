@@ -2,6 +2,8 @@
 
 @section('content')
 
+    <script> alert("Site em manutenção") </script>
+
     <!-- ======= Home Section ======= -->
     <section class="home">
 
@@ -28,10 +30,11 @@
             <h1>News</h1>
         </div>
 
-
+        <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/1041643" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
 
         <a href="{{route('site.noticias')}}" class="btn btn-secondary align-middle py-2 px-4 mt-3 ">Ver outras notícias</a>
-
 
 
         <!--<div class="row gy-5">
